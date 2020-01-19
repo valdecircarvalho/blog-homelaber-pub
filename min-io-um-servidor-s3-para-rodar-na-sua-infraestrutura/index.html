@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Min.io - Um servidor S3 para rodar na sua infraestrutura :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers,
+Hoje vou falar sobre o MinIO, uma ferramenta que me chamou a atenção há alguns meses e que agora estou estudando mais a fundo para talvez implementar em um projeto na FIRMA.
+O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;protocolo&amp;rdquo; S3 - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Min.io - Um servidor S3 para rodar na sua infraestrutura"/>
+<meta name="twitter:description" content="Olá Homelabers,
+Hoje vou falar sobre o MinIO, uma ferramenta que me chamou a atenção há alguns meses e que agora estou estudando mais a fundo para talvez implementar em um projeto na FIRMA.
+O MinIO é um servidor de Object Storage 100% compatível com o &ldquo;protocolo&rdquo; S3 - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído."/>
+
+
+
+<meta property="og:title" content="Min.io - Um servidor S3 para rodar na sua infraestrutura" />
+<meta property="og:description" content="Olá Homelabers,
+Hoje vou falar sobre o MinIO, uma ferramenta que me chamou a atenção há alguns meses e que agora estou estudando mais a fundo para talvez implementar em um projeto na FIRMA.
+O MinIO é um servidor de Object Storage 100% compatível com o &ldquo;protocolo&rdquo; S3 - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
+<meta property="article:published_time" content="2019-07-16T18:11:50+00:00" />
+<meta property="article:modified_time" content="2019-07-16T18:11:50+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/">Min.io - Um servidor S3 para rodar na sua infraestrutura</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            16-07-2019
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 3 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/aws/">aws</a>&nbsp;
+        
+          #<a href="/tags/blog/">blog</a>&nbsp;
+        
+          #<a href="/tags/cloud-storage/">cloud storage</a>&nbsp;
+        
+          #<a href="/tags/min.io/">min.io</a>&nbsp;
+        
+          #<a href="/tags/minio/">minio</a>&nbsp;
+        
+          #<a href="/tags/object-storage/">object storage</a>&nbsp;
+        
+          #<a href="/tags/open-source-storage/">open source storage</a>&nbsp;
+        
+          #<a href="/tags/s3/">s3</a>&nbsp;
+        
+          #<a href="/tags/storage-cloud/">storage cloud</a>&nbsp;
+        
+          #<a href="/tags/storage-open-source/">storage open source</a>&nbsp;
+        
+          #<a href="/tags/storage-s3/">storage s3</a>&nbsp;
+        
+          #<a href="/tags/storage-s3-compatible/">storage s3 compatible</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers,</p>
+<p>Hoje vou falar sobre o <strong>MinIO</strong>, uma ferramenta que me chamou a atenção há alguns meses e que agora estou estudando mais a fundo para talvez implementar em um projeto na FIRMA.</p>
+<p>O MinIO é um <strong>servidor de Object Storage 100% compatível com o &ldquo;protocolo&rdquo; S3</strong> - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído.</p>
+<p><img src="/imagens/2019/07/MINIO_wordmark-644x97.png" alt=""></p>
+<!-- raw HTML omitted -->
+<p>Uma das grandes vantagens do MinIO na minha opinião, é que ele é totalmente compatível com a API S3 da AWS, ou seja, se hoje você tem uma aplicação que &ldquo;fala&rdquo; S3 e precisa ter um storage dentro de casa, você pode utilizar o MinIO sem alterações no seu código. Existem muitas outras vantagens, mas essa, é a que mais me chamou a atenção , principalmente para o cenário que estou trabalhando no momento.</p>
+<p>O MinIO é open source (APache 2.0) e está disponível para todas as plataformas: Linux, Windows, MacOS e Docker. Empresas podem comprar uma subscription para ter direito ao suporte.</p>
+<p>A instalação e configuração do MinIO é bastante simples e nos próximos posts vou mostrar alguns cenários de instalação.</p>
+<p>A <a href="https://docs.min.io/">documentação</a> é simples, mas bem completa. Estão disponíveis SDKs para as linguagens Javascript, Java, GO, Python e .Net</p>
+<p>Outras features bem legais do MinIO são a Replicação Continuada (Continuous Replication) e o Gateway Multi-Cloud (Multi-Cloud Gateway).</p>
+<p>A feature de** Multi-Cloud Gateway** permite que você tenha seus dados disponíveis em qualquer lugar, seja seu ambiente on-prem, seja em um storage tradicional e nas principais clouds publicas - Google, Azure, etc - utilizando a API S3 para manipulação de dados.</p>
+<p><img src="/imagens/2019/07/min.io-multi-cloud-gateway-644x327.jpg" alt=""></p>
+<p>A feature de Replicação Continuada (<strong>Continuous Replication</strong>) permite que seu dados estejam sempre replicados em diferentes datacenters e clouds, suportando sua estratégia de DR e de uma maneira facilmente escalável.</p>
+<p><img src="/imagens/2019/07/min.io-continuous-replication-644x270.jpg" alt=""></p>
+<p>O MinIO conta também com uma ferramenta de linha de comando para gerenciamento e manutenção do ambiente chamada MinIO Client e está disponível para Linux, MacOS e Windows. https://docs.MinIO/docs/minio-client-quickstart-guide.html</p>
+<p><strong>Links úteis:</strong></p>
+<p><a href="https://min.io/product/">https://min.io/product/</a> - Informações sobre o produto</p>
+<p><a href="https://docs.min.io/">https://docs.min.io/</a> - Documentação do produto</p>
+<p><a href="https://github.com/minio/minio/issues">https://github.com/minio/minio/issues</a> - Lista de Issues (Aqui que você pode pedir ajuda)</p>
+<p><a href="https://github.com/minio/awesome-minio">https://github.com/minio/awesome-minio</a> - Uma lista de projetos da comunidade utilizando MinIO.</p>
+<p>É isso ai pessoal, aguardem mais posts aqui sobre o MinIO. Tenho gasto algumas boas horas no lab, estudando e montando cenários de uso e vou trazer para vocês!</p>
+<p>Deixe nos comentários se você já conhecia o MinIO, se já usa hoje no seu ambiente - estou curioso para saber - ou ainda como você pensa que o MinIO pode ser útil para você.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/novos-equipamentos-para-o-lab-ubiquiti-unifi/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Novos equipamentos para o Lab - Ubiquiti Unifi</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/">
+                  <span class="button__text">AWS Storage Gateway - O seu file server com espaço infinito</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Posts :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/post/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/post/" />
+<meta property="og:updated_time" content="2019-12-31T11:00:30+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/post/index.xml" title="Blog Homelaber Brasil | " />
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="posts">
+    
+    
+
+    
+    
+    
+
+    
+    <div class="post on-list">
+      <h1 class="post-title"><a href="/instalacao-postfix-mailrelay-gmail/">Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            13-11-2015
+          </span>
+        
+        <span class="post-author">— Written by Valdecir Carvalho</span>
+        
+          <span class="post-read-time">— 4 min lendo</span>
+        
+      </div>
+
+
+      
+        <span class="post-tags">
+          
+            #<a href="/tags/configurar-postfix-mail-relay-ubuntu/">configurar postfix mail relay ubuntu</a>&nbsp;
+          
+            #<a href="/tags/gmail/">gmail</a>&nbsp;
+          
+            #<a href="/tags/homelab/">homelab</a>&nbsp;
+          
+            #<a href="/tags/mailrelay/">mailrelay</a>&nbsp;
+          
+            #<a href="/tags/postfix/">postfix</a>&nbsp;
+          
+            #<a href="/tags/ubuntu-server/">ubuntu server</a>&nbsp;
+          
+            #<a href="/tags/vmware/">vmware</a>&nbsp;
+          
+        </span>
+      
+
+      
+
+      <div class="post-content">
+        
+          
+            Olá Homelabers!
+Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.
+[caption id=&quot;attachment_922” align=&quot;aligncenter” width=&quot;580”]Logo PostFix - <a href="http://www.postfix.org/%5B/caption%5D">http://www.postfix.org/[/caption]</a>
+Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:
+          
+        
+      </div>
+      <div><a class="read-more button" href="/instalacao-postfix-mailrelay-gmail/">Continue lendo →</a></div>
+    </div>
+    
+    <div class="post on-list">
+      <h1 class="post-title"><a href="/virtualizacao-de-active-directory-no-vmware/">Virtualização de Active Directory no VMware</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            10-11-2015
+          </span>
+        
+        <span class="post-author">— Written by Valdecir Carvalho</span>
+        
+          <span class="post-read-time">— 2 min lendo</span>
+        
+      </div>
+
+
+      
+        <span class="post-tags">
+          
+            #<a href="/tags/active-directory/">active directory</a>&nbsp;
+          
+            #<a href="/tags/ad/">ad</a>&nbsp;
+          
+            #<a href="/tags/adds/">ADDS</a>&nbsp;
+          
+            #<a href="/tags/domain-controller/">domain controller</a>&nbsp;
+          
+            #<a href="/tags/ds/">ds</a>&nbsp;
+          
+            #<a href="/tags/microsoft/">microsoft</a>&nbsp;
+          
+            #<a href="/tags/microsoft-active-directory-domain-services/">Microsoft Active Directory Domain Services</a>&nbsp;
+          
+            #<a href="/tags/virtualiza%C3%A7%C3%A3o-de-ad/">virtualização de AD</a>&nbsp;
+          
+            #<a href="/tags/virtualizar-ad/">virtualizar ad</a>&nbsp;
+          
+            #<a href="/tags/vmware/">vmware</a>&nbsp;
+          
+        </span>
+      
+
+      
+
+      <div class="post-content">
+        
+          
+            Olá Homelabers!
+Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto de virtualização: Virtualizar o Active Directory ( e aqui estamos falando basicamente do Microsoft Active Directory Domain Services) ou manter em um servidor físico.Lá atrás haviam questões técnicas para evitar essa prática, mas com o passar do tempo e a evolução do VMware e também da tecnologia atual do Windows Server 2012, esse assunto foi totalmente resolvido e hoje não existem motivos para deixar de aproveitar os benefícios da virtualização.
+          
+        
+      </div>
+      <div><a class="read-more button" href="/virtualizacao-de-active-directory-no-vmware/">Continue lendo →</a></div>
+    </div>
+    
+    <div class="post on-list">
+      <h1 class="post-title"><a href="/instalacao-configuracao-snmp-linux-ubuntu/">Instalação e configuração SNMP Linux Ubuntu</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            08-11-2015
+          </span>
+        
+        <span class="post-author">— Written by Valdecir Carvalho</span>
+        
+          <span class="post-read-time">— 3 min lendo</span>
+        
+      </div>
+
+
+      
+        <span class="post-tags">
+          
+            #<a href="/tags/como-configurar/">como configurar</a>&nbsp;
+          
+            #<a href="/tags/how-to/">how-to</a>&nbsp;
+          
+            #<a href="/tags/linux/">linux</a>&nbsp;
+          
+            #<a href="/tags/linux-ubuntu-server/">linux ubuntu server</a>&nbsp;
+          
+            #<a href="/tags/servi%C3%A7o-snmp/">serviço snmp</a>&nbsp;
+          
+            #<a href="/tags/snmp/">SNMP</a>&nbsp;
+          
+            #<a href="/tags/ubuntu/">ubuntu</a>&nbsp;
+          
+            #<a href="/tags/ubuntu-server/">ubuntu server</a>&nbsp;
+          
+        </span>
+      
+
+      
+
+      <div class="post-content">
+        
+          
+            Olá Homelabers!!!
+Nesse post, vou mostrar como se configura o serviço SNMP no Linux Ubuntu Server.
+Antes de mais nada, vou responder a quem vive me perguntando (e criticando): Porque você só posta “coisas” do Ubuntu?
+Vamos lá:</p>
+<ol>
+<li>
+<ol start="2">
+<li>
+<ol start="3">
+<li>
+<ol start="4">
+<li>Pronto, mas se vocês meus caros amigos e leitores quiserem que eu poste aqui como fazer “as coisas” tanto no Ubunto como no CentOS, perfeito, eu farei - deixe o seu comentário no blog :) ) Caso contrário… vou continuar no meu querido Ubuntu.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+          
+        
+      </div>
+      <div><a class="read-more button" href="/instalacao-configuracao-snmp-linux-ubuntu/">Continue lendo →</a></div>
+    </div>
+    
+    <div class="post on-list">
+      <h1 class="post-title"><a href="/10-ferramentas-para-monitoracao-de-redes-e-servidores/">10 ferramentas para monitoração de redes e servidores</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            07-11-2015
+          </span>
+        
+        <span class="post-author">— Written by Valdecir Carvalho</span>
+        
+          <span class="post-read-time">— 2 min lendo</span>
+        
+      </div>
+
+
+      
+        <span class="post-tags">
+          
+            #<a href="/tags/ferramenta-de-monitora%C3%A7%C3%A3o/">ferramenta de monitoração</a>&nbsp;
+          
+            #<a href="/tags/homelab/">homelab</a>&nbsp;
+          
+            #<a href="/tags/linux/">linux</a>&nbsp;
+          
+            #<a href="/tags/monitora%C3%A7%C3%A3o/">Monitoração</a>&nbsp;
+          
+            #<a href="/tags/monitoring-tools/">monitoring tools</a>&nbsp;
+          
+            #<a href="/tags/nagios/">nagios</a>&nbsp;
+          
+            #<a href="/tags/opensource/">opensource</a>&nbsp;
+          
+            #<a href="/tags/opmanager/">OpManager</a>&nbsp;
+          
+            #<a href="/tags/zabbix/">zabbix</a>&nbsp;
+          
+        </span>
+      
+
+      
+
+      <div class="post-content">
+        
+          
+            Olá Homelabers!
+Nesse post vou apresentar a vocês 10 ferramentas - Open Source e Comerciais - para monitoração de redes e servidores.
+Algumas dessas ferramentas eu utilizo no dia-a-dia lá na FIRMA e também as tenho instaladas em meu Homelab. Essas ferramentas são amplamente utilizadas em empresas de todos os tamanhos e você pode aproveitar o que vai conhecer aqui para implantar uma delas em sua empresa, facilitar a sua vida e impressionar o seu chefe :)
+          
+        
+      </div>
+      <div><a class="read-more button" href="/10-ferramentas-para-monitoracao-de-redes-e-servidores/">Continue lendo →</a></div>
+    </div>
+    
+    <div class="post on-list">
+      <h1 class="post-title"><a href="/autolab-o-script-que-facilita-o-setup-do-seu-homelab/">AutoLab - O script que facilita o setup do seu HomeLab</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            06-11-2015
+          </span>
+        
+        <span class="post-author">— Written by Valdecir Carvalho</span>
+        
+          <span class="post-read-time">— 3 min lendo</span>
+        
+      </div>
+
+
+      
+        <span class="post-tags">
+          
+            #<a href="/tags//">#vDM30in30</a>&nbsp;
+          
+            #<a href="/tags/autolab/">autolab</a>&nbsp;
+          
+            #<a href="/tags/automation/">automation</a>&nbsp;
+          
+            #<a href="/tags/automatiza%C3%A7%C3%A3o/">automatização</a>&nbsp;
+          
+            #<a href="/tags/blog-vmware/">blog vmware</a>&nbsp;
+          
+            #<a href="/tags/como-instalar-lab-vmware/">como instalar lab vmware</a>&nbsp;
+          
+            #<a href="/tags/homelab/">homelab</a>&nbsp;
+          
+            #<a href="/tags/how-to/">how-to</a>&nbsp;
+          
+            #<a href="/tags/infinio/">infinio</a>&nbsp;
+          
+            #<a href="/tags/lab-vmware/">lab vmware</a>&nbsp;
+          
+            #<a href="/tags/labguides/">labguides</a>&nbsp;
+          
+            #<a href="/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
+          
+            #<a href="/tags/nick-marshall/">nick marshall</a>&nbsp;
+          
+            #<a href="/tags/script/">script</a>&nbsp;
+          
+            #<a href="/tags/vblogs/">vblogs</a>&nbsp;
+          
+            #<a href="/tags/vmware/">vmware</a>&nbsp;
+          
+        </span>
+      
+
+      
+
+      <div class="post-content">
+        
+          
+            Olá Homelabers!
+Nesse post vou mostrar a vocês uma “coleção de scripts” que automatiza a criação de um lab VMware completo. Esse “produto” se chama AutoLab e foi criado pelo Nick Marshall - autor dos melhores livros sobre VMware que eu já li até hoje - Mastering VMware vSphere 5.5 e Mastering VMware vSphere 6 (assunto para um outro post).
+Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo.
+          
+        
+      </div>
+      <div><a class="read-more button" href="/autolab-o-script-que-facilita-o-setup-do-seu-homelab/">Continue lendo →</a></div>
+    </div>
+    
+    <div class="pagination">
+  <div class="pagination__buttons">
+    
+      <span class="button previous">
+        <a href="/post/page/58/">
+          <span class="button__icon">←</span>
+          <span class="button__text">Novos posts</span>
+        </a>
+      </span>
+    
+    
+      <span class="button next">
+        <a href="/post/page/60/">
+          <span class="button__text">Posts antigos</span>
+          <span class="button__icon">→</span>
+        </a>
+      </span>
+    
+  </div>
+</div>
+
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

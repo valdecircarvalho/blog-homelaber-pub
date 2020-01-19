@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>VMware ESXi FREE - Diferenças e Limitações :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+Hoje vou falar sobre as principais diferenças e limitações entre a versão FREE do VMware ESXi e a versão paga.
+Muitas pessoas ao ter o primeiro contato o mundo da virtualização descobrem que existe uma versão FREE do VMware ESXi e logo surge uma dúvida:
+ &amp;ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&amp;quot;  De uma forma bem resumida, as principais limitações são:"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/vmware-esxi-free-diferencas-e-limitacoes/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="VMware ESXi FREE - Diferenças e Limitações"/>
+<meta name="twitter:description" content="Olá Homelabers!
+Hoje vou falar sobre as principais diferenças e limitações entre a versão FREE do VMware ESXi e a versão paga.
+Muitas pessoas ao ter o primeiro contato o mundo da virtualização descobrem que existe uma versão FREE do VMware ESXi e logo surge uma dúvida:
+ &ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&quot;  De uma forma bem resumida, as principais limitações são:"/>
+
+
+
+<meta property="og:title" content="VMware ESXi FREE - Diferenças e Limitações" />
+<meta property="og:description" content="Olá Homelabers!
+Hoje vou falar sobre as principais diferenças e limitações entre a versão FREE do VMware ESXi e a versão paga.
+Muitas pessoas ao ter o primeiro contato o mundo da virtualização descobrem que existe uma versão FREE do VMware ESXi e logo surge uma dúvida:
+ &ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&quot;  De uma forma bem resumida, as principais limitações são:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vmware-esxi-free-diferencas-e-limitacoes/" />
+<meta property="article:published_time" content="2016-03-23T05:48:17+00:00" />
+<meta property="article:modified_time" content="2016-03-23T05:48:17+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/vmware-esxi-free-diferencas-e-limitacoes/">VMware ESXi FREE - Diferenças e Limitações</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            23-03-2016
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 3 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/esxi-free/">esxi free</a>&nbsp;
+        
+          #<a href="/tags/esxi-free-install/">esxi free install</a>&nbsp;
+        
+          #<a href="/tags/home-lab/">home lab</a>&nbsp;
+        
+          #<a href="/tags/home-lab-vmware-free/">home lab vmware free</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+          #<a href="/tags/instala%C3%A7%C3%A3o-vmware/">instalação vmware</a>&nbsp;
+        
+          #<a href="/tags/instala%C3%A7%C3%A3o-vmware-esxi-free/">instalação vmware esxi free</a>&nbsp;
+        
+          #<a href="/tags/vmware/">vmware</a>&nbsp;
+        
+          #<a href="/tags/vmware-esxi-free/">vmware esxi free</a>&nbsp;
+        
+          #<a href="/tags/vmware-free/">vmware free</a>&nbsp;
+        
+          #<a href="/tags/vmware-gr%C3%A1tis/">vmware grátis</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers!</p>
+<p>Hoje vou falar sobre as principais diferenças e limitações entre a versão FREE do VMware ESXi e a versão paga.</p>
+<p><img src="/imagens/2016/03/oh-yeah-its-free.png" alt="oh-yeah-its-free"></p>
+<p>Muitas pessoas ao ter o primeiro contato o mundo da virtualização descobrem que existe uma <strong>versão FREE do VMware ESXi</strong> e logo surge uma dúvida:</p>
+<!-- raw HTML omitted -->
+<blockquote>
+<h3 id="_quais-são-as-diferenças-entre-a-versão-free-e-a-versão-paga_"><em>&ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&quot;</em></h3>
+</blockquote>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>De uma forma bem resumida, as principais limitações são:</p>
+<pre><code>  * Não existe suporte para a versão FREE
+  * A versão FREE do VMware ESXi não pode ser adicionada a um servidor vCenter
+  * Limite de 2 CPUs físicas por host
+  * Máximo de 8 vCPUs (virtual CPUs) por VM
+  * Número ilimitado de Cores por CPU
+  * Número ilimitado de Memória por host.
+</code></pre>
+<p>A versão FREE do VMware ESXi é o mesmo download da versão FULL que fica &ldquo;desbloqueada&rdquo; por 60 dias. Se você não inserir o Serial Number da versão free, o produto funciona com a versão FULL por 60 dias.</p>
+<p>Após o período de trial (60 dias) o produto perde as funcionalidades da versão FULL, bloqueando as funcionalidades adicionais e se torna a versão FREE. Mesmo assim, entrar com o Serial Number que é disponibilizado quando você opta pela versão FREE no site da VMware.</p>
+<p>Os principais cenários de uso da versão FREE do VMware ESXi são:</p>
+<pre><code>  * Primeiros contatos com a ferramenta
+  * Laboratório simples
+  * Testes de validação
+  * Pequenas empresas que querem &quot;testar&quot; virtualização sem um grande investimento.
+</code></pre>
+<h3 id="usar-a-versão-free-para-estudos-e-labs-minha-opinião">Usar a versão FREE para estudos e Labs, minha opinião:</h3>
+<p><em><strong>Não vale a pena investir TEMPO e subir um lab na versão FREE do ESXi.</strong></em> Você acaba perdendo muitas funcionalidades e essas funcionalidades são as mais legais do produto: vMotion, Fault Tolerance, High Availability, Cluster, Shared Storage, só para citar algumas.</p>
+<p>Para um LAB VMware ser bacana, você deve ter no mínimo o vCenter instalado e 2-3 hosts ESXi, mesmo que rodando nested. Sem isso, você não conseguirá simular o &ldquo;mundo real&rdquo; de qualquer empresa.</p>
+<p>Minha recomendação é sempre baixar a versão TRIAL que da suporte FULL a todas as funcionalidades por 60 dias. Após esse período, você pode - e deve - desmontar o seu LAB e configurar novamente. Pode parecer &ldquo;um saco&rdquo; a primeira vista, mas depois que você aprende e &ldquo;pega as manhas&rdquo; todo o processo não leva mais do que algumas horas. E com o tempo, você vai desenvolvendo scripts, criando templates, etc. Essa repetição vale a pena.</p>
+<h3 id="como-obter-a-versão-free-do-vmware-esxi-6x">Como obter a versão FREE do VMware ESXi (6.x).</h3>
+<pre><code>  * Acessar o site [VMware vSphere Hypervisor (ESXi) 6.0 Download Page](https://my.vmware.com/web/vmware/evalcenter?p=free-esxi6)
+</code></pre>
+<p><img src="/imagens/2016/03/como-obter-vers%C3%A3o-free-vmware-esxi-000.png" alt=""></p>
+<pre><code>  * Fazer o login no site ou criar a sua conta. Se você não tiver uma conta no my.vmware.com, basta criar clicando em “Create an Account” e seguir o passo-a-passo no site
+  * Fazer o registro para a versão do ESXi FREE
+</code></pre>
+<p><img src="/imagens/2016/03/como-obter-vers%C3%A3o-free-vmware-esxi-001.png" alt="como-obter-versão-free-vmware-esxi-001"></p>
+<pre><code>  * Você irá receber uma chave única e ter acesso ao download do software
+  * Após isso, é só fazer o download do software
+</code></pre>
+<p><img src="/imagens/2016/03/como-obter-vers%C3%A3o-free-vmware-esxi-002.png" alt="como-obter-versão-free-vmware-esxi-002"></p>
+<h3 id="como-registrara-versão-free-do-vmware-esxi-6x">Como registrar a versão FREE do VMware ESXi (6.x):</h3>
+<pre><code>  * [Instalar o ESXi](http://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/)
+  * Fazer o login com o vSphere Client
+  * Navegar até a aba &quot;Configuration&quot; &gt;&gt; &quot;Licenced Features&quot;
+  * Clicar em &quot;Edit...&quot; e digitar a sua chave de licença.
+</code></pre>
+<p><img src="/imagens/2016/03/free-esxi-60-enter-license.png" alt="free-esxi-60-enter-license"></p>
+<p>Por hoje é isso pessoal!</p>
+<p>Deixe o seu comentário ou opinião aqui no post e nos siga nas redes sociais:</p>
+<p>Twitter (<a href="http://twitter.com/homelaber">@Homelaber</a>)</p>
+<p>Facebook (<a href="http://fb.com/homelaber">fb.com/homelaber</a>)</p>
+<p>Youtube (<a href="http://bit.ly/youtubehomelaber">http://bit.ly/youtubehomelaber</a>).</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/nova-versao-do-rvtools-acaba-de-ser-lancada/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Nova versão do RVTools acaba de ser lançada</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/novo-veeam-endpoint-backup-free-1-5/">
+                  <span class="button__text">NOVO Veeam Endpoint Backup FREE 1.5</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

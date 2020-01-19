@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>AutoLab - O script que facilita o setup do seu HomeLab :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+Nesse post vou mostrar a vocês uma &amp;ldquo;coleção de scripts&amp;rdquo; que automatiza a criação de um lab VMware completo. Esse &amp;ldquo;produto&amp;rdquo; se chama AutoLab e foi criado pelo Nick Marshall - autor dos melhores livros sobre VMware que eu já li até hoje - Mastering VMware vSphere 5.5 e Mastering VMware vSphere 6 (assunto para um outro post).
+Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/autolab-o-script-que-facilita-o-setup-do-seu-homelab/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AutoLab - O script que facilita o setup do seu HomeLab"/>
+<meta name="twitter:description" content="Olá Homelabers!
+Nesse post vou mostrar a vocês uma &ldquo;coleção de scripts&rdquo; que automatiza a criação de um lab VMware completo. Esse &ldquo;produto&rdquo; se chama AutoLab e foi criado pelo Nick Marshall - autor dos melhores livros sobre VMware que eu já li até hoje - Mastering VMware vSphere 5.5 e Mastering VMware vSphere 6 (assunto para um outro post).
+Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo."/>
+
+
+
+<meta property="og:title" content="AutoLab - O script que facilita o setup do seu HomeLab" />
+<meta property="og:description" content="Olá Homelabers!
+Nesse post vou mostrar a vocês uma &ldquo;coleção de scripts&rdquo; que automatiza a criação de um lab VMware completo. Esse &ldquo;produto&rdquo; se chama AutoLab e foi criado pelo Nick Marshall - autor dos melhores livros sobre VMware que eu já li até hoje - Mastering VMware vSphere 5.5 e Mastering VMware vSphere 6 (assunto para um outro post).
+Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/autolab-o-script-que-facilita-o-setup-do-seu-homelab/" />
+<meta property="article:published_time" content="2015-11-06T23:59:01+00:00" />
+<meta property="article:modified_time" content="2015-11-06T23:59:01+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/autolab-o-script-que-facilita-o-setup-do-seu-homelab/">AutoLab - O script que facilita o setup do seu HomeLab</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            06-11-2015
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 3 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags//">#vDM30in30</a>&nbsp;
+        
+          #<a href="/tags/autolab/">autolab</a>&nbsp;
+        
+          #<a href="/tags/automation/">automation</a>&nbsp;
+        
+          #<a href="/tags/automatiza%C3%A7%C3%A3o/">automatização</a>&nbsp;
+        
+          #<a href="/tags/blog-vmware/">blog vmware</a>&nbsp;
+        
+          #<a href="/tags/como-instalar-lab-vmware/">como instalar lab vmware</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+          #<a href="/tags/how-to/">how-to</a>&nbsp;
+        
+          #<a href="/tags/infinio/">infinio</a>&nbsp;
+        
+          #<a href="/tags/lab-vmware/">lab vmware</a>&nbsp;
+        
+          #<a href="/tags/labguides/">labguides</a>&nbsp;
+        
+          #<a href="/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
+        
+          #<a href="/tags/nick-marshall/">nick marshall</a>&nbsp;
+        
+          #<a href="/tags/script/">script</a>&nbsp;
+        
+          #<a href="/tags/vblogs/">vblogs</a>&nbsp;
+        
+          #<a href="/tags/vmware/">vmware</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers!</p>
+<p>Nesse post vou mostrar a vocês uma &ldquo;coleção de scripts&rdquo; que automatiza a criação de um lab VMware completo. Esse &ldquo;produto&rdquo; se chama <a href="http://www.labguides.com/autolab/">AutoLab</a> e foi criado pelo <a href="http://nickmarshall.com.au/about/">Nick Marshall</a> - autor dos melhores livros sobre VMware que eu já li até hoje - <a href="http://www.amazon.com/Mastering-VMware-vSphere-Nick-Marshall/dp/1118925157/ref=asap_bc?ie=UTF8">Mastering VMware vSphere 5.5</a> e  <a href="http://www.amazon.com/Mastering-VMware-vSphere-Scott-Lowe/dp/1118661141/ref=asap_bc?ie=UTF8">Mastering VMware vSphere 6</a> (assunto para um outro post).</p>
+<p><img src="/imagens/2015/11/logo-long-autolabs.png" alt="logo-long-autolabs"></p>
+<p>Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo. É uma ferramenta excelente para a criação de um PoC (Prova de Conceito) onde se precisa subir um Lab para demostração de alguma feature do produto e depois destruí-lo.</p>
+<!-- raw HTML omitted -->
+<p>No site do AutoLab existe uma documentação super bem escrita e com todo o passo-a-passo para a instalação e deploy completo, links para download dos software necessários, etc.</p>
+<p>O Autolab está disponível para ESXi, VMware Fusion (Mac) e VMware Workstation (Windows) e também para um serviço de núvem chamado <a href="https://www.ravellosystems.com/">Ravello</a> e o script instala as versões 5, 5.5 e 6.0 do vSphere. Na data de publicação desse post, o AutoLab está na versão 2.6</p>
+<p><img src="/imagens/2015/11/AutoLab-color-leftside-72-dpi.png" alt="AutoLab-color-leftside-72-dpi"></p>
+<!-- raw HTML omitted -->
+<p>De qualquer maneira, sugiro que você teste o script, faça uma instalação e se necessário use no seu trabalho, na sua monografia - olha ai a idéia, fazer uma monografia sobre virtualização, etc. :)</p>
+<p>Para baixar o Autolab, acesse o <a href="http://www.labguides.com/autolab/">link</a> e faça o seu registro. O projeto AutoLab é patrocinado pela empresa <a href="http://www.infinio.com/">Infinio</a> e seus dados serão repassados a eles - EU não vejo problema nisso, pois é uma troca, seu e-mail pelo AutoLab.</p>
+<p>Após o registro, você será redirecionado para a página de <a href="http://www.labguides.com/autolab/autolab-download/?submissionGuid=0f0f0893-7dfd-4d36-b08e-6ece790f0191">Download</a>. A <strong>primeira coisa que você deve baixar</strong> é o <strong><a href="http://www.labguides.com/downloads/AutoLab%202.6%20vSphere%20Deployment%20Guide.pdf">Deployment Guide</a></strong>. Leia todo o documento - está em Inglês - e a partir dai comece a baixar os pacotes necessários. Preparação é a chave para o sucesso  8-O</p>
+<p>Requisitos de Hardware:</p>
+<p>Os requisitos de hardware para subir esse lab não são muito exigentes. A documentação fala em um Intel i7, mas eu acredito que deva subir e rodar (não espere aqueeeeela performance) em um Intel i5 e 16Gb RAM. Se você não tiver 16GB, tente subir em 8GB mesmo. Deve funcionar.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Vamos lá&hellip; tente fazer a instalação do Autolab e volte aqui para deixar o seu comentário! Se conseguiu, se teve dificuldades. Compartilhe conosco o resultado.</p>
+<p>Eu pretendo fazer um post sobre a instalação do Autolab em um futuro não muito distante.</p>
+<p>Links:</p>
+<p><a href="https://www.facebook.com/labguides/">Facebook da LabGuides</a> - Acesse a página e deixe o seu joinha</p>
+<p><a href="https://twitter.com/nickmarshall9/">Twitter do Nick @nickmarshall9</a></p>
+<p><a href="http://nickmarshall.com.au/">Blog do Nick Marshall</a></p>
+<p><a href="http://www.labguides.com/autolab/">AutoLab</a></p>
+<p>Até o próximo post e não se esqueça de deixar o seu comentário no post, seguir o HomeLaber no <a href="https://twitter.com/homelaber">Twitter</a> (@Homelaber) e curtir a nossa página no <a href="https://www.facebook.com/homelaber">Facebook</a> (fb.com/homelaber) para ficar sempre atualizado das novidades do blog.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/10-ferramentas-para-monitoracao-de-redes-e-servidores/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">10 ferramentas para monitoração de redes e servidores</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/we-speak-english-now/">
+                  <span class="button__text">Welcome! We speak English now! And other languages too</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

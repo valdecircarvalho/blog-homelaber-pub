@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>DuckDNS - Serviço de DNS Dinâmico Grátis :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+Hoje vou apresentar a vocês um serviço bastante bacana e útil para nossos Home Labs:DuckDNS.
+O DuckDNS é um serviço de DNS dinâmico grátis aos moldes do noip.net, do dyndns entre outros.
+Se você não sabe o que é um DNS dinâmico, senta que lá vem história:
+DNS significa Domain Name System
+ São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/duckdns-servico-de-dns-dinamico-gratis/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="DuckDNS - Serviço de DNS Dinâmico Grátis"/>
+<meta name="twitter:description" content="Olá Homelabers!
+Hoje vou apresentar a vocês um serviço bastante bacana e útil para nossos Home Labs:DuckDNS.
+O DuckDNS é um serviço de DNS dinâmico grátis aos moldes do noip.net, do dyndns entre outros.
+Se você não sabe o que é um DNS dinâmico, senta que lá vem história:
+DNS significa Domain Name System
+ São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número."/>
+
+
+
+<meta property="og:title" content="DuckDNS - Serviço de DNS Dinâmico Grátis" />
+<meta property="og:description" content="Olá Homelabers!
+Hoje vou apresentar a vocês um serviço bastante bacana e útil para nossos Home Labs:DuckDNS.
+O DuckDNS é um serviço de DNS dinâmico grátis aos moldes do noip.net, do dyndns entre outros.
+Se você não sabe o que é um DNS dinâmico, senta que lá vem história:
+DNS significa Domain Name System
+ São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/duckdns-servico-de-dns-dinamico-gratis/" />
+<meta property="article:published_time" content="2015-05-08T12:00:28+00:00" />
+<meta property="article:modified_time" content="2015-05-08T12:00:28+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/duckdns-servico-de-dns-dinamico-gratis/">DuckDNS - Serviço de DNS Dinâmico Grátis</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            08-05-2015
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 3 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/como-configurar-dns-din%C3%A2mico/">como configurar dns dinâmico</a>&nbsp;
+        
+          #<a href="/tags/como-configurar-duckdns/">como configurar duckdns</a>&nbsp;
+        
+          #<a href="/tags/configurar-ddns/">configurar ddns</a>&nbsp;
+        
+          #<a href="/tags/ddns/">ddns</a>&nbsp;
+        
+          #<a href="/tags/dns-din%C3%A2mico/">dns dinâmico</a>&nbsp;
+        
+          #<a href="/tags/duckdns/">duckdns</a>&nbsp;
+        
+          #<a href="/tags/duckdns.org/">duckdns.org</a>&nbsp;
+        
+          #<a href="/tags/home-lab/">home lab</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers!</p>
+<p>Hoje vou apresentar a vocês um serviço bastante bacana e útil para nossos Home Labs:<a href="https://www.duckdns.org/"> <strong>DuckDNS</strong></a>.</p>
+<p>O DuckDNS é um serviço de DNS dinâmico grátis aos moldes do noip.net, do dyndns entre outros.</p>
+<p><img src="/imagens/2015/04/Copy-of-duckydns.png" alt="Copy of duckydns"></p>
+<!-- raw HTML omitted -->
+<p>Se você não sabe o que é um DNS dinâmico, senta que lá vem história:</p>
+<!-- raw HTML omitted -->
+<p><strong>DNS significa Domain Name System</strong></p>
+<blockquote>
+<p><em>São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número. O nome, neste caso, é especificamente um nome de host e o número é um endereço IP. Sem o DNS, você teria que lembrar de cada endereço IP de cada site que você deseja visitar.</em></p>
+</blockquote>
+<p><em>Um computador pessoal conectado na internet recebe um número que o identifica, o seu endereço IP. Porém, em alguns casos como conexões ADSL (Speed, Velox, Netetc), este número varia a cada conexão (IP dinâmico) impossibilitando que seu computador seja encontrado na internet (acesso remoto).</em></p>
+<p><em>O DDNS (Dynamic Domain Name System) é um dns dinâmico que associa o endereço IP da sua conexão atual a um nome fixo criado por você. Ou seja, com o DDNS o seu computador pessoal agora pode ser encontrado através de um endereço tipo “seucomputador.ddns.com.br” possibilitando o acesso remoto.</em></p>
+<p>Aqui no <a href="http://www.noip.com/pt-BR/what-is-dns">site</a> do NoIP.com tem um texto bem bacana com um videozinho (em Inglês) explicando direitinho como funciona o DNS e o DDNS.<!-- raw HTML omitted --></p>
+<p>Eu escolhi o DuckDNS pois hoje, na minha opinião é o melhor e mais simples serviço grátis disponível no mercado.Eu já usei o NoIP.com e o Dydns (que era pago) e estou gostando muito do DuckDNS.</p>
+<p>Acesse o site do DuckDns.org</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-008.png" alt="configurar-duckdns-008"></p>
+<p>Faça o login com alguma das opções a seguir: Twitter, Facebook, Reddit ou Google</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-007.png" alt="configurar-duckdns-007"></p>
+<p>Escolha o nome do seu dominio.duckdns.org e clique em Add Domain</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-006.png" alt="configurar-duckdns-006"></p>
+<p><img src="/imagens/2015/05/configurar-duckdns-005.png" alt="configurar-duckdns-005"></p>
+<p>Clique em install</p>
+<p>Escolha o seu dominio</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-004.png" alt="configurar-duckdns-004"></p>
+<p>O DuckDns oferece mais de uma dezena de opções entre elas Windows, Linux, Mac, pfSense, dd-wrt, etc. Escolha o que melhor se adeque as suas necessidades. Eu por exemplo, optei por instalar o aplicativo de Windows em uma VM que já rodava outra aplicação para facilitar.</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-003.png" alt="configurar-duckdns-003"></p>
+<p>Você será apresentado ao passo-a-passo para configuração do cliente no seu sistema, basta seguir os passos indicados.</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-002.png" alt="configurar-duckdns-002"></p>
+<p>Pronto! O seu DDNS está configurado. Agora você deve configurar o seu roteador para fazer o redirecionamento de portas para a sua aplicação, mas isso depende de roteador para roteador e infelizmente não tenho como colocar um tutorial aqui para cada tipo de roteador. Mas basta procurar no Google por redirecionamento de portas ou encaminhamento de portas junto com o nome do seu equipamento.</p>
+<p>Outro ponto para se levar em consideração, é que a maioria dos provedores de internet bloqueiam o acesso as principais portas (80, 21, 22, etc), então será necessário utilizar uma porta alternativa no redirecionamento. Pode parecer complicado a primeira vista, mas basta dar uma procurada na internet que você vai conseguir.</p>
+<p>Um exemplo prático do uso do DNS Dinamico é a configuração de uma VPN para acesso remotou ou rodar um sistema de foto no seu servidor, acessar o seu computador via remote desktop. As possibilidades são infinitas.</p>
+<p>Eu subi uma VM Linux com uma aplicação bem simples para testar o DuckDNS. Acesse o endereço <a href="http://homelaber.duckdns.org:8001/">http://homelaber.duckdns.org:8001/</a> para testar.</p>
+<p><img src="/imagens/2015/05/configurar-duckdns-001.png" alt="configurar-duckdns-001"></p>
+<p>Agora é a sua vez. Vai lá e configure uma conta no DuckDNS e faça o teste e depois volte aqui para contar o resultado :D</p>
+<p>Se você tiver qualquer dúvida, é só deixar uma mensagem aqui que prometo que tento responder e te ajudar.</p>
+<p>Até o próximo post.</p>
+<p>Não se esqueça de deixar o seu comentário no post, seguir o HomeLaber no<a href="https://twitter.com/homelaber">Twitter</a> (@Homelaber) e curtir a nossa página no <a href="https://www.facebook.com/homelaber">Facebook</a> (fb.com/homelaber) para ficar sempre atualizado das novidade do blog.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/under-construction/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Under Construction</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/microsoft-students-to-business/">
+                  <span class="button__text">Microsoft Students to Business (S2B) Online</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

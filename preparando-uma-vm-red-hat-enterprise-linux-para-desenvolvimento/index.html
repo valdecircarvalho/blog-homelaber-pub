@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="****
+Olá Homelabers!
+Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
+Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
+Nível: Fácil.
+A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento"/>
+<meta name="twitter:description" content="****
+Olá Homelabers!
+Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
+Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
+Nível: Fácil.
+A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados."/>
+
+
+
+<meta property="og:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento" />
+<meta property="og:description" content="****
+Olá Homelabers!
+Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
+Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
+Nível: Fácil.
+A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/" />
+<meta property="article:published_time" content="2016-05-13T03:36:09+00:00" />
+<meta property="article:modified_time" content="2016-05-13T03:36:09+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/">Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            13-05-2016
+        </span>
+      
+      <span class="post-author">— Written by alexandre.parreira</span>
+      
+        <span class="post-read-time">— 8 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/como-instalar/">como-instalar</a>&nbsp;
+        
+          #<a href="/tags/desenvolvimento/">Desenvolvimento</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+          #<a href="/tags/how-to/">how-to</a>&nbsp;
+        
+          #<a href="/tags/linux/">linux</a>&nbsp;
+        
+          #<a href="/tags/rhel/">RHEL</a>&nbsp;
+        
+          #<a href="/tags/vmware/">vmware</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>**<img src="/imagens/2016/05/open-source-300x209.jpg" alt="ale-open-source">
+**</p>
+<p>Olá Homelabers!</p>
+<p>Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.</p>
+<p>Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.</p>
+<p><strong>Nível</strong>: <strong>Fácil.</strong></p>
+<!-- raw HTML omitted -->
+<p>A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados.</p>
+<p>Não poderia deixar de agradecer e cumprimentar o Valdecir Carvalho pelo convite e iniciativa.</p>
+<h3 id="sobre-orhel">Sobre o RHEL</h3>
+<p>Escolhi utilizar o RHEL pois é uma das distribuições mais sólidas e utilizadas no ambiente corporativo. Algumas plataformas estão homologadas para rodarem sobre ele o que garante um suporte adequado. É claro que podemos sempre usar outras distribuições porém, por experiência, algumas precisam de alguns truques extras para executar adequadamente alguns componentes.</p>
+<p>Com a liberação de uma versão gratuita para desenvolvedores pela Red Hat, conforme publicado <a href="http://homelaber.com.br/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/">aqui</a> neste blog, não vejo motivos para não se aprofundar na sua utilização, agora de maneira bem legal.</p>
+<h3 id="virtual-machine">Virtual Machine</h3>
+<p>Utilizarei neste artigo o <a href="https://www.vmware.com/products/workstation/">VMware</a> que é um produto de ponta no mercado de virtualização. No entanto a VM pode também ser criada utilizando <a href="https://www.virtualbox.org/">Oracle VM VirtualBox</a>.</p>
+<h3 id="recursos-do-host">Recursos do Host</h3>
+<p>Estou utilizando um notebook Lenovo T430 com windows 7 conforme abaixo:</p>
+<p><img src="/imagens/2016/05/espec-lenovo-t430.png" alt=""></p>
+<p>É importante também saber quantos cores possui seu processador para poder dimensionar melhor a utilização de recursos na VM. No caso do Windows 7 podemos utilizar o aplicativo _<strong>msinfo32.exe</strong> _e obter a informação conforme abaixo:</p>
+<p><img src="/imagens/2016/05/espec-lenovo-t430-2-1.png" alt="ale-espec-lenovo-t430-2"></p>
+<p>Neste caso temos 2 núcleos (cores).</p>
+<p>Dependendo do objetivo da VM pode ser necessário consumir mais ou menos recursos do Host. Neste cenário o Host é o SO instalado na máquina (Windows 7) e o Guest é o que será instalado na VM (RHEL).</p>
+<h3 id="començando">Començando</h3>
+<p>Vamos criar uma nova VM:</p>
+<p><img src="/imagens/2016/05/new-vm-1.png" alt="ale-new-vm-1"></p>
+<p>No diálogo Escolha _**Custom **_e clique em <em><strong>Next</strong></em>.</p>
+<p>Deixe <em><strong>Hardware compatibility</strong></em> na opção default selecionada e clique em <em><strong>Next</strong></em>.</p>
+<p>Após vamos selecionar a última opção para instalar o SO depois evitando que o VMware tome algumas decisões importantes por nós.</p>
+<p><img src="/imagens/2016/05/new-vm-15.png" alt="ale-new-vm-15"></p>
+<p>Clique em <strong><em>Next</em></strong>.</p>
+<p>Escolha um nome e local onde serão armazenados os arquivos da VM.</p>
+<p><img src="/imagens/2016/05/new-vm-4-1.png" alt="ale-new-vm-4"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Vamos agora escolher o número de CPU disponibilizados para o Guest SO. Para mais informações sobre vCPUs acesse este <a href="http://pubs.vmware.com/fusion-6/index.jsp#com.vmware.fusion.help.doc/GUID-065E8496-4320-4A54-B1B8-F40C84CA8DAF.html">link</a>.</p>
+<p><img src="/imagens/2016/05/new-vm-4b.png" alt="ale-new-vm-4b"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Agora vamos definir a quantidade de memória RAM estará disponível para o Guest. No meu caso vou utilizar o mais recomendado de 8 GB. Novamente esta quantidade pode variar conforme o objetivo da VM. E isto pode ser modificado futuramente.</p>
+<p><img src="/imagens/2016/05/new-vm-6.png" alt="ale-new-vm-6"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Deixaremos as configurações de rede no default. Futuramente, se tivermos necessidades específicas para o Guest como por exemplo possuir endereço de IP específico permitindo funcionar como servidor e até mesmo consumir serviços do Host, podemos mudar para o modo Bridged por exemplo.</p>
+<p><img src="/imagens/2016/05/new-vm-8.png" alt="ale-new-vm-8"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Nos dois próximos passos vamos também deixar o default.</p>
+<p><img src="/imagens/2016/05/new-vm-9.png" alt="ale-new-vm-9"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p><img src="/imagens/2016/05/new-vm-10.png" alt="new-vm-10"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Agora vamos criar um novo disco virtual. Obviamente caso tivéssemos um disco criado e se estivemos movendo imagens de uma máquina para outra poderíamos utilizar as outras opções.</p>
+<p><img src="/imagens/2016/05/new-vm-11.png" alt="ale-new-vm-11"></p>
+<p>Vamos agora escolher o tamanho do disco que estará disponível para a VM. Como eu tenho uma idéia de minhas necessidades futuras eu vou começar com <em><strong>50 GB</strong></em> mas o default é <em><strong>20 GB</strong></em>. Dependendo da distribuição Linux sendo instalada a necessidade de espaço em disco pode ser muito menor.</p>
+<p>Vamos também optar por armazenar em um único arquivo. No cenário projetado não há motivo por dividir em múltiplos arquivos. Casos específicos indicados para a divisão seriam os quais se está utilizando um sistema com limitação no tamanho máximo dos arquivos, como FAT32, ou se projetarmos discos a partir de 100 GB onde poderíamos começar a visualizar uma melhoria na performance.</p>
+<p>Um outro ponto importante é que vamos escolher já alocar todo o espaço em disco informado (50 GB) para a VM. Por experiência posso dizer que alguns SO instalam corretamente porém, algumas instalações de componentes falham ao detectar o tamanho total do disco. Por isso é <strong>muito importante</strong> já alocar o espaço total do disco.</p>
+<p>Há um post aqui no blog falando sobre estas opções <a href="http://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/">aqui</a>.</p>
+<p><img src="/imagens/2016/05/new-vm-12.png" alt="ale-new-vm-12"></p>
+<p>Clique em <em><strong>Next</strong></em>.</p>
+<p>Depois confirme o nome do arquivo a ser criado e clique em <em><strong>Next</strong></em>.</p>
+<p><img src="/imagens/2016/05/new-vm-13.png" alt="ale-new-vm-13"></p>
+<p>Pronto as configurações da nova VM estão definidas e vamos agora avançar para a instalação do RHEL como Guest SO na VM. Como definimos para alocar todo o tamanho do disco na criação o processo irá demorar um pouco mais.</p>
+<p><img src="/imagens/2016/05/new-vm-14.png" alt="ale-new-vm-14"></p>
+<p>Clique em <em><strong>Finish</strong></em>.</p>
+<h3 id="instalando-o-rhel">Instalando o RHEL</h3>
+<p>Após a criação da VM estaremos com ela limpa para iniciar a instalação do RHEL.</p>
+<p>No lado direto da janela clique em <em><strong>CD/DVD (SATA)</strong></em>.</p>
+<p><img src="/imagens/2016/05/install-vm-1.png" alt="ale-install-vm-1"></p>
+<p>Agora vamos marcar a opção <em><strong>Use ISO image file</strong></em> e vamos selecionar a ISO que baixamos do site da Red Hat.</p>
+<p><img src="/imagens/2016/05/install-vm-2.png" alt="ale-install-vm-2"></p>
+<p>Clique em <em><strong>OK</strong></em>.</p>
+<p>Vamos iniciar a VM clicando em <em><strong>Power on this virtual machine</strong></em>.</p>
+<p>A VM irá inicializar a partir da imagem ISO montada na unidade de CD/DVD. Vamos selecionar a primeira opção para instalar o RHEL na VM. Para direcionar o input para a janela da VM basta clicar dentro da janela ou pressionar CTRL + G.</p>
+<p><img src="/imagens/2016/05/install-vm-3.png" alt="ale-install-vm-3"></p>
+<p>Pressione _<strong>Enter</strong> _para começar o processo de instalação.</p>
+<p>Vamos manter a linguagem selecionada em <em><strong>English (United States)</strong></em>. Esta é uma preferência pessoal e vocês podem ajustar conforme sua preferência.</p>
+<p><img src="/imagens/2016/05/install-vm-4.png" alt="ale-install-vm-4"></p>
+<p>Vamos diretamente configurar a <em><strong>Network &amp; Host Name</strong></em> para permitirmos que a definição dos parâmetros de instalação possa já obter dados da internet.</p>
+<p><img src="/imagens/2016/05/install-vm-5.png" alt="ale-install-vm-5"></p>
+<p>Dependendo do hardware que está disponível estas opções podem ser diferentes. Porém, em um ambiente básico estará disponível um adaptador de rede selecionado e vamos ativá-lo clicando no botão <em><strong>ON/OFF</strong></em> no canto superior direito.</p>
+<p><img src="/imagens/2016/05/install-vm-6.png" alt="ale-install-vm-6"></p>
+<p>Após a ativação do adaptador de rede a VM deverá receber um endereço de IP e estar conectada à rede e internet.</p>
+<p>Clique em _<strong>Done</strong> _no campo superior esquerdo da janela.</p>
+<p>Vamos clicar em <em><strong>Date &amp; Time</strong></em>.</p>
+<p>Nesta janela selecione a posição de seu fuso horário clicando no posição no mapa e se necessário selecionando nas caixas superiores a região e cidade exatas. Vamos ativar também a opção Network Time para manter o horário atualizado com os servidores mundiais.</p>
+<p><img src="/imagens/2016/05/install-vm-7.png" alt="ale-install-vm-7"></p>
+<p>Vamos agora configurar o teclado. Para tanto clique em <em><strong>Keyboard</strong></em>.</p>
+<p>Na janela seguinte vamos clicar no símbolo <em><strong>+</strong></em> no canto inferior esquerdo para adicionar um novo layout.</p>
+<p>Na lista busque por <em><strong>Portuguese (Brazil)</strong></em> e clique em Add.</p>
+<p>Remova o layout <em><strong>English (US)</strong></em> clicando no sinal de <em><strong>-</strong></em> no canto inferior esquerdo.</p>
+<p><img src="/imagens/2016/05/install-vm-8.png" alt="ale-install-vm-8"></p>
+<p>Sugiro testar o layout escolhido para evitar alguma dor de cabeça e trabalho adicional logo de início. Utilize a caixa <em><strong>Test&hellip;</strong></em> no canto superior direito para testar especialmente as teclas <strong>/ \ . : | - _ ?</strong></p>
+<p>Clique em _<strong>Done</strong> _após terminar.</p>
+<p>Vamos agora definir os softwares a serem instalados.</p>
+<p>Cliquem em <em><strong>Software Selection</strong></em>.</p>
+<p>Na caixa da esquerda, <em><strong>Base Environment</strong></em>, selecione <em><strong>Server with GUI</strong></em>. Desta forma teremos um sistema gráfico para trabalhar com o desenvolvimento de softwares.</p>
+<p>Após selecionar a opção acima, na caixa da direita <em><strong>Add-Ons for Selected Environment</strong></em>, localize e marque a opção KDE. Assim terá a opção de usar o Gnome ou KDE, duas interfaces gráficas diferentes, conforme sua preferência.</p>
+<p><img src="/imagens/2016/05/install-vm-9.png" alt="ale-install-vm-9"></p>
+<p>Clique em <em><strong>Done</strong></em>.</p>
+<p>Vamos por fim definir as configurações de particionamento dos discos.</p>
+<p>Clique em <em><strong>Installation Destination</strong></em>.</p>
+<p>Basta clicar em _<strong>Done</strong> _para confirmar o particionamento automático do disco.</p>
+<p><img src="/imagens/2016/05/install-vm-10.png" alt="ale-install-vm-10"></p>
+<p>Após todos estas definições estamos prontos para prosseguir com instalação.</p>
+<p>Clique em <em><strong>Begin Installation</strong></em>.</p>
+<p>Enquanto o sistema é instalado vamos aproveitar e definir as senhas de Root e um usuário para acesso.</p>
+<p>Clique em <em><strong>ROOT PASSWORD</strong></em> para definir a senha do <em><strong>ROOT</strong></em>.</p>
+<p><img src="/imagens/2016/05/install-vm-11.png" alt="ale-install-vm-11"></p>
+<p>Clique em <em><strong>Done</strong></em>. Talvez seja necessário clicar 2 vezes para confirmar caso a senha seja considerada fraca.</p>
+<p>Clique em <em><strong>USER CREATION</strong></em> para criar o seu usuário para acesso.</p>
+<p><img src="/imagens/2016/05/install-vm-12.png" alt="ale-install-vm-12"></p>
+<p>Clique em <em><strong>Done</strong></em>. Talvez seja necessário clicar 2 vezes para confirmar caso a senha seja considerada fraca.</p>
+<p>Vamos aguardar o término da instalação.</p>
+<h3 id="iniciando-o-sistema">Iniciando o Sistema</h3>
+<p>Ao término da instalação clique em _<strong>Reboot</strong> _no canto inferior esquerdo para reinicializar o sistema.</p>
+<p><img src="/imagens/2016/05/install-vm-13.png" alt="ale-install-vm-13"></p>
+<p>Após a reinicialização o sistema nos solicita a escolher a opção de inicialização.</p>
+<p>Vamos escolher a <em><strong>primeira opção</strong></em> e teclar <em><strong>Enter</strong></em>.</p>
+<p><img src="/imagens/2016/05/install-vm-14.png" alt="ale-install-vm-14"></p>
+<p>Após a inicialização será necessário ainda informar a informações de licença.</p>
+<p>Clique em <em><strong>LICENSE INFORMATION</strong></em>.</p>
+<p><img src="/imagens/2016/05/install-vm-15.png" alt="ale-install-vm-15"></p>
+<p>Recomendamos analisar as informações quanto as direitos e deveres estabelecidos e contratados.</p>
+<p>Quando estiver ponto marque a caixa <em><strong>I accept the license agreement</strong></em> no canto inferior esquerdo para aceitar os termos apresentados, caso esteja de acordo. Após, clique em _<strong>Done</strong> _no canto superior direito.</p>
+<p>Deixaremos o ítem <em><strong>Subscription Manager</strong></em> não registrado por enquanto pois precisaremos efetuar alguns ajustes mais a frente para realizar o assinatura e usufruir do suporte e atualizações oficiais.</p>
+<p>Clique em <em><strong>Finish Configuration</strong></em> no canto inferior direito para prosseguir.</p>
+<p>Neste momento devemos ser levados à tela inicial de login. Clique no nome de seu usuário, informe a senha cadastrada.</p>
+<p><img src="/imagens/2016/05/install-vm-17.png" alt="ale-install-vm-17"></p>
+<p>Já na área de trabalho  serão apresentados informativos educativos porém, podemos fechar e acessar estas informações a qualquer momento posteriormente para aprender mais sobre o ambiente e sua operação.</p>
+<p><img src="/imagens/2016/05/install-vm-18.png" alt="install-vm-18"></p>
+<p>Pronto, nossa instalação básica está completa.</p>
+<p>Foi um longo caminho até aqui. Temos agora um ambiente inicial para começar a desenvolver nossos projetos sobre uma plataforma robusta, aceita e certificada pelo mercado.</p>
+<p><em><strong>Considerações Finais</strong></em></p>
+<p>Temos alguns ajustes pós instalação que serão importantes para uma melhor usabilidade do ambiente. Estes serão apresentados em um novo artigo.</p>
+<p>Gostaria de agradecer a todos por acompanharem aqui.</p>
+<p>Dúvidas e questionamentos não hesitem em postar no comentários que na medida do possível tentarei responder a todas ou buscar mais informações no intuito de ajudar na resolução.</p>
+<p>Desejo desde já paz e sucesso a todos em suas jornadas de estudos e evolução.</p>
+<p>Grande abraço.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/open-souce-yearbook-2015/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Open Souce YearBook - 2015</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/na-firma-script-powershel-para-stop-vms/">
+                  <span class="button__text">Na FIRMA - Script Powershel para Stop de VMs</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

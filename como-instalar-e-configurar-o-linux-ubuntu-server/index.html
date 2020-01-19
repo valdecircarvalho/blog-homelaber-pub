@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Como instalar e configurar o Linux Ubuntu Server :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+Neste post vou mostrar como criar e instalar uma VM com o Ubuntu Server. Será uma instalação básica que será a base para várias outras instalações. Aliás eu já deveria ter feito esse post há bastante tempo.
+Em um primeiro momento, para quem nunca instalou um servidor Linux, pode parecer coisa de outro mundo, mas o processo de instalação é bastante fácil e rápido.
+Vamos lá?
+Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &amp;ldquo;recheado&amp;rdquo; de telinhas com todos os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/como-instalar-e-configurar-o-linux-ubuntu-server/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Como instalar e configurar o Linux Ubuntu Server"/>
+<meta name="twitter:description" content="Olá Homelabers!
+Neste post vou mostrar como criar e instalar uma VM com o Ubuntu Server. Será uma instalação básica que será a base para várias outras instalações. Aliás eu já deveria ter feito esse post há bastante tempo.
+Em um primeiro momento, para quem nunca instalou um servidor Linux, pode parecer coisa de outro mundo, mas o processo de instalação é bastante fácil e rápido.
+Vamos lá?
+Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &ldquo;recheado&rdquo; de telinhas com todos os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível."/>
+
+
+
+<meta property="og:title" content="Como instalar e configurar o Linux Ubuntu Server" />
+<meta property="og:description" content="Olá Homelabers!
+Neste post vou mostrar como criar e instalar uma VM com o Ubuntu Server. Será uma instalação básica que será a base para várias outras instalações. Aliás eu já deveria ter feito esse post há bastante tempo.
+Em um primeiro momento, para quem nunca instalou um servidor Linux, pode parecer coisa de outro mundo, mas o processo de instalação é bastante fácil e rápido.
+Vamos lá?
+Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &ldquo;recheado&rdquo; de telinhas com todos os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/como-instalar-e-configurar-o-linux-ubuntu-server/" />
+<meta property="article:published_time" content="2015-11-01T13:00:39+00:00" />
+<meta property="article:modified_time" content="2015-11-01T13:00:39+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/como-instalar-e-configurar-o-linux-ubuntu-server/">Como instalar e configurar o Linux Ubuntu Server</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            01-11-2015
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 7 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/como-instalar/">como-instalar</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+          #<a href="/tags/homelab-vmware/">homelab vmware</a>&nbsp;
+        
+          #<a href="/tags/how-to/">how-to</a>&nbsp;
+        
+          #<a href="/tags/instala%C3%A7%C3%A3o/">instalação</a>&nbsp;
+        
+          #<a href="/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
+        
+          #<a href="/tags/linux/">linux</a>&nbsp;
+        
+          #<a href="/tags/linux-ubuntu/">linux ubuntu</a>&nbsp;
+        
+          #<a href="/tags/servidor/">servidor</a>&nbsp;
+        
+          #<a href="/tags/ubuntu/">ubuntu</a>&nbsp;
+        
+          #<a href="/tags/ubuntu-server/">ubuntu server</a>&nbsp;
+        
+          #<a href="/tags/virtual-machine/">virtual machine</a>&nbsp;
+        
+          #<a href="/tags/vmware/">vmware</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers!</p>
+<p>Neste post vou mostrar como criar e instalar uma VM com o Ubuntu Server. Será uma instalação básica que será a base para várias outras instalações. Aliás eu já deveria ter feito esse post há bastante tempo.</p>
+<p>Em um primeiro momento, para quem nunca instalou um servidor Linux, pode parecer coisa de outro mundo, mas o processo de instalação é bastante fácil e rápido.</p>
+<p><img src="/imagens/2015/11/logo-ubuntu_su-black_orange-hex.png" alt="logo-ubuntu_su-black_orange-hex"></p>
+<p>Vamos lá?</p>
+<!-- raw HTML omitted -->
+<p>Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &ldquo;recheado&rdquo; de telinhas com <em>todos</em> os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível.</p>
+<p>A primeira coisa a se fazer é baixar a ISO do Ubuntu server no site<a href="http://www.ubuntu.com/download/server"> http://www.ubuntu.com/download/server</a>. O ISO tem pouco menos de 600MB.</p>
+<p><a href="http://www.ubuntu.com/download/server"><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-000.png" alt="homelaber-instalacao-ubuntu-server-homelab-000">
+</a></p>
+<p>O próximo passo é logar no vSphere e criar uma nova VM</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-001.png" alt="homelaber-instalacao-ubuntu-server-homelab-001"></p>
+<p>Antes de criar a VM, vamos fazer o upload do arquivo ISO do Ubuntu.</p>
+<p>Selecione o seu datastore, clique com o botão direito e selecione &ldquo;Browse Datastore&hellip;&rdquo;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-079.png" alt="homelaber-instalacao-ubuntu-server-homelab-079"></p>
+<p>Para manter tudo organizado, eu costumo criar uma pasta chamada &ldquo;ISO&rdquo; e nela guardar todos os ISOs que irei usar. Fica ao eu critério.</p>
+<p>Clique no icone com uma setinha verde para cima, depois &ldquo;Upload File&hellip;&rdquo;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-082.png" alt="homelaber-instalacao-ubuntu-server-homelab-082"></p>
+<p>Selecione o arquivo .ISO do ubuntu server que acabamos de fazer o download e clique em &ldquo;Open&rdquo;.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-081.png" alt="homelaber-instalacao-ubuntu-server-homelab-081"></p>
+<p>Aguarde o upload do arquivo para prosseguir com a instalação.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-080.png" alt="homelaber-instalacao-ubuntu-server-homelab-080"></p>
+<p>Pronto, agora que temos o arquivo ISO já armazenado em nosso datastore, chegou a hora de criar uma nova VM.</p>
+<p>Selecione File &ndash;&gt; New &ndash;&gt; Virtual Machine&hellip; ou Ctrl+N se você for um viciado em teclas de atalho como eu :)</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-002.png" alt="homelaber-instalacao-ubuntu-server-homelab-002"></p>
+<p>Selecione &ldquo;Custom&rdquo;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-003.png" alt="homelaber-instalacao-ubuntu-server-homelab-003"></p>
+<p>De um nome para a sua VM. Eu usei &ldquo;ubuntuserver&rdquo;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-004.png" alt="homelaber-instalacao-ubuntu-server-homelab-004"></p>
+<p>Escolha o Datastore</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-005.png" alt="homelaber-instalacao-ubuntu-server-homelab-005"></p>
+<p>Selecione a versão da maquina virtual</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-006.png" alt="homelaber-instalacao-ubuntu-server-homelab-006"></p>
+<p>Selecione o sistema operacional, em nosso caso, Ubuntu Linux 64 bits</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-007.png" alt="homelaber-instalacao-ubuntu-server-homelab-007"></p>
+<p>Para essa VM iremos utilizar 1vCPU e 1 Core. Essas configurações poderão ser alteradas posteriormente. Caso você esteja criando uma VM para alguma finalidade específica, mude as configurações aqui.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-008.png" alt="homelaber-instalacao-ubuntu-server-homelab-008"></p>
+<p>O mesmo vale para a quantidade de memória da VM. Caso você esteja criando uma VM para alguma finalidade específica, mude as configurações aqui.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-009.png" alt="homelaber-instalacao-ubuntu-server-homelab-009"></p>
+<p>Selecione a interface de rede.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-010.png" alt="homelaber-instalacao-ubuntu-server-homelab-010"></p>
+<p>Selecione a controladora SCSI. Deixe a opção default (LSI Logic Parallel). Mais informações <a href="https://blogs.vmware.com/vsphere/2014/02/vscsi-controller-choose-performance.html">aqui</a></p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-011.png" alt="homelaber-instalacao-ubuntu-server-homelab-011"></p>
+<p>Selecione &ldquo;Create a new virtual disk&rdquo; para criar um novo disco (HD).</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-012.png" alt="homelaber-instalacao-ubuntu-server-homelab-012"></p>
+<p>Defina do tamanho e o tipo. Nesse caso, defini um disco pequeno de 20 GB que é mais do que suficiente para a instalação do Ubuntu.</p>
+<p>Outra escolha importante é o tipo de provisionamento de disco. Aqui vale um parenteses com a explicação de cada tipo de disco.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-013.png" alt="homelaber-instalacao-ubuntu-server-homelab-013"></p>
+<p>[su_box title=&quot;Diferenças entre tipos de disco em uma VM&rdquo;]</p>
+<p>** Thick Provision Lazy Zeroed ** – é um disco “thick” padrão, ou seja, <em>todo o espaço é alocado no momento da sua criação</em>. Neste formato de disco virtual, qualquer dado que exista no dispositivo físico é mantido no momento da criação, e só são “zerados” no momento em que a máquina virtual vai escrevendo seus dados.</p>
+<p><strong>Thick Provision Eager Zeroed</strong> – é um disco “thick” que possui suporte a alguns recursos de cluster, como FT. Também aloca todo o espaço necessário no momento da sua criação. A diferença para o formato “lazy” (ou flat) é que os dados existentes no dispositivo físico são todos zerados no momento da criação. O tempo de criação deste tipo de disco pode demorar mais que os demais.</p>
+<p><strong>Thin Provision</strong> – neste tipo de disco <em>apenas um espaço mínimo é utilizado no momento da sua criação</em>. A medida que mais espaço físico for sendo necessário, o disco “thin” vai aumentando o seu tamanho, podendo chegar até o tamanho alocado inicialmente.</p>
+<p>fonte: <a href="http://vmwarebrasil.blogspot.com.br/2013/04/qual-diferenca-entre-discos-thick-thin.html">http://vmwarebrasil.blogspot.com.br/2013/04/qual-diferenca-entre-discos-thick-thin.html</a>
+[/su_box]</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-014.png" alt="homelaber-instalacao-ubuntu-server-homelab-014"></p>
+<p>Selecione a opção &ldquo;Edit the virtual machine&hellip;&rdquo; e clique em Continue para iniciar o processo de criação da VM.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-015.png" alt="homelaber-instalacao-ubuntu-server-homelab-015"></p>
+<p>Remova o &ldquo;New Floppy&rdquo; selecionando a opção e clicando no botão &ldquo;Remove&rdquo;. Não precisamos de um drive de disket em nossa VM certo?</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-016.png" alt="homelaber-instalacao-ubuntu-server-homelab-016"></p>
+<p>Selecione New CD/DVD e marque a opção &ldquo;Connect at power on&rdquo; e em seguida selecione &ldquo;Datastore ISO file&rdquo; e clique em Browse e selecione o aquivo ISO que você baixou do site e subiu para o datastore.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-017.png" alt="homelaber-instalacao-ubuntu-server-homelab-017"></p>
+<p>Clique na aba &ldquo;Options&rdquo;, selecione &ldquo;Memory/CPU Hotplug e marque as opções destacadas na figura abaixo.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-018.png" alt="homelaber-instalacao-ubuntu-server-homelab-018"></p>
+<p>Clique em Finish e acompanhe a criação de nossa VM.
+<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-019.png" alt="homelaber-instalacao-ubuntu-server-homelab-019">
+<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-020.png" alt="homelaber-instalacao-ubuntu-server-homelab-020"></p>
+<p>Abra a console da VM e clique em Power On para &ldquo;ligar a maquina&rdquo; e iniciar o boot.<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-021.png" alt="homelaber-instalacao-ubuntu-server-homelab-021"></p>
+<p>Aqui começa de fato a instalação do sistema operacional. Selecione a lingua. Eu prefiro sempre instalar e utilizar o SO (seja ele qual for) em Inglês - mas isso é coisa de velho.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-022.png" alt="homelaber-instalacao-ubuntu-server-homelab-022"></p>
+<p>Selecione &ldquo;Install Ubuntu Server&rdquo; e clique ENTER.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-023.png" alt="homelaber-instalacao-ubuntu-server-homelab-023"></p>
+<p>Selecione a lingua do SO e clique Enter</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-024.png" alt="homelaber-instalacao-ubuntu-server-homelab-024"></p>
+<p>Selecione a sua localização e tecle Enter.
+<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-025.png" alt="homelaber-instalacao-ubuntu-server-homelab-025"></p>
+<p>Selecione o layout do seu teclado. Aqui você pode escolher a opção default, pois na próxima tela o sistema irá fazer a identificação automática.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-026.png" alt="homelaber-instalacao-ubuntu-server-homelab-026"></p>
+<p>Selecione YES e clique enter.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-027.png" alt="homelaber-instalacao-ubuntu-server-homelab-027"></p>
+<p>Digite as teclas informadas para que o sistema identifique o layout do seu teclado.
+<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-028.png" alt="homelaber-instalacao-ubuntu-server-homelab-028"></p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-029.png" alt="homelaber-instalacao-ubuntu-server-homelab-029"></p>
+<p>Selecione &ldquo;Continue&rdquo; e aperte ENTER.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-030.png" alt="homelaber-instalacao-ubuntu-server-homelab-030"></p>
+<p>A instalação de fato irá iniciar&hellip; seja paciente :)</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-031.png" alt="homelaber-instalacao-ubuntu-server-homelab-031"></p>
+<p>Chegou a hora de configurar a rede. Digite o hostname desejado. Esse será o nome da sua maquina.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-032.png" alt="homelaber-instalacao-ubuntu-server-homelab-032"></p>
+<p>Digite no nome do administrador do sistema. Pode ser qualquer nome. Eu costumo usar um padrão &ldquo;administrator&rdquo; - original não? :)</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-033.png" alt="homelaber-instalacao-ubuntu-server-homelab-033"></p>
+<p>Digite o nome do usuário. Aqui vai uma vez a critividade impera e uso &ldquo;administrator&rdquo;.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-034.png" alt="homelaber-instalacao-ubuntu-server-homelab-034"></p>
+<p>Chegou a hora de escolher a senha do usuário administrador. Escolha uma senha que você irá se lembrar ou anote. Depois para recuperar da um trabalho enorme.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-035.png" alt="homelaber-instalacao-ubuntu-server-homelab-035"></p>
+<p>Repita a senha do administrador.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-036.png" alt="homelaber-instalacao-ubuntu-server-homelab-036"></p>
+<p>Nessa tela é feita a pergunta se você quer encriptar o diretório home. Eu sempre respondo &ldquo;Não&rdquo;.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-037.png" alt="homelaber-instalacao-ubuntu-server-homelab-037"></p>
+<p>Aguarde a instalação&hellip;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-038.png" alt="homelaber-instalacao-ubuntu-server-homelab-038"></p>
+<p>Selecione a sua localização para ajustes do relógio.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-039.png" alt="homelaber-instalacao-ubuntu-server-homelab-039"></p>
+<p>Essa é a hora de escolher o tipo de partição do disco. Escolha a opção selecionada na figura abaixo.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-040.png" alt="homelaber-instalacao-ubuntu-server-homelab-040"></p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-041.png" alt="homelaber-instalacao-ubuntu-server-homelab-041"></p>
+<p>Selecione YES e clique ENTER para prosseguir.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-042.png" alt="homelaber-instalacao-ubuntu-server-homelab-042"></p>
+<p>Selecione &ldquo;Continue&rdquo; e tecle ENTER.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-044.png" alt="homelaber-instalacao-ubuntu-server-homelab-044"></p>
+<p>Selecione YES para escrever as alterações no disco e continuar com a instalação.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-045.png" alt="homelaber-instalacao-ubuntu-server-homelab-045"></p>
+<p>Aguarde o particionamento dos discos&hellip;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-046.png" alt="homelaber-instalacao-ubuntu-server-homelab-046"></p>
+<p>E agora mais uma vez&hellip; a instalação dos arquivos!</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-047.png" alt="homelaber-instalacao-ubuntu-server-homelab-047"></p>
+<p>Se você utilizar um servidor Proxy para saída de internet (provavelmente não), coloque as informações aqui. Caso contrário, deixe em branco, selecione &ldquo;Continue&rdquo; e aperte ENTER.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-048.png" alt="homelaber-instalacao-ubuntu-server-homelab-048"></p>
+<p>Mais um pouquinho&hellip;.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-049.png" alt="homelaber-instalacao-ubuntu-server-homelab-049"></p>
+<p>Nessa tela, selecione &ldquo;No automatic updates&rdquo; Dessa forma o servidor não irá fazer updates de software automaticamente, o que pode ser um problema caso você vá rodar uma versão especifica de um sistema. O melhor é atualizar manualmente.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-050.png" alt="homelaber-instalacao-ubuntu-server-homelab-050"></p>
+<p>Nessa tela, você tem a opção de selecionar quais softwares ou sistemas deseja instalar. Marque apenas a opção &ldquo;OpenSSH Server&rdquo;. Dessa forma você poderá acessar o sistema remotamente via <a href="http://www.putty.org/">Putty</a> e posteriormente instalar o software que desejar.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-051.png" alt="homelaber-instalacao-ubuntu-server-homelab-051"></p>
+<p>Aguarde a instalação dos pacotes&hellip;</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-052.png" alt="homelaber-instalacao-ubuntu-server-homelab-052"></p>
+<p>Na próxima tela, selecione YES e tecle ENTER. Você irá instalar o GRUB, o sistema de boot do Linux.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-053.png" alt="homelaber-instalacao-ubuntu-server-homelab-053"></p>
+<p>Pronto! A instalação terminou. Selecione &ldquo;Continue&rdquo; e clique enter. A VM irá reiniciar e o seu servidor Linux Ubuntu estará instalado.
+<img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-055.png" alt="homelaber-instalacao-ubuntu-server-homelab-055"></p>
+<p>Esse é o prompt inicial do Linux. Entre com o seu login e senha (o qual você definiu durante a instalação - eu falei para guardar!).</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-056.png" alt="homelaber-instalacao-ubuntu-server-homelab-056"></p>
+<p>Ai está! Você acabou de criar e instalar uma VM com o sistema operacional Linux Ubuntu Server. A partir de agora, você poderá instalar outros softwares como um webserver, um proxy (veja como no post) e muito mais.</p>
+<p><img src="/imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-057.png" alt="homelaber-instalacao-ubuntu-server-homelab-057"></p>
+<p>Minhas recomendações a partir daqui são</p>
+<ol>
+<li>Executar o comandos abaixo para atualizar o sistema</li>
+</ol>
+<pre><code>sudo su - para ganhar acesso root na máquina
+apt-get update - para fazer o check dos repositórios
+apt-get upgrade - para fazer a atualização dos pacotes instalados.
+</code></pre>
+<ol>
+<li>Instalar o VMware Tools para Linux seguindo esse post</li>
+</ol>
+<p>Viu só&hellip; não doeu nada :). Hoje em dia, instalar o Linux Ubuntu Server em uma VMware é super rápido e fácil. Se você NUNCA mexeu com Linux antes, vou deixar alguns links com comandos básicos para você ir treinando. Recomendo muito, buscar mais informações, tutoriais no Youtube, livros, etc. O Google é o seu melhor amigo :).</p>
+<p>Nos próximos posts, irei mostar como instalar alguns sistemas e servidores e esse post é a base para isso.</p>
+<p>Referências:</p>
+<p>[su_note radius=&quot;0&rdquo;]</p>
+<p><a href="http://www.ic.unicamp.br/~mc102/aulas/laboratorio/comandos_basicos_linux.pdf">Comandos básicos do Linux - via Instituto Computação Unicamp</a></p>
+<p><a href="http://www.vivaolinux.com.br/dica/Comandos-basicos-para-iniciantes">Comandos básicos para iniciantes - via Viva o Linux</a></p>
+<p><a href="http://wiki.ubuntu-br.org/ComandosBasicos">Comandos Básicos - via Wiki Ubuntu.org</a></p>
+<p>[/su_note]</p>
+<p>Até o próximo post e não se esqueça de deixar o seu comentário no post, seguir o HomeLaber no <a href="https://twitter.com/homelaber">Twitter</a> (@Homelaber) e curtir a nossa página no <a href="https://www.facebook.com/homelaber">Facebook</a> (fb.com/homelaber) para ficar sempre atualizado das novidades do blog.</p>
+<p>Estamos participando do desafio <a href="http://homelaber.com.br/desafio-vdm30in30/">#vDM30in30</a>. Acompanhe no <a href="https://twitter.com/search?q=%23vDM30in30">twitter</a>.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Instalação e configuração proxy Squid no Ubuntu Server</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/desafio-vdm30in30/">
+                  <span class="button__text">Desafio #vDM30in30. Vamos lá!</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Instalar e configurar o SquidAnalyzer no Ubuntu Server :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+No post anterior, realizamos a instalação e configuração do Squid Proxy. Agora chegou a hora de aprender como instalar e configurar o SquidAnalyzer, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Instalar e configurar o SquidAnalyzer no Ubuntu Server"/>
+<meta name="twitter:description" content="Olá Homelabers!
+No post anterior, realizamos a instalação e configuração do Squid Proxy. Agora chegou a hora de aprender como instalar e configurar o SquidAnalyzer, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc."/>
+
+
+
+<meta property="og:title" content="Instalar e configurar o SquidAnalyzer no Ubuntu Server" />
+<meta property="og:description" content="Olá Homelabers!
+No post anterior, realizamos a instalação e configuração do Squid Proxy. Agora chegou a hora de aprender como instalar e configurar o SquidAnalyzer, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/" />
+<meta property="article:published_time" content="2015-11-03T13:00:51+00:00" />
+<meta property="article:modified_time" content="2015-11-03T13:00:51+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archive/">arquivo</a></li>
+        
+      
+        
+          <li><a href="/sobre/">sobre</a></li>
+        
+      
+        
+          <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archive/">arquivo</a></li>
+      
+    
+      
+        <li><a href="/sobre/">sobre</a></li>
+      
+    
+      
+        <li><a href="https://github.com/valdecircarvalho/">github</a></li>
+      
+    
+      
+        <li><a href="https://twitter.com/homelaber">@homelaber</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/">Instalar e configurar o SquidAnalyzer no Ubuntu Server</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            03-11-2015
+        </span>
+      
+      <span class="post-author">— Written by Valdecir Carvalho</span>
+      
+        <span class="post-read-time">— 3 min lendo</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags//">#vDM30in30</a>&nbsp;
+        
+          #<a href="/tags/como-fazer/">Como Fazer</a>&nbsp;
+        
+          #<a href="/tags/como-instalar/">como-instalar</a>&nbsp;
+        
+          #<a href="/tags/homelab/">homelab</a>&nbsp;
+        
+          #<a href="/tags/how-to/">how-to</a>&nbsp;
+        
+          #<a href="/tags/instala%C3%A7%C3%A3o/">instalação</a>&nbsp;
+        
+          #<a href="/tags/linux/">linux</a>&nbsp;
+        
+          #<a href="/tags/log/">log</a>&nbsp;
+        
+          #<a href="/tags/log-parser/">log parser</a>&nbsp;
+        
+          #<a href="/tags/passo-a-passo/">passo-a-passo</a>&nbsp;
+        
+          #<a href="/tags/proxy/">proxy</a>&nbsp;
+        
+          #<a href="/tags/squid/">squid</a>&nbsp;
+        
+          #<a href="/tags/squidanalyzer/">squidanalyzer</a>&nbsp;
+        
+          #<a href="/tags/squidproxy/">squidproxy</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>Olá Homelabers!</p>
+<p>No <a href="http://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/">post anterior</a>, realizamos a instalação e configuração do <a href="http://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/">Squid Proxy</a>. Agora chegou a hora de aprender como instalar e configurar o <a href="http://squidanalyzer.darold.net/">SquidAnalyzer</a>, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc.</p>
+<p>Mais uma vez, assim como no post do Squid, o que você aprender aqui pode ser aplicado em seu ambiente de trabalho e não somente em seu HomeLab.</p>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_3.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_3"></p>
+<!-- raw HTML omitted -->
+<p>Os pré-requisitos para a instalação do Squid Analyzer são:</p>
+<ul>
+<li>Servidor Apache (ou Nginx)</li>
+<li>Perl</li>
+<li>Squid Proxy já instalado e configurado. Vamos fazer a instalação no mesmo servidor do Squid.</li>
+</ul>
+<p>[su_note radius=&quot;0&rdquo;]Atenção, todos os comandos desse post foram executados como root. Para isso basta digitar sudo su e colocar a sua senha.[/su_note]</p>
+<p>Primeiramente vamos realizar a instalação do Apache executando o comando abaixo.</p>
+<pre><code>apt-get install apache2
+</code></pre>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_12.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_12"></p>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_10.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_10"></p>
+<p>Para confirmar a instalação, abra um browser e acesse o IP do seu servidor. A tela abaixo deverá aparecer.</p>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_11.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_11"></p>
+<p>O próximo passo é instalar o make. Execute o comando abaixo:</p>
+<pre><code>apt-get install make
+</code></pre>
+<p>Agora vamos fazer o download do Squid Analyzer. O comando abaixo irá baixar a última versão (6.3-1 na data de publicação desse post) do repositório. O arquivo é bem pequeno tem apenas 152Kb.</p>
+<pre><code>wget http://sourceforge.net/projects/squid-report/files/latest/download -O squidanalyzer.tar.gz
+</code></pre>
+<p>Descompate o arquivo baixado usando o comando:</p>
+<pre><code>tar zxvf squidanalyzer.tar.gz
+</code></pre>
+<p>Acesse o diretório e execute os comandos para realizar a instalação</p>
+<pre><code>cd squidanalyzer-6.3-1/
+
+Pearl Makefile.PL
+
+make
+
+make install
+</code></pre>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_9.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_9">
+<img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_8.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_8">
+<img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_7.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_7"></p>
+<p>Feito isso, chegou a hora de configurar o Apache:</p>
+<p>Vamos mover a pasta do SquidAnalyzer para o local correto:</p>
+<pre><code>mv /var/www/squidanalyzer/ /var/www/html/squidanalyzer
+</code></pre>
+<p>O próximo passo é criar um Virtual Host no Apache para o SquidAnalyzer. Digite o comando abaixo para criar um novo arquivo:</p>
+<pre><code>nano /etc/apache2/sites-availabe/squidanalyzer.conf
+</code></pre>
+<p>Cole o texto abaixo</p>
+<pre><code>&lt;VirtualHost *:80&gt;
+ServerAdmin webmaster@localhost
+DocumentRoot /var/www/html/squidanalyzer
+ErrorLog ${APACHE_LOG_DIR}/squidanalyzer-error.log
+CustomLog ${APACHE_LOG_DIR}/squidanalyzer-access.log combined
+</code></pre>
+<p>Edite o arquivo squidanalyzer.conf e realize as alterações descritas abaixo:</p>
+<pre><code>nano /etc/squidanalyzer/squidanalyzer.conf
+</code></pre>
+<p>#alterar a linha Output de <strong>/var/www/squidanalyzer</strong> para /var/www/html/squidanalyzer</p>
+<p>#alterar a linha WebUrl para /squidanalyzer</p>
+<p>O arquivo deve ficar igual a figura:</p>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_6.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_6"></p>
+<p>Agora vamos fazer o restart do Apache para carregar as modificações</p>
+<pre><code>service apache2 restart
+</code></pre>
+<p>Execute o squidanalyzer:</p>
+<pre><code>/usr/local/bin/squid-analyzer -d
+</code></pre>
+<p><strong>Aqui cabe uma explicação:</strong> <em>O SquidAnalyzer apenas lê os logs de acesso do Squid quando executado.</em></p>
+<p>Abra o browser e acesse a url http:///squidadnalyzer</p>
+<p><img src="/imagens/2015/11/instalacao-squidanalyzer-ubuntu-homelaber_4.png" alt="instalacao-squidanalyzer-ubuntu-homelaber_4"></p>
+<p>Voialá&hellip; Sucesso. Agora os toques finais.</p>
+<p>Vamos adicionar o squidanalyzer na crontab (agendador de tarefas do Linux) para que ele execute sozinho. Em nosso exemplo o SquidAnalyzer vai rodar a cada 5 minutos.</p>
+<pre><code>crontab -e
+</code></pre>
+<p>Cole as linhas abaixo no final do arquivo.</p>
+<pre><code>#executa o squidanalyzer a cada 5 minutos.
+*/5 * * * * /usr/local/bin/squid-analyzer 2&gt;&amp;1 | /home/timestamp.sh &gt;&gt; /var/log/squidanalyzer-cron.log
+</code></pre>
+<p>Agora você deve explorar a interface do SquidAnalyzer, que é bastante simples e intuitiva.</p>
+<p>Você poderá também explorar o arquivo de configurações do SquidAnalyzer (/etc/squidanalyzer/squidanalyzer.conf) para fazer modificações pertinentes ao seu ambiente. O arquivo está bem documentado. Mas lembre-se de fazer um backup antes.</p>
+<p>É isso pessoal. Finalizamos mais um post. Espero que tenha sido útil a você.</p>
+<p>Até o próximo post e não se esqueça de deixar o seu comentário no post, seguir o HomeLaber no <a href="https://twitter.com/homelaber">Twitter</a> (@Homelaber) e curtir a nossa página no <a href="https://www.facebook.com/homelaber">Facebook</a> (fb.com/homelaber) para ficar sempre atualizado das novidades do blog.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Linux Dashboards - Ferramentas simples para monitorar o seu servidor Linux</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/">
+                  <span class="button__text">Instalação e configuração proxy Squid no Ubuntu Server</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright copyright--user"> last update: 19-Jan-2020 @ 5:59pm
+	    </div>
+    </div>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
