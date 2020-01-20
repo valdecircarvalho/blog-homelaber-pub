@@ -4,12 +4,17 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-12-31T11:00:30+00:00</lastmod>
+    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-01-19-homelaber-2020/</loc>
+    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-12-31T11:00:30+00:00</lastmod>
+    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -170,6 +175,41 @@
   <url>
     <loc>/19-evento-da-comunidade-de-usuarios-salesforce-de-sao-paulo/</loc>
     <lastmod>2019-03-13T17:48:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_draft/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_draft/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/themes-guide/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_draft/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_draft/placeholder-text/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/_draft/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -694,11 +734,6 @@
   
   <url>
     <loc>/como-escolher-um-nome-para-o-seu-blog/</loc>
-    <lastmod>2017-07-13T05:39:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
     <lastmod>2017-07-13T05:39:46+00:00</lastmod>
   </url>
   
