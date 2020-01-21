@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
   <head>
     
-      <title>Under Construction :: Blog Homelaber Brasil |  — Homelab·Infraestrutura de TI· Cloud Computing· DevOps</title>
+      <title>Under Construction :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -10,11 +10,51 @@
 A imagem acima diz tudo o que eu tenho feito nas últimas semanas. Trabalhando, trabalhando e trabalhando.
 Infelizmente tive que deixar o blog MUITO de lado. Estava (e ainda estou) tocando um projeto enorme na FIRMA que tomou todo o meu tempo livre e o não livre também. Foi um mês onde trabalhei praticamente todos os dias em média 12 horas. Mas agora chega de desculpas!
 No próximo post, vou falar um pouquinho sobre esse projeto (pois ainda está fresco na cabeça) - o conceito, algumas das tecnologias utilizadas e as principais dificuldades e na sequencia voltarei com o setup do nosso homelab."/>
-<meta name="keywords" content=""/>
+<meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/under-construction/" />
 
 
+
+<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Blog Homelaber Brasil"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/img/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/img/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/img/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/img/mstile-310x310.png" />
+
+
+
+
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="Blog Homelaber Brasil" />
+<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
+<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:site_name" content="Homelaber Brasil" />
+<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@homelaber" />
+<meta name="twitter:creator" content="@homelaber" />
+<meta name="twitter:domain" content="Homelaber Brasil" />
+<meta name="twitter:title" content="Homelaber Brasil" />
+<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
+<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
 
 
 
@@ -45,7 +85,7 @@ No próximo post, vou falar um pouquinho sobre esse projeto (pois ainda está fr
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/under-construction/" />
 <meta property="article:published_time" content="2015-06-17T03:12:50+00:00" />
-<meta property="article:modified_time" content="2015-06-17T03:12:50+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil | " />
+<meta property="article:modified_time" content="2015-06-17T03:12:50+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -173,6 +213,11 @@ No próximo post, vou falar um pouquinho sobre esse projeto (pois ainda está fr
 <p>PS 1 - A minha conta de luz esse mês veio um valor totalmente ABSURDO! Tive que desligar os equipamentos em casa e vou ligá-lo apenas quando for usar :( Não dá para deixar o &ldquo;monstrengo&rdquo; ligado 24X7!</p>
 <p>PS 2 - Eu quero comprar mais alguns equipamentos para o meu Homelab. Estou de olho em um servidor <a href="https://en.wikipedia.org/wiki/IBM_POWER_microprocessors">IBM Power</a> (<a href="http://www-03.ibm.com/systems/br/power/">mais</a>) para aprender <a href="https://en.wikipedia.org/wiki/IBM_AIX">AIX</a> (<a href="http://www-03.ibm.com/systems/power/software/aix/">mais</a>) mas é super difícil de encontrar uma P com um preço bom no Brasil :( e também quero comprar um<a href="https://en.wikipedia.org/wiki/Storage_area_network"> Storage SAN </a> para estudar e praticar mais os conceitos. Se alguém ai souber de alguém vendendo uma P e/ou um Storage SAN me avise, por favor!!</p>
 
+	 
+	 
+    
+	 
+	 
     </div>
     
       
@@ -259,7 +304,7 @@ No próximo post, vou falar um pouquinho sobre esse projeto (pois ainda está fr
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> last update: 20-Jan-2020 @ 2:29am
+      <div class="copyright copyright--user"> last update: 21-Jan-2020 @ 12:25am
 	    </div>
     </div>
 </footer>
