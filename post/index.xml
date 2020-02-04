@@ -239,7 +239,7 @@ Kubernetes Academy by VMware - é uma plataforma educacional gratuita para quem 
       <description>Olá Homelabers,
 Neste post trago a vocês um resumo dos anúncios e novidades apresentados no VMworld US 2019, que aconteceu entre os dias 25 e 29 de agosto em San Francisco, CA.
 Esse ano infelizmente não pude participar ao vivo do evento, mas reuni aqui um apanhado dos maiores destaques do evento. Ao longo da semana, vou postando mais informações e minhas opiniões pessoais sobre o evento.
-Resumo geral: Assista às sessões gerais de segunda e terça-feira apresentadas pelo CEO da VMware Pat Gelsinger, COO Sanjay Poonen, CTO Ray O&#39;Farrell e outros.</description>
+Resumo geral: Assista às sessões gerais de segunda e terça-feira apresentadas pelo CEO da VMware Pat Gelsinger, COO Sanjay Poonen, CTO Ray O&amp;rsquo;Farrell e outros.</description>
     </item>
     
     <item>
@@ -1009,7 +1009,7 @@ Um destaque para o Roadmap da VMware Cloud on AWS (VMWonAWS) que foi apresentado
       <guid>/vexpert-classe-de-2018/</guid>
       <description>Olá Homelabers!
 Mais um ano, mais um vExpert. Estou super feliz em pelo terceiro ano consecutivo ter sido escolhido como um VMware vExpert representando o Brasil e essa comunidade maravilhosa.
-No último dia 09/03 a VMware fez o anúncio do vExpert 2018. Esse ano, o anúncio foi um pouco diferente e divertido, pois aconteceu de eu estar no Campus da VMware em Palo Alto, CA bem no dia em que o time estava finalizando as escolhas e apertou o botão do tão aguardado e-mail &amp;ldquo;You&#39;re in&amp;quot;.</description>
+No último dia 09/03 a VMware fez o anúncio do vExpert 2018. Esse ano, o anúncio foi um pouco diferente e divertido, pois aconteceu de eu estar no Campus da VMware em Palo Alto, CA bem no dia em que o time estava finalizando as escolhas e apertou o botão do tão aguardado e-mail &amp;ldquo;You&amp;rsquo;re in&amp;quot;.</description>
     </item>
     
     <item>
@@ -1506,7 +1506,7 @@ Sorteio Iremos sortear uma mochila oficial da VMworld 2017. Para participar do s
       <description>Olá Homelabers!
 Mais notícias boas! Ontem quase de madrugada, recebi DOIS e-mails do Corey Romero (@vCommunityGuy) com o seguinte subject: Welcome to the 2017 vExpert VSAN Program e Welcome to the 2017 vExpert NSX Program e quase cai da cadeira!
 Sim meus amigos, eu sou oficialmente VMware vExpert NSX e **VMware vExpert VSAN **e agora faço parte de um seleto grupo de evangelistas dessas tecnologias da VMware.
-Os programas vExpert NSX e vExpert VSAN são dois programas baseados no programa vExpert, mas que proporcionam um relacionamento muito mais próximo aos engenheiros e as BU&#39;s (Business Units - Unidades de Negócio) dos produtos.</description>
+Os programas vExpert NSX e vExpert VSAN são dois programas baseados no programa vExpert, mas que proporcionam um relacionamento muito mais próximo aos engenheiros e as BU&amp;rsquo;s (Business Units - Unidades de Negócio) dos produtos.</description>
     </item>
     
     <item>
@@ -3622,7 +3622,7 @@ Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter,
       
       <guid>/we-speak-english-now/</guid>
       <description>Olá Homelabers! Uma pequena pausa na programação para anunciar que devido crescimento do número de visitantes estrangeiros no blog, instalei um plugin que faz tradução automática dos textos do blog, facilitando assim, a visita de nossos amigos que não falam (ou leem) Português. Mas os textos e todo o conteúdo aqui produzido continua sendo em PT-BR :)
-Hi there! Now that I&#39;ve started to participate in the #vDM30in30 challenge, the number of non Portuguese speakers (or readers) of this blog has increased a lot.</description>
+Hi there! Now that I&amp;rsquo;ve started to participate in the #vDM30in30 challenge, the number of non Portuguese speakers (or readers) of this blog has increased a lot.</description>
     </item>
     
     <item>
@@ -4048,6 +4048,17 @@ Provavelmente, a razão mais comum para montar um HomeLab é ter acesso ilimitad
       <guid>/homelaber-brasil/</guid>
       <description>Olá Homelabers, sejam bem vindos ao Homelaber Brasil. O único blog em PT-BR dedicado ao Homelab.
 A ideia desse blog é criar e compartilhar conteúdo em Português sobre Homelabs, virtualização, servidores, redes, softwares open source, orquestração, monitoração, windows, linux, vmware, hyper-v, cisco e por ai vai, além de servir como uma base de conhecimento e memória para meus (e seus também) estudos e pesquisas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2020-01-21-o-que-e-poc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-01-21-o-que-e-poc/</guid>
+      <description>O que é PoC, para que serve e como fazer! Olá Homelabers,
+Quem aqui costuma fazer PoCs no seu dia a dia?
+No meu atual trabalho, conduzir PoCs de diversos produtos e tecnologias faz parte do meu dia a dia. Então resolvi escrever esse artigo para conceituar o que é uma PoC, compartilhar minha experiência e dicas e melhores práticas para executar uma boa Poc, assim como o que evitar para que sua PoC não seja um desastre.</description>
     </item>
     
   </channel>
