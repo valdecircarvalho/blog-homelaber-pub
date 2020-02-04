@@ -5,1761 +5,2465 @@
   <url>
     <loc>/</loc>
     <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/2020-01-19-homelaber-2020/</loc>
     <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
     <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/2020-01-01-quote-1/</loc>
     <lastmod>2020-01-01T07:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/retrospectiva-2019/</loc>
     <lastmod>2019-12-31T11:00:30+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/aws-reinvent-2019-recap-link-compilation/</loc>
     <lastmod>2019-12-17T10:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/encontro-vmug-sao-paulo-25-11/</loc>
     <lastmod>2019-11-22T10:00:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vem-ai-veeamon-virtual-2019/</loc>
     <lastmod>2019-11-19T17:52:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/porque-voce-nao-deve-usar-a-udemy/</loc>
     <lastmod>2019-11-12T10:00:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livro-microsoft-azure-gratis-learn-azure-in-a-month-of-lunches/</loc>
     <lastmod>2019-11-08T11:45:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/larguei-o-macos-e-mudei-para-windows-e-agora/</loc>
     <lastmod>2019-10-30T10:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livro-kubernetes-gratis-kubernetes-up-and-running-second-edition/</loc>
     <lastmod>2019-10-29T13:15:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/hashicorp-user-group-sao-paulo-hugsp-5o-encontro-no-dia-30-10/</loc>
     <lastmod>2019-10-28T10:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/chololatey-um-gerenciador-e-instalador-de-programas-para-windows/</loc>
     <lastmod>2019-10-23T10:00:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/dns-dinamico-gratis-com-docker-e-cloudflare/</loc>
     <lastmod>2019-10-08T10:00:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/</loc>
     <lastmod>2019-10-03T10:00:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/awesome-oracle-cloud-infrastructure-lista-de-recursos-para-oracle-cloud/</loc>
     <lastmod>2019-10-02T09:50:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/blogtober-tech-edition-2019/</loc>
     <lastmod>2019-10-01T09:30:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/curso-de-ubiquiti-unifi-em-portugues-gratis/</loc>
     <lastmod>2019-09-24T10:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/review-hostifi-sua-controladora-unifi-na-nuvem/</loc>
     <lastmod>2019-09-23T09:30:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/curso-kubernetes-gratis-kubernetes-academy-by-vmware/</loc>
     <lastmod>2019-09-05T11:26:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2019-parte-1-anuncios/</loc>
     <lastmod>2019-09-03T15:44:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/o-que-e-oracle-cloud-infrastructure/</loc>
     <lastmod>2019-08-21T10:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novos-equipamentos-para-o-lab-ubiquiti-unifi/</loc>
     <lastmod>2019-08-06T10:00:56+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/</loc>
     <lastmod>2019-07-16T18:11:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/</loc>
     <lastmod>2019-07-10T10:30:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeamon-forum-brasil-2019/</loc>
     <lastmod>2019-06-25T10:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novos-desafios-a-frente/</loc>
     <lastmod>2019-06-11T10:00:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/cloud-nuke-uma-maneira-simples-e-rapida-de-zerar-seu-ambiente-aws/</loc>
     <lastmod>2019-04-17T11:00:36+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/32-evento-aws-user-group-sao-paulo/</loc>
     <lastmod>2019-04-16T11:00:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-mvpconf-latam-2019-vou-palestrar/</loc>
     <lastmod>2019-04-08T18:38:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/4o-encontro-do-vmug-rio-grande-do-sul-porto-alegre-10-04/</loc>
     <lastmod>2019-04-02T10:00:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/awesome-vsan-lista-de-recursos-para-vmware-vsan-awesomevsan/</loc>
     <lastmod>2019-03-20T05:27:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/1a-reuniao-2019-vmug-brasilia/</loc>
     <lastmod>2019-03-18T11:00:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-classe-2019-brasil/</loc>
     <lastmod>2019-03-14T11:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/19-evento-da-comunidade-de-usuarios-salesforce-de-sao-paulo/</loc>
     <lastmod>2019-03-13T17:48:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/_draft/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/_draft/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/_draft/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/_draft/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/_draft/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/git-para-quem-nao-e-developer/</loc>
     <lastmod>2019-02-20T14:26:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-grupo-sobre-vmware-nsx-em-portugues/</loc>
     <lastmod>2019-02-14T13:33:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-fazer-inventario-e-documentacao-de-ambientes-vmware-vsphere/</loc>
     <lastmod>2019-02-12T11:00:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-vanguard-2019/</loc>
     <lastmod>2019-02-11T17:15:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/mudancas-na-certificacao-vmware-recertificacao/</loc>
     <lastmod>2019-02-11T10:00:30+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/podcast-vbrownbag-brasil-s03e02-sindrome-do-impostor/</loc>
     <lastmod>2019-02-07T12:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-veeam-community-edition/</loc>
     <lastmod>2019-01-29T16:19:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/about/</loc>
     <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-lancamento-veeam-availability-suite-9-5-update-4/</loc>
     <lastmod>2019-01-18T18:45:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/showcase/</loc>
     <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vexpert-2019-inscricoes-estao-abertas/</loc>
     <lastmod>2019-01-09T11:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-comecar-com-vmware-sem-gastar-nada-ou-quase-nada/</loc>
     <lastmod>2018-12-18T14:49:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-vanguard-2019-inscricoes-abertas/</loc>
     <lastmod>2018-12-04T11:00:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vote-no-top-vblogs-2018/</loc>
     <lastmod>2018-11-30T16:09:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livro-gratis-para-download-como-atualizar-vmware-vsphere-6-7/</loc>
     <lastmod>2018-11-20T15:20:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/fim-do-suporte-ao-vsphere-5-5-e-agora/</loc>
     <lastmod>2018-09-19T10:00:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-veeamon-virtual-2018/</loc>
     <lastmod>2018-09-18T11:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-rodar-um-simples-servidor-apache-com-docker/</loc>
     <lastmod>2018-09-17T17:03:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2018-top-vmworld-hands-on-labs-ja-estao-disponiveis/</loc>
     <lastmod>2018-09-12T20:07:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-o-que-e-e-para-que-serve-esse-tal-de-coaching/</loc>
     <lastmod>2018-09-06T20:46:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2018-passo-a-passo-literalmente/</loc>
     <lastmod>2018-09-04T20:33:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2018-sessoes-dos-brasileiros-no-evento/</loc>
     <lastmod>2018-08-16T15:44:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2018-minhas-sessoes/</loc>
     <lastmod>2018-08-13T20:22:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livro-vmware-nsx-automation-fundamentals-guide-gratis-para-download/</loc>
     <lastmod>2018-08-08T11:30:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/agradecimento-a-vembu-por-mais-um-ano-de-parceria/</loc>
     <lastmod>2018-08-06T18:54:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vexpert-classe-de-2018-segunda-turma/</loc>
     <lastmod>2018-08-03T12:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbagbrasil-um-guia-para-sobreviver-ao-apocalipse-zumbi-em-it-ops/</loc>
     <lastmod>2018-07-23T18:45:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/estao-abertas-as-inscricoes-para-o-programa-vmware-vexpert-2018-segunda-turma/</loc>
     <lastmod>2018-06-26T13:58:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-product-walkthroughs-guia-de-produtos-vmware/</loc>
     <lastmod>2018-06-19T18:51:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/aws-summit-2018-sao-paulo-vou-palestrar/</loc>
     <lastmod>2018-06-15T18:31:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/shifting-gears/</loc>
     <lastmod>2018-05-14T15:00:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/start-your-engines-vmworld-2018-vmworld-begins-with-you/</loc>
     <lastmod>2018-05-01T17:13:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/site-do-vbrownbagbrasil-esta-no-ar-vbrownbagbrasil-com-br/</loc>
     <lastmod>2018-04-30T21:35:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vsphereland-top-vblog-2018/</loc>
     <lastmod>2018-04-19T16:00:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vsphere-6-7-novidades-parte-1/</loc>
     <lastmod>2018-04-19T11:00:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-vmware-vsphere-6-7/</loc>
     <lastmod>2018-04-17T12:33:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-servico-da-vmware-vmware-configuration-maximums/</loc>
     <lastmod>2018-04-16T12:00:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livros-docker-deep-dive-e-the-kubernetes-book-nigel-poulton/</loc>
     <lastmod>2018-04-13T16:51:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e11-viver-e-trabalhar-em-portugal/</loc>
     <lastmod>2018-04-12T20:42:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e10-arquiteto-x-especialista-de-ti-com-tarsio-moraes/</loc>
     <lastmod>2018-04-11T17:05:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-executar-vmware-powercli-via-docker/</loc>
     <lastmod>2018-04-10T11:40:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/disponivel-beta-da-versao-2-0-do-rancher-comece-a-testar-agora/</loc>
     <lastmod>2018-04-05T20:37:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-fazer-o-download-manual-de-todas-as-versoes-do-vmware-tools/</loc>
     <lastmod>2018-04-05T12:00:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e09-arquitetura-de-backup-em-nuvem-com-bacula-heitor-faria/</loc>
     <lastmod>2018-04-03T13:41:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-servico-dns-cloudflare-1-1-1-1/</loc>
     <lastmod>2018-04-01T16:24:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vblogs-latam/</loc>
     <lastmod>2018-03-29T12:00:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/serie-upgrade-vmware-esxi-parte-1-cenarios-de-atualizacao/</loc>
     <lastmod>2018-03-26T18:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e08-amazon-aws-101/</loc>
     <lastmod>2018-03-26T13:42:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/devolutions-wayk-now-uma-alternativa-ao-teamviewer/</loc>
     <lastmod>2018-03-23T12:00:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-cloud-briefing-resumo/</loc>
     <lastmod>2018-03-22T11:45:36+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-classe-de-2018/</loc>
     <lastmod>2018-03-21T11:30:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/meus-objetivos-para-2018/</loc>
     <lastmod>2018-03-20T12:00:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e07-programas-de-influencia/</loc>
     <lastmod>2018-03-19T17:49:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/feliz-aniversario-homelaber/</loc>
     <lastmod>2018-03-07T23:00:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/eu-sou-veeam-vanguard/</loc>
     <lastmod>2018-03-06T16:45:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/polemica-voce-tem-medo-do-suporte/</loc>
     <lastmod>2018-03-02T11:45:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-powercli-10-0-0-disponivel-para-download/</loc>
     <lastmod>2018-03-01T12:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e05-como-montar-o-seu-homelab-com-valdecir-carvalho/</loc>
     <lastmod>2018-02-27T12:00:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-rvtools-3-10/</loc>
     <lastmod>2018-02-26T12:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/encontro-de-inauguracao-do-vmug-mg/</loc>
     <lastmod>2018-02-21T12:00:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/quer-ir-para-o-evento-aws-reinvent-2018-em-las-vegas-quase-de-graca/</loc>
     <lastmod>2018-02-20T12:00:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e04-overview-srm-e-vsphere-replication-com-giovanni-mantelli/</loc>
     <lastmod>2018-02-19T16:40:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2018-call-for-papers-estao-abertas/</loc>
     <lastmod>2018-02-19T12:00:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e03-p2v-desafios-e-licoes-aprendidas-com-pedro-calixto/</loc>
     <lastmod>2018-02-06T15:38:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e02-virtualizando-com-proxmox-ve-com-gilberto-ferreira/</loc>
     <lastmod>2018-02-06T14:03:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s02e01-certificacoes-de-ti-com-nathan-pinotti/</loc>
     <lastmod>2018-02-06T12:00:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/techconfessions-the-show-s1-e10-valdecir-carvalho-from-brazil/</loc>
     <lastmod>2018-02-05T12:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/sindrome-do-impostor-voce-nao-esta-sozinho-palestra-campus-party-2018-cpbr11/</loc>
     <lastmod>2018-02-01T18:08:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/download-de-todos-os-software-da-vmware/</loc>
     <lastmod>2018-01-31T12:00:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeamon-2018/</loc>
     <lastmod>2018-01-30T20:01:36+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-atualizar-vmware-vcenter-6-0-para-6-5/</loc>
     <lastmod>2018-01-23T12:00:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/</loc>
     <lastmod>2018-01-18T16:56:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-obter-licencas-full-dos-produtos-vmware/</loc>
     <lastmod>2018-01-16T15:20:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/politica-de-cliclo-de-vida-dos-produtos-vmware-vmware-lifecycle-matrix/</loc>
     <lastmod>2018-01-11T15:43:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vendo-apple-macbook-pro-15-retina-mid-2015-i7-16gb-512gb-ssd/</loc>
     <lastmod>2018-01-09T14:52:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/rancher-parte-2-instalacao-e-configuracao/</loc>
     <lastmod>2018-01-08T20:40:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/rancher-parte-1-instalacao-e-configuracao/</loc>
     <lastmod>2018-01-04T08:36:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/inscricoes-abertas-para-o-programa-vexpert-2018/</loc>
     <lastmod>2018-01-02T11:00:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/resumo-de-2017/</loc>
     <lastmod>2017-12-31T01:08:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-configurar-ip-estatico-no-ubuntu-server-17-10/</loc>
     <lastmod>2017-12-15T11:00:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-beta-do-vmware-vsphere-inscreva-se/</loc>
     <lastmod>2017-11-09T11:00:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vsphere-6-5-host-resources-deep-dive-e-book-gratis/</loc>
     <lastmod>2017-11-07T20:24:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s01e01-vcap-simulator-com-ricardo-conzatti/</loc>
     <lastmod>2017-10-30T20:25:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vbrownbag-brasil-s01e00-piloto-o-que-e-o-vbrownbag/</loc>
     <lastmod>2017-10-30T19:34:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-cloud-2017/</loc>
     <lastmod>2017-10-30T14:26:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/comunidade-vbrownbag-chega-ao-brasil-com-conteudo-em-portugues/</loc>
     <lastmod>2017-10-16T03:45:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/draw-io-uma-alternativa-ao-microsoft-visio/</loc>
     <lastmod>2017-10-11T02:50:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/agenda-de-palestras-da-reuniao-de-outubro-17-do-vmug-sp/</loc>
     <lastmod>2017-10-01T18:25:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-entrevista-andre-leibovici-datrium/</loc>
     <lastmod>2017-09-26T03:00:12+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/reuniao-de-outubro-do-vmug-sao-paulo-call4papers/</loc>
     <lastmod>2017-09-20T12:39:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-07092017-vmworld-2017-impressoes/</loc>
     <lastmod>2017-09-05T20:58:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/eu-sou-vexpert-nxs-e-vexpert-vsan/</loc>
     <lastmod>2017-08-16T11:00:58+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vexpert-classe-de-2017-2o-semestre/</loc>
     <lastmod>2017-08-16T11:00:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-17082017-mulheres-na-ti-infraestrutura-operacoes/</loc>
     <lastmod>2017-08-15T11:00:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-blogs-oficiais/</loc>
     <lastmod>2017-08-15T01:30:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/top-vblogs-2017-resultados/</loc>
     <lastmod>2017-08-10T17:22:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-profissao-programador/</loc>
     <lastmod>2017-08-10T11:00:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-no-conforto-do-seu-sofa/</loc>
     <lastmod>2017-08-08T10:00:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-27072017-profissao-network-engineer/</loc>
     <lastmod>2017-07-27T03:50:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-vou-palestrar/</loc>
     <lastmod>2017-07-24T10:00:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-survival-guide-para-brasileiros/</loc>
     <lastmod>2017-07-24T10:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-20072017-vmug-vmware-user-group/</loc>
     <lastmod>2017-07-19T23:52:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-13072017-o-programa-vmware-vexpert-2/</loc>
     <lastmod>2017-07-13T10:00:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/como-criar-um-blog-de-tecnologia/</loc>
     <lastmod>2017-07-13T05:39:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-escolher-um-nome-para-o-seu-blog/</loc>
     <lastmod>2017-07-13T05:39:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/ganhadores-da-licenca-nfr-royalts/</loc>
     <lastmod>2017-07-12T20:38:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/mais-de-250-livros-da-microsoft-free-para-download/</loc>
     <lastmod>2017-07-12T03:20:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/certificacoes-vmware-quantos-vcaps-existem-no-brasil/</loc>
     <lastmod>2017-07-04T10:00:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-comecar-um-blog-de-tecnologia/</loc>
     <lastmod>2017-07-03T10:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/free-webinar-vembu-como-resolver-os-desafios-do-data-center/</loc>
     <lastmod>2017-06-30T19:47:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-vmware-docs-docs-vmware-com/</loc>
     <lastmod>2017-06-30T06:33:48+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/conheca-o-novo-parceiro-do-homelaber-vembu-technologies/</loc>
     <lastmod>2017-06-29T04:37:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/estao-abertas-as-inscricoes-para-o-programa-vexpert-2017-segundo-semestre/</loc>
     <lastmod>2017-06-28T20:50:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/o-que-significa-ser-um-vmware-vexpert/</loc>
     <lastmod>2017-06-28T19:45:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-eu-vou/</loc>
     <lastmod>2017-06-27T11:00:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/papodequinta-22062017-nxfilter-com-bruno-emanuel-da-kernel-informatica/</loc>
     <lastmod>2017-06-22T02:30:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/review-royal-ts-giveaway/</loc>
     <lastmod>2017-06-19T18:11:04+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/homelaber-2-0/</loc>
     <lastmod>2017-06-19T05:22:36+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-vmware-vforum-online-2017/</loc>
     <lastmod>2017-06-07T18:06:30+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/votacoes-abertas-top-vblog-2017/</loc>
     <lastmod>2017-06-01T14:32:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/microsoft-build-2017/</loc>
     <lastmod>2017-05-31T11:00:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld17-na-faixa/</loc>
     <lastmod>2017-05-29T20:50:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/diario-veeamon-general-session-1o-dia-dia-3/</loc>
     <lastmod>2017-05-29T15:26:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/veeamon17/</loc>
     <lastmod>2017-05-29T15:26:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/porque-ser-um-blogger-me-fez-um-trabalhador-melhor/</loc>
     <lastmod>2017-05-26T20:04:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/anunciadas-as-datas-do-virtual-design-master-2017-season-5/</loc>
     <lastmod>2017-05-25T13:30:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/diario-veeamon-bloggers-meeting-dia-2/</loc>
     <lastmod>2017-05-24T11:00:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/diario-veeamon-treinamento-vmce-dia-1/</loc>
     <lastmod>2017-05-23T11:00:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/exclusivo-entrevista-com-rick-vanover-aka-rickatron-da-veeam/</loc>
     <lastmod>2017-05-12T11:00:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/programa-veeam-vanguard/</loc>
     <lastmod>2017-05-11T11:00:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/comunidade-veeam-no-telegram/</loc>
     <lastmod>2017-05-10T11:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/inscricoes-abertas-para-o-virtual-design-master-2017-season-5/</loc>
     <lastmod>2017-05-09T10:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/certificacoes-veeam-vmce-vmce-a-do-vmca/</loc>
     <lastmod>2017-05-08T11:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2017-quanto-custa-participar-do-evento/</loc>
     <lastmod>2017-05-04T11:00:56+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-university-programa-de-treinamento/</loc>
     <lastmod>2017-05-03T18:36:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-software/</loc>
     <lastmod>2017-05-02T11:00:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-50-maiores-influenciadores-do-mundo-vmware-no-twitter/</loc>
     <lastmod>2017-05-01T11:00:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-rvtools-3-9-5/</loc>
     <lastmod>2017-04-26T22:00:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeamon-2017-eu-vou/</loc>
     <lastmod>2017-04-25T11:00:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/exclusivo-por-dentro-do-vmware-hands-on-lab-hol/</loc>
     <lastmod>2017-04-17T12:00:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/estao-abertas-as-inscricoes-para-o-aws-summit-sao-paulo-2017/</loc>
     <lastmod>2017-04-13T13:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/links-de-segunda-03/</loc>
     <lastmod>2017-04-03T16:01:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/google-cloud-platform-always-free-sempre-gratis-sera/</loc>
     <lastmod>2017-03-21T05:59:12+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/links-de-segunda-02/</loc>
     <lastmod>2017-03-20T11:00:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmtn-vmware-technology-network-comunidade-brasil/</loc>
     <lastmod>2017-03-15T12:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/links-de-segunda-01/</loc>
     <lastmod>2017-03-13T13:00:35+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/aniversario-de-dois-anos-do-homelaber-brasil/</loc>
     <lastmod>2017-03-10T04:02:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/update-valores-de-certificacao-vmware-no-brasil/</loc>
     <lastmod>2017-03-08T11:00:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-rvtools-3-9-a-melhor-ferramenta-gratis-para-quem-trabalha-com-vmware/</loc>
     <lastmod>2017-03-06T14:00:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/mudanca-de-precos-para-certificacao-vmware/</loc>
     <lastmod>2017-03-03T20:10:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/virtual-design-master-challenge-season-5/</loc>
     <lastmod>2017-02-23T06:09:44+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-homelab-para-2017-hpe-ml-110-g9/</loc>
     <lastmod>2017-02-14T10:00:05+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vexpert-classe-de-2017/</loc>
     <lastmod>2017-02-09T00:19:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/estamos-de-volta-e-sindrome-do-burnout/</loc>
     <lastmod>2017-02-07T23:31:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/download-vmware-vsphere-6-5-ga/</loc>
     <lastmod>2016-11-15T14:03:12+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-2017-inscricoes-abertas/</loc>
     <lastmod>2016-11-08T23:26:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/save-the-date-primeira-reuniao-do-vmug-sao-paulo-17-de-novembro/</loc>
     <lastmod>2016-11-03T10:00:21+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm30in30-foi-dada-a-largada-atrasado/</loc>
     <lastmod>2016-11-03T04:53:56+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/na-firma-erro-unsupported-hardware-family-vmx-ao-importar-um-arquivo-ovf/</loc>
     <lastmod>2016-10-27T11:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-google-cloud-plataform-next-gcpnext-sao-paulo/</loc>
     <lastmod>2016-10-26T11:00:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/resumo-vmworld-europa-2016-barcelona/</loc>
     <lastmod>2016-10-25T11:00:12+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/desafio-vdm30in30-2016-chamando-todos-os-blogueiros/</loc>
     <lastmod>2016-10-24T15:19:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</loc>
     <lastmod>2016-10-20T09:00:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/links-para-download-de-todas-as-versoes-vmware-vsphere-client/</loc>
     <lastmod>2016-10-19T10:00:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vsphere-6-5-lancamento-oficial/</loc>
     <lastmod>2016-10-18T10:08:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-europa-2017-barcelona/</loc>
     <lastmod>2016-10-18T00:56:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-resumo-dell-emc-forum-2016/</loc>
     <lastmod>2016-10-11T11:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-resumo-vforum-brasil-2016-vmug-sao-paulo/</loc>
     <lastmod>2016-10-10T10:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-e-amazon-juntas-agora-voce-podera-rodar-softwares-vmware-na-aws/</loc>
     <lastmod>2016-10-06T03:17:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmug-vmware-user-group-grupo-de-usuarios-vmware/</loc>
     <lastmod>2016-10-03T13:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/lembrete-o-vforum-sao-paulo-2016-acontece-amanha-ainda-da-tempo-de-se-inscrever/</loc>
     <lastmod>2016-10-03T09:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/grupos-de-tecnologia-no-telegram/</loc>
     <lastmod>2016-09-27T11:00:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-resumao-da-vmworld-parte-1-o-que-acontece-em-vegas-nao-fica-em-vegas/</loc>
     <lastmod>2016-09-26T11:00:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/vmworld-2016/</loc>
     <lastmod>2016-09-26T11:00:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-next-on-tour-sao-paulo-nutanix/</loc>
     <lastmod>2016-09-23T18:34:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/o-twitter-e-a-comunidade-vmware/</loc>
     <lastmod>2016-09-23T10:00:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-sessoes-da-vmworls-2016-disponiveis-para-acesso-e-download-gratis-para-todo-mundo/</loc>
     <lastmod>2016-09-19T12:00:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</loc>
     <lastmod>2016-09-16T20:15:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworldvideo-vbrownbag-latam-focus-on-the-expert-valdecir-carvalho-homelaber/</loc>
     <lastmod>2016-09-16T12:00:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/planet-vsphere-land/</loc>
     <lastmod>2016-09-15T15:28:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-microsoft-techsummit-2016-sao-paulo/</loc>
     <lastmod>2016-09-14T21:12:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-dell-emc-forum-brasil-2016-sao-paulo/</loc>
     <lastmod>2016-09-14T14:00:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-esxi-embedded-host-client/</loc>
     <lastmod>2016-09-14T13:20:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-vsphere-html5-web-client/</loc>
     <lastmod>2016-09-14T09:00:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-vmware-fusion-e-fusion-pro-8-5/</loc>
     <lastmod>2016-09-13T23:23:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-vmware-workstation-pro-12-5-e-vmware-workstation-player-12-5/</loc>
     <lastmod>2016-09-13T22:34:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-vforum-brasil-2016/</loc>
     <lastmod>2016-09-04T00:36:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-apresentacao-vbrownbag-latam-vmug/</loc>
     <lastmod>2016-08-31T21:52:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-mais-sessoes-disponiveis-no-youtube/</loc>
     <lastmod>2016-08-31T21:05:12+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-general-session-dia-2-ja-esta-liberado-no-youtube/</loc>
     <lastmod>2016-08-31T18:27:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-general-session-dia-1-ja-esta-liberado-no-youtube/</loc>
     <lastmod>2016-08-31T18:23:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-dia-2-keynote/</loc>
     <lastmod>2016-08-30T19:16:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-sessao-de-abertura/</loc>
     <lastmod>2016-08-29T21:45:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-eu-vou/</loc>
     <lastmod>2016-08-22T11:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/anunciados-os-novos-vmware-vexpert-de-2016/</loc>
     <lastmod>2016-08-20T04:30:31+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-red-hat-forum-sao-paulo-2016/</loc>
     <lastmod>2016-08-19T09:30:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-20-melhores-artigos-sobre-vmware-vsan-edicao-julho2016/</loc>
     <lastmod>2016-08-19T03:41:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/microsoft-powershell-agora-e-opensource-e-roda-em-linux-e-mac-osx/</loc>
     <lastmod>2016-08-18T20:00:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/anunciados-os-novos-vmware-vexpert-nsx-de-2016/</loc>
     <lastmod>2016-08-18T15:33:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-20-melhores-artigos-sobre-vmware-vrealize-automation-edicao-julho2016/</loc>
     <lastmod>2016-08-18T03:32:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/fim-do-suporte-do-vmware-vsphere-5-0-5-1/</loc>
     <lastmod>2016-08-17T14:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-20-melhores-artigos-sobre-vmware-nsx-edicao-julho2016/</loc>
     <lastmod>2016-08-17T03:35:36+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-20-melhores-artigos-sobre-vmware-esxi-edicao-julho2016/</loc>
     <lastmod>2016-08-16T14:00:18+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/20-pessoas-que-quero-conhecer-pessoalmente-na-vmworld-2016/</loc>
     <lastmod>2016-08-16T03:10:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/os-20-melhores-artigos-sobre-vcenter-server-julho-2016/</loc>
     <lastmod>2016-08-12T09:00:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/mais-awesome-lists/</loc>
     <lastmod>2016-08-09T04:19:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/homelaber-brasil-blog-oficial-da-vmworld-2016/</loc>
     <lastmod>2016-08-08T13:00:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016-las-vegas/</loc>
     <lastmod>2016-08-08T09:00:25+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/newsletter-homelaber-edicao-01/</loc>
     <lastmod>2016-07-12T05:23:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm-2016-episodio-3-segunda-defesa/</loc>
     <lastmod>2016-07-11T03:10:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/top-vblog-2016-resultados/</loc>
     <lastmod>2016-07-05T11:00:58+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm-2016-episodio-2-primeira-defesa/</loc>
     <lastmod>2016-07-04T09:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/todas-as-sessoes-da-vmworld-2015-disponiveis-online/</loc>
     <lastmod>2016-06-27T08:00:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/curso-vmware-gratis-network-virtualization-fundamentals-2016/</loc>
     <lastmod>2016-06-24T10:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-agent-for-linux-beta/</loc>
     <lastmod>2016-06-23T17:35:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/livro-the-phoenix-project-a-novel-about-it-devops-and-helping-your-business-win/</loc>
     <lastmod>2016-06-23T10:00:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/virtual-design-master-2016/</loc>
     <lastmod>2016-06-22T09:00:30+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/awesome-sysadmin/</loc>
     <lastmod>2016-06-21T10:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/cisco-packet-tracer-agora-liberado-para-todo-mundo/</loc>
     <lastmod>2016-06-20T09:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmworld-2016/</loc>
     <lastmod>2016-06-14T01:54:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/estao-abertas-as-inscricoes-para-o-vexpert-2016/</loc>
     <lastmod>2016-06-07T03:00:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/alpine-linux-uma-nova-distro-linux-ligth-que-vale-a-pena-conhecer/</loc>
     <lastmod>2016-06-06T05:31:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vm-rhel-criando-snapshots/</loc>
     <lastmod>2016-05-20T20:09:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/vm-rhel-para-desenvolvimento/</loc>
     <lastmod>2016-05-20T20:09:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-aws-summit-sao-paulo-2016/</loc>
     <lastmod>2016-05-17T13:00:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/seja-bem-vindo-alexandre-parreira/</loc>
     <lastmod>2016-05-16T11:00:56+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/video-veeam-endpoint-backup-free-instalacao-backup-restore-e-desastre-recovery/</loc>
     <lastmod>2016-05-16T00:16:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vm-rhel-ajustes-apos-a-instalacao/</loc>
     <lastmod>2016-05-13T13:52:32+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/open-souce-yearbook-2015/</loc>
     <lastmod>2016-05-13T09:00:55+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/</loc>
     <lastmod>2016-05-13T03:36:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/na-firma-script-powershel-para-stop-vms/</loc>
     <lastmod>2016-05-12T10:00:52+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/</loc>
     <lastmod>2016-05-11T10:00:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/free-e-book-introducing-windows-server-2016-technical-preview/</loc>
     <lastmod>2016-05-10T12:00:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/top-vblogs-2016-vote-no-blog-homelaber-brasil/</loc>
     <lastmod>2016-05-09T08:00:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/programa-vsphere-beta-tester/</loc>
     <lastmod>2016-05-08T11:00:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</loc>
     <lastmod>2016-05-04T14:00:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/</loc>
     <lastmod>2016-04-26T09:00:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-vmware-forum-online-spring-2016/</loc>
     <lastmod>2016-04-11T08:00:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/video-novo-instalacao-homelab-vmware-6-x-parte-02-instalacao-vmware-workstation-vmware-esxi-6/</loc>
     <lastmod>2016-04-06T09:00:06+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/instala%C3%A7%C3%A3o-homelab-vmware-6.x/</loc>
     <lastmod>2016-04-06T07:00:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalacao-homelab-vmware-6-x-parte-01-introducao/</loc>
     <lastmod>2016-04-06T07:00:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/</loc>
     <lastmod>2016-04-03T15:44:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/nova-versao-do-rvtools-acaba-de-ser-lancada/</loc>
     <lastmod>2016-04-01T17:58:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-esxi-free-diferencas-e-limitacoes/</loc>
     <lastmod>2016-03-23T05:48:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novo-veeam-endpoint-backup-free-1-5/</loc>
     <lastmod>2016-03-21T11:00:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/canal-do-youtube-do-blog-homelaber-brasil/</loc>
     <lastmod>2016-03-16T02:57:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/grupo-de-virtualizacao-no-telegram/</loc>
     <lastmod>2016-03-09T11:00:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm30in30-2016-edicao-maio/</loc>
     <lastmod>2016-03-09T01:00:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/homelab-movel-thinkpad-w510/</loc>
     <lastmod>2016-03-08T11:00:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/happy-b-day-homelaber-1-ano-de-blog/</loc>
     <lastmod>2016-03-07T23:00:37+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-webinar-a-regra-3-2-1-de-sucesso-do-backup/</loc>
     <lastmod>2016-02-18T11:00:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-veeam-demonstracao-veeam-availability-suite-v9/</loc>
     <lastmod>2016-02-16T20:00:26+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/mudancas-e-nova-forma-de-licenciamento-do-vmware-vsphere/</loc>
     <lastmod>2016-02-16T11:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</loc>
     <lastmod>2016-02-15T10:30:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/acabou-o-carnaval/</loc>
     <lastmod>2016-02-11T22:00:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-2016-eu-consegui/</loc>
     <lastmod>2016-02-05T16:03:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/feliz-natal/</loc>
     <lastmod>2015-12-26T01:42:20+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-flings/</loc>
     <lastmod>2015-12-17T13:45:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/aprendendo-ansible-livros-sobre-ansible/</loc>
     <lastmod>2015-12-14T03:52:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm30in30-o-final/</loc>
     <lastmod>2015-12-01T16:48:14+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/raspberry-pi-zero-um-computador-de-5-dolares/</loc>
     <lastmod>2015-11-27T18:00:58+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-clonar-uma-vm-no-vmware-esxi-sem-vcenter/</loc>
     <lastmod>2015-11-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/plugin-google-chrome-tabcarousel/</loc>
     <lastmod>2015-11-23T23:00:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vdm30in30-a-primeira-metade/</loc>
     <lastmod>2015-11-17T00:00:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-software-manager/</loc>
     <lastmod>2015-11-15T20:00:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalacao-postfix-mailrelay-gmail/</loc>
     <lastmod>2015-11-13T14:00:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/virtualizacao-de-active-directory-no-vmware/</loc>
     <lastmod>2015-11-10T18:00:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalacao-configuracao-snmp-linux-ubuntu/</loc>
     <lastmod>2015-11-08T18:00:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/10-ferramentas-para-monitoracao-de-redes-e-servidores/</loc>
     <lastmod>2015-11-07T18:00:13+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/autolab-o-script-que-facilita-o-setup-do-seu-homelab/</loc>
     <lastmod>2015-11-06T23:59:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/we-speak-english-now/</loc>
     <lastmod>2015-11-05T22:30:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vexpert-2016/</loc>
     <lastmod>2015-11-05T19:07:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vforum-online-fall-2015/</loc>
     <lastmod>2015-11-04T14:00:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/</loc>
     <lastmod>2015-11-04T12:50:19+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</loc>
     <lastmod>2015-11-03T13:00:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/</loc>
     <lastmod>2015-11-02T13:00:43+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-instalar-e-configurar-o-linux-ubuntu-server/</loc>
     <lastmod>2015-11-01T13:00:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/desafio-vdm30in30/</loc>
     <lastmod>2015-10-27T13:00:58+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/apresentacoes-do-vmware-vforum-brasil-2015-disponiveis-para-download/</loc>
     <lastmod>2015-10-21T12:00:34+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/sessoes-do-vmworld-2015-disponiveis-on-line/</loc>
     <lastmod>2015-10-19T12:00:57+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</loc>
     <lastmod>2015-10-06T00:06:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vforum-brasil-2015/</loc>
     <lastmod>2015-09-21T16:43:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-world-past-sessions/</loc>
     <lastmod>2015-06-24T12:00:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/under-construction/</loc>
     <lastmod>2015-06-17T03:12:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/duckdns-servico-de-dns-dinamico-gratis/</loc>
     <lastmod>2015-05-08T12:00:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/microsoft-students-to-business/</loc>
     <lastmod>2015-05-06T12:00:47+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-aws-summit-2015-sao-paulo/</loc>
     <lastmod>2015-05-05T12:00:38+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-instalar-vmware-tools-em-um-servidor-esxi-nested/</loc>
     <lastmod>2015-05-04T12:00:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/evento-vmware-vforum-online-spring-2015-vforumonline2015/</loc>
     <lastmod>2015-05-02T12:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/instalacao-phpipam-open-source-ip-address-management/</loc>
     <lastmod>2015-04-27T12:00:15+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/series/vmware-homelab/</loc>
     <lastmod>2015-04-24T12:00:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-homelab-parte-2-instalacao-vmware-esxi-2/</loc>
     <lastmod>2015-04-24T12:00:16+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/veeam-endpoint-backup/</loc>
     <lastmod>2015-04-20T12:00:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/microsoft-virtual-academy-mva/</loc>
     <lastmod>2015-04-18T12:00:49+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-homelab-parte-1-preparativos/</loc>
     <lastmod>2015-04-13T12:00:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-feature-walkthroughs/</loc>
     <lastmod>2015-04-08T21:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/top-vblog-2015-resultados/</loc>
     <lastmod>2015-04-06T12:00:10+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/criando-ubs-boot-vmware-exsi-com-rufus/</loc>
     <lastmod>2015-04-01T15:03:17+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/vmware-homelab-parte-0-introducao-e-arquitetura/</loc>
     <lastmod>2015-03-30T12:00:56+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-instalar-vmware-tools-em-um-servidor-ubuntu-por-linha-de-comando/</loc>
     <lastmod>2015-03-28T07:08:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-montar-um-homelab-software/</loc>
     <lastmod>2015-03-25T12:00:08+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/lab-vmware-gratis-vmware-hol-hands-on-lab/</loc>
     <lastmod>2015-03-23T12:00:25+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/ferramenta-rvtools/</loc>
     <lastmod>2015-03-19T23:17:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/como-montar-um-homelab-o-hardware/</loc>
     <lastmod>2015-03-16T12:00:51+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/top-vblog-2015/</loc>
     <lastmod>2015-03-16T11:00:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/porque-ter-um-homelab/</loc>
     <lastmod>2015-03-14T03:47:07+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/meu-homelab/</loc>
     <lastmod>2015-03-07T16:18:50+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/sobre/</loc>
     <lastmod>2015-03-07T16:18:27+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/homelaber-brasil/</loc>
     <lastmod>2015-03-07T15:22:28+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -1769,6 +2473,8 @@
   
   <url>
     <loc>/archive/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
