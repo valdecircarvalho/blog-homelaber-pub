@@ -73,20 +73,6 @@
   </url>
   
   <url>
-    <loc>/tags/link/</loc>
-    <lastmod>2020-01-01T07:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/2020-01-01-quote-1/</loc>
-    <lastmod>2020-01-01T07:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/retrospectiva-2019/</loc>
     <lastmod>2019-12-31T11:00:30+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -479,14 +465,14 @@
   </url>
   
   <url>
-    <loc>/tags/azure/</loc>
+    <loc>/categories/azure/</loc>
     <lastmod>2019-11-08T11:45:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/azure/</loc>
+    <loc>/tags/azure/</loc>
     <lastmod>2019-11-08T11:45:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2320,14 +2306,14 @@
   </url>
   
   <url>
-    <loc>/categories/vbrownbag-brasil/</loc>
+    <loc>/tags/vbrownbag-brasil/</loc>
     <lastmod>2019-02-20T14:26:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/vbrownbag-brasil/</loc>
+    <loc>/categories/vbrownbag-brasil/</loc>
     <lastmod>2019-02-20T14:26:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

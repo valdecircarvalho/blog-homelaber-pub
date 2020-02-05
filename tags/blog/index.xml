@@ -27,15 +27,6 @@ Bye-bye Wordpress, Hello Hugo! Uso o Wordpress como ferramenta para criar blogs 
     </item>
     
     <item>
-      <title>Quote 1</title>
-      <link>/post/2020-01-01-quote-1/</link>
-      <pubDate>Wed, 01 Jan 2020 07:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>/post/2020-01-01-quote-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AWS re:Invent 2019 - Recap &amp; Link Compilation</title>
       <link>/aws-reinvent-2019-recap-link-compilation/</link>
       <pubDate>Tue, 17 Dec 2019 10:00:44 +0000</pubDate>
