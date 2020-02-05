@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOL on Blog Homelaber Brasil</title>
+    <link>/tags/hol/</link>
+    <description>Recent content in HOL on Blog Homelaber Brasil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
+    <lastBuildDate>Wed, 12 Sep 2018 20:07:49 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMworld 2018 - Top VMworld Hands-on Labs já estão disponíveis</title>
+      <link>/vmworld-2018-top-vmworld-hands-on-labs-ja-estao-disponiveis/</link>
+      <pubDate>Wed, 12 Sep 2018 20:07:49 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/vmworld-2018-top-vmworld-hands-on-labs-ja-estao-disponiveis/</guid>
+      <description>Olá Homelabers,
+Eu sou fã de carteirinha do HOL (Hands-On Labs) da VMware e não escondo isso de ninguém. O HOL é uma excelente ferramenta para aqueles que querem treinar e utilizar os produtos VMware sem precisar gastar nada.
+Hoje, o time do HOL disponibilizou 12 novos labs para uso de todos. Esses 12 novos labs foram os mais populares durante a VMworld US 2018.
+Você irá encontrar labs de NSX, vSphere, VSAN, VMConAWS e muito mais.</description>
+    </item>
+    
+    <item>
+      <title>Exclusivo: Por dentro do VMware Hands-on Lab (HOL)</title>
+      <link>/exclusivo-por-dentro-do-vmware-hands-on-lab-hol/</link>
+      <pubDate>Mon, 17 Apr 2017 12:00:07 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/exclusivo-por-dentro-do-vmware-hands-on-lab-hol/</guid>
+      <description>Olá Homelabers!
+Hoje vamos falar sobre o VMware Hands-On Labs (HOL).
+Eu já fiz algumas postagensaqui sobre o HOL e posso dizer que sou um grande fã dessa ferramenta.
+Na semana passada, tive a oportunidade de bater um longo papo com os responsáveis pelo HOL e descobrir o que Sempre tive a curiosidade de saber o que existe debaixo do capô do HOL.
+Então vamos lá!
+O que é o VMware Hands-On Labs (HOL)?</description>
+    </item>
+    
+    <item>
+      <title>43 novos labs disponíveis no VMware Hands-On Labs (HOL)</title>
+      <link>/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link>
+      <pubDate>Thu, 20 Oct 2016 09:00:38 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid>
+      <description>Olá Homelabers!
+A VMware liberou essa semana mais 43 novos laboratórios em sua plataforma de Virtual Labs chamada HOL - VMware Hands-On Labs.
+Agora o catálogo de labs versão 2017 conta com mais de 80 labs totalmente grátis sobre todas as tecnologias da VMware.
+Você encontrará laboratórios de VMware NSX, VMware vSphere, vSAN, Horizon, vSON e até de Air Watch.
+Você pode ler mais sobre o HOL (@vmwarehol) aqui e acessar uma lista de 41 outros labs aqui</description>
+    </item>
+    
+    <item>
+      <title>41 novos labs disponíveis no VMware Hands-On Labs (HOL)</title>
+      <link>/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link>
+      <pubDate>Fri, 16 Sep 2016 20:15:51 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid>
+      <description>Olá Homelabers!
+Mais um post atrasado! Mas aqui a gente tarda, mais não falha :)
+No começo dessa semana (12/09/16), o VMware Hands-On Lab (HOL) Blog publicou um artigo sobre os novos Hand-On Labs (Catálogo de 2017) que foram lançados logo após a VMworld 2016. São 41 novos LABs que você pode fazer totalmente &amp;ldquo;de grátis&amp;rdquo;. E mais novidades irão aparecer após a VMworld Barcelona.
+Para quem chegou agora ou vive embaixo de uma pedra e ainda não conhece ou não sabe o que é o HOL (@vmwarehol), eu escrevi um post aqui no blog ano passado.</description>
+    </item>
+    
+    <item>
+      <title>Lab VMware Grátis - VMware HOL - Hands On Lab</title>
+      <link>/lab-vmware-gratis-vmware-hol-hands-on-lab/</link>
+      <pubDate>Mon, 23 Mar 2015 12:00:25 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/lab-vmware-gratis-vmware-hol-hands-on-lab/</guid>
+      <description>[caption id=&amp;quot;attachment_154&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;300&amp;rdquo;]VMware Hands-On Lab[/caption]
+Olá HomeLabers!
+(Leia com voz de locutor do comercial da TekPix)
+Brincadeiras a parte, o VMware HOL é uma EXCELENTE ferramenta para você tomar conhecimento dos produtos da VMware e sem custo.
+O catálogo de cursos é bastante extenso e constantemente atualizado. O único inconveniente é que todo o material está em Inglês. Existem cursos do nível básico ao avançado.
+Costumo utilizar o HOL para olhar alguma ferramenta que não tenho como instalar em meu HomeLab, como o VMware NSX por exemplo.</description>
+    </item>
+    
+  </channel>
+</rss>

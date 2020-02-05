@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>canal virtualização youtube on Blog Homelaber Brasil</title>
+    <link>/tags/canal-virtualiza%C3%A7%C3%A3o-youtube/</link>
+    <description>Recent content in canal virtualização youtube on Blog Homelaber Brasil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>br</language>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
+    <lastBuildDate>Wed, 06 Apr 2016 07:00:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/canal-virtualiza%C3%A7%C3%A3o-youtube/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalação Homelab VMware 6.x - Parte 01 - Introdução</title>
+      <link>/instalacao-homelab-vmware-6-x-parte-01-introducao/</link>
+      <pubDate>Wed, 06 Apr 2016 07:00:23 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/instalacao-homelab-vmware-6-x-parte-01-introducao/</guid>
+      <description>Olá Homelabers!
+Como prometido, estou de volta com o Reboot da série Instalação Home lab VMware.
+E desta vez eu vou até o final. Escolhi fazer de uma maneira diferente dessa vez, em formato de videos, para tornar a coisa mais dinâmica e mais fácil(para vocês) seguirem a série.
+Eu gosto de texto, posts longos e cheios de figuras (como os blogs da década passada), mas o mundo mudou. A nova geração (vocês) preferem videos e não o antigo e ultrapassado (será) textão.</description>
+    </item>
+    
+  </channel>
+</rss>
