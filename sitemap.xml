@@ -465,14 +465,14 @@
   </url>
   
   <url>
-    <loc>/categories/azure/</loc>
+    <loc>/tags/azure/</loc>
     <lastmod>2019-11-08T11:45:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/azure/</loc>
+    <loc>/categories/azure/</loc>
     <lastmod>2019-11-08T11:45:57+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -605,14 +605,14 @@
   </url>
   
   <url>
-    <loc>/tags/macos/</loc>
+    <loc>/categories/macos/</loc>
     <lastmod>2019-10-30T10:00:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/macos/</loc>
+    <loc>/tags/macos/</loc>
     <lastmod>2019-10-30T10:00:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2306,14 +2306,14 @@
   </url>
   
   <url>
-    <loc>/tags/vbrownbag-brasil/</loc>
+    <loc>/categories/vbrownbag-brasil/</loc>
     <lastmod>2019-02-20T14:26:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/vbrownbag-brasil/</loc>
+    <loc>/tags/vbrownbag-brasil/</loc>
     <lastmod>2019-02-20T14:26:29+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
