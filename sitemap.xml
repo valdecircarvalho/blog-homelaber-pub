@@ -3,28 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <loc>/tags/backup/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <loc>/categories/blog/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/v10/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/veeam/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/veeam/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/veeam-v10-novidades-da-versao/</loc>
+    <lastmod>2020-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/blog/</loc>
     <lastmod>2020-01-19T07:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -46,20 +95,6 @@
   
   <url>
     <loc>/tags/hugo/</loc>
-    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-01-19T07:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-01-19T07:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -347,20 +382,6 @@
   
   <url>
     <loc>/tags/palestras/</loc>
-    <lastmod>2019-11-19T17:52:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/veeam/</loc>
-    <lastmod>2019-11-19T17:52:33+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/veeam/</loc>
     <lastmod>2019-11-19T17:52:33+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -949,13 +970,6 @@
   
   <url>
     <loc>/tags/baas/</loc>
-    <lastmod>2019-10-03T10:00:44+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/backup/</loc>
     <lastmod>2019-10-03T10:00:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6885,13 +6899,6 @@
   
   <url>
     <loc>/tags/novidades-veeam-availability-suite-version-10/</loc>
-    <lastmod>2017-05-29T15:26:47+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/v10/</loc>
     <lastmod>2017-05-29T15:26:47+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
