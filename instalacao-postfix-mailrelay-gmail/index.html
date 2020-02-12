@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -26,8 +27,9 @@ Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -54,18 +56,23 @@ Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/instalacao-postfix-mailrelay-gmail/" />
+<meta property="og:title" content="Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail" />
+<meta property="og:description" content="  - Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail" />
+<meta name="twitter:description" content="  - Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/instalacao-postfix-mailrelay-gmail/" />
+
 
 
 
@@ -78,25 +85,6 @@ Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.
-[caption id=&quot;attachment_922&rdquo; align=&quot;aligncenter&rdquo; width=&quot;580&rdquo;]Logo PostFix - http://www.postfix.org/[/caption]
-Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:"/>
-
-
-
-<meta property="og:title" content="Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail" />
-<meta property="og:description" content="Olá Homelabers!
-Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.
-[caption id=&quot;attachment_922&rdquo; align=&quot;aligncenter&rdquo; width=&quot;580&rdquo;]Logo PostFix - http://www.postfix.org/[/caption]
-Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/instalacao-postfix-mailrelay-gmail/" />
-<meta property="article:published_time" content="2015-11-13T14:00:27+00:00" />
-<meta property="article:modified_time" content="2015-11-13T14:00:27+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -136,6 +124,10 @@ Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -382,8 +374,6 @@ inet_protocols = all
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -529,7 +519,7 @@ inet_protocols = all
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

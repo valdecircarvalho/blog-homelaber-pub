@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Rancher Parte 1 - Instalação e configuração :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -26,8 +27,9 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -54,18 +56,23 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Rancher Parte 1 - Instalação e configuração " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/rancher-parte-1-instalacao-e-configuracao/" />
+<meta property="og:title" content="Rancher Parte 1 - Instalação e configuração" />
+<meta property="og:description" content="  - Rancher Parte 1 - Instalação e configuração " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Rancher Parte 1 - Instalação e configuração" />
+<meta name="twitter:description" content="  - Rancher Parte 1 - Instalação e configuração " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/rancher-parte-1-instalacao-e-configuracao/" />
+
 
 
 
@@ -78,25 +85,6 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Rancher Parte 1 - Instalação e configuração"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Você conhece o Rancher?
-Se você que é de infra estrutura e está querendo começar a estudar sobre containers, docker, devops, etc, uma hora ou outra vai precisar de um gerenciador de container e oRancher é um dos melhores da atualidade.
-Para quem não está familiarizado com o assunto, o Rancher é um projeto bem legal que entrega uma plataforma de gerenciamento de containers, através de uma UI (User Interface) fácil de ser compreendida e utilizada."/>
-
-
-
-<meta property="og:title" content="Rancher Parte 1 - Instalação e configuração" />
-<meta property="og:description" content="Olá Homelabers!
-Você conhece o Rancher?
-Se você que é de infra estrutura e está querendo começar a estudar sobre containers, docker, devops, etc, uma hora ou outra vai precisar de um gerenciador de container e oRancher é um dos melhores da atualidade.
-Para quem não está familiarizado com o assunto, o Rancher é um projeto bem legal que entrega uma plataforma de gerenciamento de containers, através de uma UI (User Interface) fácil de ser compreendida e utilizada." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/rancher-parte-1-instalacao-e-configuracao/" />
-<meta property="article:published_time" content="2018-01-04T08:36:53+00:00" />
-<meta property="article:modified_time" content="2018-01-04T08:36:53+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -136,6 +124,10 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -390,8 +382,6 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -537,7 +527,7 @@ Para quem não está familiarizado com o assunto, o Rancher é um projeto bem le
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

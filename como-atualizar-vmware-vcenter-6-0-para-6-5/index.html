@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Como atualizar VMware vCenter 6.0 para 6.5 :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -26,8 +27,9 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -54,18 +56,23 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
+<meta property="og:title" content="Como atualizar VMware vCenter 6.0 para 6.5" />
+<meta property="og:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Como atualizar VMware vCenter 6.0 para 6.5" />
+<meta name="twitter:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
+
 
 
 
@@ -78,25 +85,6 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Como atualizar VMware vCenter 6.0 para 6.5"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Qual versão do VMware vSphere vocês estão rodando em seus labs ou ambientes produtivos?
-No meu lab, por diversos motivos, eu estou rodando o vSphere versão 6.0 e nessa série de posts, vou mostrar como fazer o upgrade para o vSphere versão 6.5, começando pelo VMware vCenter Server 6.5
-Recomendações iniciais: Se você for planejar um upgrade, seja em produção ou em seu lab, é muito importante que você leia a documentação disponível e o Release Notes da versão, planeje bem a mudança, valide se o seu hardware é suportado - consulte a HCL - e se possível não faça a mudança direto em produção."/>
-
-
-
-<meta property="og:title" content="Como atualizar VMware vCenter 6.0 para 6.5" />
-<meta property="og:description" content="Olá Homelabers!
-Qual versão do VMware vSphere vocês estão rodando em seus labs ou ambientes produtivos?
-No meu lab, por diversos motivos, eu estou rodando o vSphere versão 6.0 e nessa série de posts, vou mostrar como fazer o upgrade para o vSphere versão 6.5, começando pelo VMware vCenter Server 6.5
-Recomendações iniciais: Se você for planejar um upgrade, seja em produção ou em seu lab, é muito importante que você leia a documentação disponível e o Release Notes da versão, planeje bem a mudança, valide se o seu hardware é suportado - consulte a HCL - e se possível não faça a mudança direto em produção." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
-<meta property="article:published_time" content="2018-01-23T12:00:24+00:00" />
-<meta property="article:modified_time" content="2018-01-23T12:00:24+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -136,6 +124,10 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -468,8 +460,6 @@ vCenter atualizado</p>
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -615,7 +605,7 @@ vCenter atualizado</p>
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

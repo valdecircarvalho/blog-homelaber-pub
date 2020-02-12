@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -28,8 +29,9 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -56,18 +58,23 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/" />
+<meta property="og:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento" />
+<meta property="og:description" content="  - Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento" />
+<meta name="twitter:description" content="  - Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/" />
+
 
 
 
@@ -79,30 +86,6 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento"/>
-<meta name="twitter:description" content="****
-Olá Homelabers!
-Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
-Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
-Nível: Fácil.
-A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados."/>
-
-
-
-<meta property="og:title" content="Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento" />
-<meta property="og:description" content="****
-Olá Homelabers!
-Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
-Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
-Nível: Fácil.
-A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/" />
-<meta property="article:published_time" content="2016-05-13T03:36:09+00:00" />
-<meta property="article:modified_time" content="2016-05-13T03:36:09+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -143,6 +126,10 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -426,8 +413,6 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -573,7 +558,7 @@ A idéia a produzir uma série modular de artigos de forma que, dependendo do ob
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6 :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -30,8 +31,9 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -58,18 +60,23 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6 " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/video-novo-instalacao-homelab-vmware-6-x-parte-02-instalacao-vmware-workstation-vmware-esxi-6/" />
+<meta property="og:title" content="Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6" />
+<meta property="og:description" content="  - Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6 " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6" />
+<meta name="twitter:description" content="  - Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6 " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/video-novo-instalacao-homelab-vmware-6-x-parte-02-instalacao-vmware-workstation-vmware-esxi-6/" />
+
 
 
 
@@ -82,33 +89,6 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Tem video novinho no Canal do Blog Homelaber no Youtube para vocês.
-Esse é o segundo videoda série: Instalação Homelab VMware 6.x e nesse video abordo os seguintes tópicos:
-▪Instalação VMware Workstation
-▪Breve overview do VMware Workstation
-▪Configuração de Redes no VMware Workstation
-▪Instalação VMware ESXi
-Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint que estou usando no video, assim como todas as as informações que falo no video."/>
-
-
-
-<meta property="og:title" content="Video Novo: Instalação Homelab VMware 6.x - Parte 02 – Instalação VMware Workstation &amp; VMware ESXi 6" />
-<meta property="og:description" content="Olá Homelabers!
-Tem video novinho no Canal do Blog Homelaber no Youtube para vocês.
-Esse é o segundo videoda série: Instalação Homelab VMware 6.x e nesse video abordo os seguintes tópicos:
-▪Instalação VMware Workstation
-▪Breve overview do VMware Workstation
-▪Configuração de Redes no VMware Workstation
-▪Instalação VMware ESXi
-Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint que estou usando no video, assim como todas as as informações que falo no video." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/video-novo-instalacao-homelab-vmware-6-x-parte-02-instalacao-vmware-workstation-vmware-esxi-6/" />
-<meta property="article:published_time" content="2016-04-06T09:00:06+00:00" />
-<meta property="article:modified_time" content="2016-04-06T09:00:06+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -148,6 +128,10 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -304,8 +288,6 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -451,7 +433,7 @@ Logo mais, vou disponibilizar para vocês em outro post, os decks do PowerPoint 
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

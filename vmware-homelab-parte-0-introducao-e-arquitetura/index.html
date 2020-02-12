@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>VMware HomeLab - Parte 0 - Introdução e Arquitetura :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -25,8 +26,9 @@ Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja f
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -53,18 +55,23 @@ Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja f
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - VMware HomeLab - Parte 0 - Introdução e Arquitetura " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/vmware-homelab-parte-0-introducao-e-arquitetura/" />
+<meta property="og:title" content="VMware HomeLab - Parte 0 - Introdução e Arquitetura" />
+<meta property="og:description" content="  - VMware HomeLab - Parte 0 - Introdução e Arquitetura " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="VMware HomeLab - Parte 0 - Introdução e Arquitetura" />
+<meta name="twitter:description" content="  - VMware HomeLab - Parte 0 - Introdução e Arquitetura " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/vmware-homelab-parte-0-introducao-e-arquitetura/" />
+
 
 
 
@@ -77,23 +84,6 @@ Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja f
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="VMware HomeLab - Parte 0 - Introdução e Arquitetura"/>
-<meta name="twitter:description" content="Olá HomeLabers! Chegou a hora tão esperada. Vou dar início a essa série com o passo a passo para a instalação completa do seu Homelab VMware.
-Particularmente gosto de trabalhar com cenários, acredito que dessa maneira, a &ldquo;aplicabilidade&rdquo; do LAB fica mais próximo do mundo real.
-Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja fazer um refresh tecnológico e trocar seu parque de servidores antigos por um ambiente totalmente virtual."/>
-
-
-
-<meta property="og:title" content="VMware HomeLab - Parte 0 - Introdução e Arquitetura" />
-<meta property="og:description" content="Olá HomeLabers! Chegou a hora tão esperada. Vou dar início a essa série com o passo a passo para a instalação completa do seu Homelab VMware.
-Particularmente gosto de trabalhar com cenários, acredito que dessa maneira, a &ldquo;aplicabilidade&rdquo; do LAB fica mais próximo do mundo real.
-Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja fazer um refresh tecnológico e trocar seu parque de servidores antigos por um ambiente totalmente virtual." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/vmware-homelab-parte-0-introducao-e-arquitetura/" />
-<meta property="article:published_time" content="2015-03-30T12:00:56+00:00" />
-<meta property="article:modified_time" content="2015-03-30T12:00:56+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -133,6 +123,10 @@ Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja f
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -357,8 +351,6 @@ Links para download: 
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -504,7 +496,7 @@ Links para download: 
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

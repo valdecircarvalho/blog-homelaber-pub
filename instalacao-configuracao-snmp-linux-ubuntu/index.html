@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Instalação e configuração SNMP Linux Ubuntu :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -27,8 +28,9 @@ Vamos lá:
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -55,18 +57,23 @@ Vamos lá:
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Instalação e configuração SNMP Linux Ubuntu " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/instalacao-configuracao-snmp-linux-ubuntu/" />
+<meta property="og:title" content="Instalação e configuração SNMP Linux Ubuntu" />
+<meta property="og:description" content="  - Instalação e configuração SNMP Linux Ubuntu " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Instalação e configuração SNMP Linux Ubuntu" />
+<meta name="twitter:description" content="  - Instalação e configuração SNMP Linux Ubuntu " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/instalacao-configuracao-snmp-linux-ubuntu/" />
+
 
 
 
@@ -79,27 +86,6 @@ Vamos lá:
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Instalação e configuração SNMP Linux Ubuntu"/>
-<meta name="twitter:description" content="Olá Homelabers!!!
-Nesse post, vou mostrar como se configura o serviço SNMP no Linux Ubuntu Server.
-Antes de mais nada, vou responder a quem vive me perguntando (e criticando): Porque você só posta &ldquo;coisas&rdquo; do Ubuntu?
-Vamos lá:
- 1.   2.   3.   4.  Pronto, mas se vocês meus caros amigos e leitores quiserem que eu poste aqui como fazer &ldquo;as coisas&rdquo; tanto no Ubunto como no CentOS, perfeito, eu farei - deixe o seu comentário no blog :) ) Caso contrário&hellip; vou continuar no meu querido Ubuntu."/>
-
-
-
-<meta property="og:title" content="Instalação e configuração SNMP Linux Ubuntu" />
-<meta property="og:description" content="Olá Homelabers!!!
-Nesse post, vou mostrar como se configura o serviço SNMP no Linux Ubuntu Server.
-Antes de mais nada, vou responder a quem vive me perguntando (e criticando): Porque você só posta &ldquo;coisas&rdquo; do Ubuntu?
-Vamos lá:
- 1.   2.   3.   4.  Pronto, mas se vocês meus caros amigos e leitores quiserem que eu poste aqui como fazer &ldquo;as coisas&rdquo; tanto no Ubunto como no CentOS, perfeito, eu farei - deixe o seu comentário no blog :) ) Caso contrário&hellip; vou continuar no meu querido Ubuntu." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/instalacao-configuracao-snmp-linux-ubuntu/" />
-<meta property="article:published_time" content="2015-11-08T18:00:07+00:00" />
-<meta property="article:modified_time" content="2015-11-08T18:00:07+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -139,6 +125,10 @@ Vamos lá:
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -349,8 +339,6 @@ Deixe o seu joinha!!![/caption]</p>
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -496,7 +484,7 @@ Deixe o seu joinha!!![/caption]</p>
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

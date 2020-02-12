@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Rancher Parte 2 – Instalação e configuração :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -28,8 +29,9 @@ Hoje vou mostrar a vocês como:
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -56,18 +58,23 @@ Hoje vou mostrar a vocês como:
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Rancher Parte 2 – Instalação e configuração " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/rancher-parte-2-instalacao-e-configuracao/" />
+<meta property="og:title" content="Rancher Parte 2 – Instalação e configuração" />
+<meta property="og:description" content="  - Rancher Parte 2 – Instalação e configuração " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Rancher Parte 2 – Instalação e configuração" />
+<meta name="twitter:description" content="  - Rancher Parte 2 – Instalação e configuração " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/rancher-parte-2-instalacao-e-configuracao/" />
+
 
 
 
@@ -80,29 +87,6 @@ Hoje vou mostrar a vocês como:
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Rancher Parte 2 – Instalação e configuração"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Essa é segunda parte da série sobre Rancher.
-Se você perdeu a primeira parte, não tem problema! Acesse olink e veja o post e o vídeo com todos os detalhes sobre como fazer a preparação de um servidor Ubuntu, instalando o Docker para receber o Rancher Server, instalar o Rancher Server e configurar a autenticação local.
-https://twitter.com/homelaber/status/948835714954915857
-Hoje vou mostrar a vocês como:
- * Configurar o Rancher Server* Configurar e adicionar um host local no Rancher* Fazer o deploy de containers Configurando Environments (Ambientes) no Rancher O que é um ambiente?"/>
-
-
-
-<meta property="og:title" content="Rancher Parte 2 – Instalação e configuração" />
-<meta property="og:description" content="Olá Homelabers!
-Essa é segunda parte da série sobre Rancher.
-Se você perdeu a primeira parte, não tem problema! Acesse olink e veja o post e o vídeo com todos os detalhes sobre como fazer a preparação de um servidor Ubuntu, instalando o Docker para receber o Rancher Server, instalar o Rancher Server e configurar a autenticação local.
-https://twitter.com/homelaber/status/948835714954915857
-Hoje vou mostrar a vocês como:
- * Configurar o Rancher Server* Configurar e adicionar um host local no Rancher* Fazer o deploy de containers Configurando Environments (Ambientes) no Rancher O que é um ambiente?" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/rancher-parte-2-instalacao-e-configuracao/" />
-<meta property="article:published_time" content="2018-01-08T20:40:23+00:00" />
-<meta property="article:modified_time" content="2018-01-08T20:40:23+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -142,6 +126,10 @@ Hoje vou mostrar a vocês como:
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -401,8 +389,6 @@ Antes de adicionar seu primeiro serviço ou iniciar um contêiner, você deve <s
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -548,7 +534,7 @@ Antes de adicionar seu primeiro serviço ou iniciar um contêiner, você deve <s
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>

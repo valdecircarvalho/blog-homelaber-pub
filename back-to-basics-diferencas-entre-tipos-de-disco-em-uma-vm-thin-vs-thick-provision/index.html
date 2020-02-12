@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="br">
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
   <head>
     
       <title>Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
@@ -27,8 +28,9 @@ Em resumo:
   gtag('config', 'UA-60449897-1');
 </script>
 
-
 <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+
+
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
@@ -55,18 +57,23 @@ Em resumo:
 
 
 <meta property="og:type" content="blog" />
-<meta property="og:title" content="Blog Homelaber Brasil" />
-<meta property="og:description" content="Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho" />
-<meta property="og:url" content="http://homelaber.com.br/" />
+<meta property="og:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:image" content="/img/homelaber-twiiter-card-1200x675.png" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
+<meta property="og:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)" />
+<meta property="og:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
+<meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@homelaber" />
 <meta name="twitter:creator" content="@homelaber" />
-<meta name="twitter:domain" content="Homelaber Brasil" />
-<meta name="twitter:title" content="Homelaber Brasil" />
-<meta name="twitter:description" content="Homelab, Virtualização &amp; Infraestrutura de TI" />
-<meta name="twitter:image" content="/img/homelaber-twiiter-card-1200x675.png" />
+<meta name="twitter:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)" />
+<meta name="twitter:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
+<meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
+<meta name="twitter:url" content="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
+
 
 
 
@@ -79,27 +86,6 @@ Em resumo:
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
 <link rel="shortcut icon" href="/img/favicon.png">
 
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)"/>
-<meta name="twitter:description" content="Olá Homelabers!
-Hoje vou começar uma série de artigos chamada Back-To-Basics (ou De volta ao básico em bom Português). Nessa série vou escreve sobre aspectos básicos referente a virtualização. Geralmente serão posts curtos, explicando o conceito de uma determinada tecnologia;
-No artigo de hoje, vou esclarecer diferença entre: Thick Provision vs Thin Provision
-Em resumo:
-**Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, todo o espaço é alocado no momento da sua criação."/>
-
-
-
-<meta property="og:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)" />
-<meta property="og:description" content="Olá Homelabers!
-Hoje vou começar uma série de artigos chamada Back-To-Basics (ou De volta ao básico em bom Português). Nessa série vou escreve sobre aspectos básicos referente a virtualização. Geralmente serão posts curtos, explicando o conceito de uma determinada tecnologia;
-No artigo de hoje, vou esclarecer diferença entre: Thick Provision vs Thin Provision
-Em resumo:
-**Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, todo o espaço é alocado no momento da sua criação." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
-<meta property="article:published_time" content="2016-04-26T09:00:54+00:00" />
-<meta property="article:modified_time" content="2016-04-26T09:00:54+00:00" /><meta property="og:site_name" content="Blog Homelaber Brasil" />
 
 
 
@@ -139,6 +125,10 @@ Em resumo:
 			<li>
 			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
 			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>			
+
 
     
       
@@ -348,8 +338,6 @@ Em resumo:
 }
 </style>
 
-
-
 <div class="media author-box">
 
     <div class="media-figure">
@@ -495,7 +483,7 @@ Em resumo:
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 11-Feb-2020 @ 1:52am
+      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 1:49am
 	  </div>
 	  
     </div>
