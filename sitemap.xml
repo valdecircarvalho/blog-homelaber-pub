@@ -2180,14 +2180,14 @@
   </url>
   
   <url>
-    <loc>/categories/themes/</loc>
+    <loc>/tags/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
+    <loc>/categories/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
