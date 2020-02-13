@@ -12,7 +12,7 @@ Hoje vou falar sobre o MinIO, uma ferramenta que me chamou a atenção há algun
 O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;protocolo&amp;rdquo; S3 - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
+<link rel="canonical" href="https://homelaber.com.br/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
 
 
 
@@ -26,23 +26,23 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -57,7 +57,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Min.io - Um servidor S3 para rodar na sua infraestrutura " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
+<meta property="og:url" content="https://homelaber.com.br/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
 <meta property="og:title" content="Min.io - Um servidor S3 para rodar na sua infraestrutura" />
 <meta property="og:description" content="  - Min.io - Um servidor S3 para rodar na sua infraestrutura " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -70,19 +70,19 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 <meta name="twitter:title" content="Min.io - Um servidor S3 para rodar na sua infraestrutura" />
 <meta name="twitter:description" content="  - Min.io - Um servidor S3 para rodar na sua infraestrutura " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
+<meta name="twitter:url" content="https://homelaber.com.br/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -95,7 +95,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -132,11 +132,11 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -160,11 +160,11 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -199,7 +199,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/">Min.io - Um servidor S3 para rodar na sua infraestrutura</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/min-io-um-servidor-s3-para-rodar-na-sua-infraestrutura/">Min.io - Um servidor S3 para rodar na sua infraestrutura</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -220,40 +220,40 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/aws/">aws</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/aws/">aws</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog/">blog</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog/">blog</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/cloud-storage/">cloud storage</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/cloud-storage/">cloud storage</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/min.io/">min.io</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/min.io/">min.io</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/minio/">minio</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/minio/">minio</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/object-storage/">object storage</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/object-storage/">object storage</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/open-source-storage/">open source storage</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/open-source-storage/">open source storage</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/s3/">s3</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/s3/">s3</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/storage-cloud/">storage cloud</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/storage-cloud/">storage cloud</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/storage-open-source/">storage open source</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/storage-open-source/">storage open source</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/storage-s3/">storage s3</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/storage-s3/">storage s3</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/storage-s3-compatible/">storage s3 compatible</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/storage-s3-compatible/">storage s3 compatible</a>&nbsp;
           
         </span>
       
@@ -262,13 +262,13 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/cloud-native/">Cloud Native</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/cloud-native/">Cloud Native</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/homelab/">Homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/homelab/">Homelab</a>&nbsp;
           
         </span>
       
@@ -280,22 +280,22 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;body=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;body=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -306,7 +306,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
       <p>Olá Homelabers,</p>
 <p>Hoje vou falar sobre o <strong>MinIO</strong>, uma ferramenta que me chamou a atenção há alguns meses e que agora estou estudando mais a fundo para talvez implementar em um projeto na FIRMA.</p>
 <p>O MinIO é um <strong>servidor de Object Storage 100% compatível com o &ldquo;protocolo&rdquo; S3</strong> - da AWS - open source, multi-cloud (que você pode rodar on-prem - dentro da sua infraestrutura), facilmente escalável, de alta performance e distribuído.</p>
-<p><img src="/imagens/2019/07/MINIO_wordmark-644x97.png" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2019/07/MINIO_wordmark-644x97.png" alt=""></p>
 <!-- raw HTML omitted -->
 <p>Uma das grandes vantagens do MinIO na minha opinião, é que ele é totalmente compatível com a API S3 da AWS, ou seja, se hoje você tem uma aplicação que &ldquo;fala&rdquo; S3 e precisa ter um storage dentro de casa, você pode utilizar o MinIO sem alterações no seu código. Existem muitas outras vantagens, mas essa, é a que mais me chamou a atenção , principalmente para o cenário que estou trabalhando no momento.</p>
 <p>O MinIO é open source (APache 2.0) e está disponível para todas as plataformas: Linux, Windows, MacOS e Docker. Empresas podem comprar uma subscription para ter direito ao suporte.</p>
@@ -314,9 +314,9 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 <p>A <a href="https://docs.min.io/">documentação</a> é simples, mas bem completa. Estão disponíveis SDKs para as linguagens Javascript, Java, GO, Python e .Net</p>
 <p>Outras features bem legais do MinIO são a Replicação Continuada (Continuous Replication) e o Gateway Multi-Cloud (Multi-Cloud Gateway).</p>
 <p>A feature de** Multi-Cloud Gateway** permite que você tenha seus dados disponíveis em qualquer lugar, seja seu ambiente on-prem, seja em um storage tradicional e nas principais clouds publicas - Google, Azure, etc - utilizando a API S3 para manipulação de dados.</p>
-<p><img src="/imagens/2019/07/min.io-multi-cloud-gateway-644x327.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2019/07/min.io-multi-cloud-gateway-644x327.jpg" alt=""></p>
 <p>A feature de Replicação Continuada (<strong>Continuous Replication</strong>) permite que seu dados estejam sempre replicados em diferentes datacenters e clouds, suportando sua estratégia de DR e de uma maneira facilmente escalável.</p>
-<p><img src="/imagens/2019/07/min.io-continuous-replication-644x270.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2019/07/min.io-continuous-replication-644x270.jpg" alt=""></p>
 <p>O MinIO conta também com uma ferramenta de linha de comando para gerenciamento e manutenção do ambiente chamada MinIO Client e está disponível para Linux, MacOS e Windows. https://docs.MinIO/docs/minio-client-quickstart-guide.html</p>
 <p><strong>Links úteis:</strong></p>
 <p><a href="https://min.io/product/">https://min.io/product/</a> - Informações sobre o produto</p>
@@ -353,22 +353,22 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f&amp;title=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;body=%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Min.io%20-%20Um%20servidor%20S3%20para%20rodar%20na%20sua%20infraestrutura&amp;body=https%3a%2f%2fhomelaber.com.br%2fmin-io-um-servidor-s3-para-rodar-na-sua-infraestrutura%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -379,7 +379,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -425,7 +425,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/novos-equipamentos-para-o-lab-ubiquiti-unifi/">
+                <a href="https://homelaber.com.br/novos-equipamentos-para-o-lab-ubiquiti-unifi/">
                   <span class="button__icon">←</span>
                   <span class="button__text">Novos equipamentos para o Lab - Ubiquiti Unifi</span>
                 </a>
@@ -433,7 +433,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
             
             
               <span class="button next">
-                <a href="/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/">
+                <a href="https://homelaber.com.br/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/">
                   <span class="button__text">AWS Storage Gateway - O seu file server com espaço infinito</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -485,8 +485,8 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -511,9 +511,9 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -521,7 +521,7 @@ O MinIO é um servidor de Object Storage 100% compatível com o &amp;ldquo;proto
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

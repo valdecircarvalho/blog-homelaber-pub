@@ -14,7 +14,7 @@ Em resumo:
 **Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, todo o espaço é alocado no momento da sua criação."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
+<link rel="canonical" href="https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
 
 
 
@@ -28,23 +28,23 @@ Em resumo:
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -59,7 +59,7 @@ Em resumo:
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
+<meta property="og:url" content="https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
 <meta property="og:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)" />
 <meta property="og:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -72,19 +72,19 @@ Em resumo:
 <meta name="twitter:title" content="Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)" />
 <meta name="twitter:description" content="  - Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision) " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
+<meta name="twitter:url" content="https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -97,7 +97,7 @@ Em resumo:
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -134,11 +134,11 @@ Em resumo:
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -162,11 +162,11 @@ Em resumo:
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -201,7 +201,7 @@ Em resumo:
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/">Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/">Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -222,58 +222,58 @@ Em resumo:
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/back-to-basics/">back-to-basics</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/back-to-basics/">back-to-basics</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog-vmware/">blog vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog-vmware/">blog vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog-vmware-em-portugu%C3%AAs/">blog vmware em português</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog-vmware-em-portugu%C3%AAs/">blog vmware em português</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/diferen%C3%A7as/">diferenças</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/diferen%C3%A7as/">diferenças</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/home-lab/">home lab</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/home-lab/">home lab</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/homelab/">homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/homelab/">homelab</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/homelab-vmware/">homelab vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/homelab-vmware/">homelab vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/homelaber/">homelaber</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/homelaber/">homelaber</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/thick-provisioning/">thick provisioning</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/thick-provisioning/">thick provisioning</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/thin-provisioning/">thin provisioning</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/thin-provisioning/">thin provisioning</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/tipos-de-disco/">tipos de disco</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/tipos-de-disco/">tipos de disco</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/virtual-machine/">virtual machine</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/virtual-machine/">virtual machine</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/virtualiza%C3%A7%C3%A3o/">virtualização</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/virtualiza%C3%A7%C3%A3o/">virtualização</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vm/">vm</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vm/">vm</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware/">vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware/">vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-blog/">vmware blog</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-blog/">vmware blog</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-blog-brasil/">vmware blog brasil</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-blog-brasil/">vmware blog brasil</a>&nbsp;
           
         </span>
       
@@ -282,7 +282,7 @@ Em resumo:
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/vmware/">VMware</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/vmware/">VMware</a>&nbsp;
           
         </span>
       
@@ -294,22 +294,22 @@ Em resumo:
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;body=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;body=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -320,14 +320,14 @@ Em resumo:
       <p>Olá Homelabers!</p>
 <p>Hoje vou começar uma série de artigos chamada Back-To-Basics (ou De volta ao básico em bom Português). Nessa série vou escreve sobre aspectos básicos referente a virtualização. Geralmente serão posts curtos, explicando o conceito de uma determinada tecnologia;</p>
 <p>No artigo de hoje, vou esclarecer diferença entre: Thick Provision vs Thin Provision</p>
-<p><img src="/imagens/2016/04/thin-vs-thick.jpg" alt="thin-vs-thick"></p>
+<p><img src="https://homelaber.com.br/imagens/2016/04/thin-vs-thick.jpg" alt="thin-vs-thick"></p>
 <!-- raw HTML omitted -->
 <p>Em resumo:</p>
 <p>**Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, <em>todo o espaço é alocado no momento da sua criação</em>. Neste formato de disco virtual, qualquer dado que exista no dispositivo físico é mantido no momento da criação, e só são “zerados” no momento em que a máquina virtual vai escrevendo seus dados.</p>
 <p><strong>Thick Provision Eager Zeroed</strong> – é um disco “thick” que possui suporte a alguns recursos de cluster, como FT. Também aloca todo o espaço necessário no momento da sua criação. A diferença para o formato “lazy” (ou flat) é que os dados existentes no dispositivo físico são todos zerados no momento da criação. O tempo de criação deste tipo de disco pode demorar mais que os demais.</p>
 <p><strong>Thin Provision</strong> – neste tipo de disco <em>apenas um espaço mínimo é utilizado no momento da sua criação</em>. A medida que mais espaço físico for sendo necessário, o disco “thin” vai aumentando o seu tamanho, podendo chegar até o tamanho alocado inicialmente.</p>
 <p>Na imagem abaixo, podemos ver e entender com facilidade a diferença entre Thick Provisioning e Thin Provisioning</p>
-<p>[caption id=&quot;attachment_1331&rdquo; align=&quot;aligncenter&rdquo; width=&quot;800&rdquo;]<img src="/imagens/2016/04/Diferen%C3%A7as-entre-tipos-de-disco-em-uma-VM-Thin-vs-Thick-Provision-e1461636326617.png" alt="Diferenças entre tipos de disco em uma VM Thin vs Thick Provision">
+<p>[caption id=&quot;attachment_1331&rdquo; align=&quot;aligncenter&rdquo; width=&quot;800&rdquo;]<img src="https://homelaber.com.br/imagens/2016/04/Diferen%C3%A7as-entre-tipos-de-disco-em-uma-VM-Thin-vs-Thick-Provision-e1461636326617.png" alt="Diferenças entre tipos de disco em uma VM Thin vs Thick Provision">
 <strong>Diferença entre Thick Provisioning e Thin Provisioning</strong>[/caption]</p>
 <p>Portanto, se você tem pouco espaço em disco no seu lab, o caminho a seguir é sempre usar Thin Provision. Mas o esquema (mesmo em produção) é sempre ficar de olho na utilização e monitorar o crescimento de suas VMs.</p>
 <p>No meu trabalho, todas as VMs que utilizamos, são criadas como Thin Provision e temos um monitoramento super bacana e em cima, para não termos surpresas.</p>
@@ -371,22 +371,22 @@ Em resumo:
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f&amp;title=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;body=%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Back-to-Basics%3a%20Diferen%c3%a7as%20entre%20tipos%20de%20disco%20em%20uma%20VM%20%28Thin%20vs%20Thick%20Provision%29&amp;body=https%3a%2f%2fhomelaber.com.br%2fback-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -397,7 +397,7 @@ Em resumo:
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -443,7 +443,7 @@ Em resumo:
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/">
+                <a href="https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/">
                   <span class="button__icon">←</span>
                   <span class="button__text">3 distros Linux pequenas e leves para o seu home lab</span>
                 </a>
@@ -451,7 +451,7 @@ Em resumo:
             
             
               <span class="button next">
-                <a href="/evento-vmware-forum-online-spring-2016/">
+                <a href="https://homelaber.com.br/evento-vmware-forum-online-spring-2016/">
                   <span class="button__text">Evento: VMware Forum Online - Spring 2016</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -503,8 +503,8 @@ Em resumo:
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -529,9 +529,9 @@ Em resumo:
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -539,7 +539,7 @@ Em resumo:
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

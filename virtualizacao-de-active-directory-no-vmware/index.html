@@ -11,7 +11,7 @@
 Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto de virtualização: Virtualizar o Active Directory ( e aqui estamos falando basicamente do Microsoft Active Directory Domain Services) ou manter em um servidor físico.Lá atrás haviam questões técnicas para evitar essa prática, mas com o passar do tempo e a evolução do VMware e também da tecnologia atual do Windows Server 2012, esse assunto foi totalmente resolvido e hoje não existem motivos para deixar de aproveitar os benefícios da virtualização."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/virtualizacao-de-active-directory-no-vmware/" />
+<link rel="canonical" href="https://homelaber.com.br/virtualizacao-de-active-directory-no-vmware/" />
 
 
 
@@ -25,23 +25,23 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -56,7 +56,7 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Virtualização de Active Directory no VMware " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/virtualizacao-de-active-directory-no-vmware/" />
+<meta property="og:url" content="https://homelaber.com.br/virtualizacao-de-active-directory-no-vmware/" />
 <meta property="og:title" content="Virtualização de Active Directory no VMware" />
 <meta property="og:description" content="  - Virtualização de Active Directory no VMware " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -69,19 +69,19 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
 <meta name="twitter:title" content="Virtualização de Active Directory no VMware" />
 <meta name="twitter:description" content="  - Virtualização de Active Directory no VMware " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/virtualizacao-de-active-directory-no-vmware/" />
+<meta name="twitter:url" content="https://homelaber.com.br/virtualizacao-de-active-directory-no-vmware/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -94,7 +94,7 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -131,11 +131,11 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -159,11 +159,11 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -198,7 +198,7 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/virtualizacao-de-active-directory-no-vmware/">Virtualização de Active Directory no VMware</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/virtualizacao-de-active-directory-no-vmware/">Virtualização de Active Directory no VMware</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -219,34 +219,34 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/active-directory/">active directory</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/active-directory/">active directory</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/ad/">ad</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/ad/">ad</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/adds/">ADDS</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/adds/">ADDS</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/domain-controller/">domain controller</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/domain-controller/">domain controller</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/ds/">ds</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/ds/">ds</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/microsoft/">microsoft</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/microsoft/">microsoft</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/microsoft-active-directory-domain-services/">Microsoft Active Directory Domain Services</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/microsoft-active-directory-domain-services/">Microsoft Active Directory Domain Services</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/virtualiza%C3%A7%C3%A3o-de-ad/">virtualização de AD</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/virtualiza%C3%A7%C3%A3o-de-ad/">virtualização de AD</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/virtualizar-ad/">virtualizar ad</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/virtualizar-ad/">virtualizar ad</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware/">vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware/">vmware</a>&nbsp;
           
         </span>
       
@@ -255,7 +255,7 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
         </span>
       
@@ -267,22 +267,22 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;url=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;body=%2fvirtualizacao-de-active-directory-no-vmware%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;body=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -291,20 +291,20 @@ Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto 
     <div class="post-content">
 
       <p>Olá Homelabers!</p>
-<p>Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto de virtualização: Virtualizar o Active Directory ( e aqui estamos falando basicamente do Microsoft Active Directory Domain Services) ou manter em um servidor físico.<img src="/imagens/2015/11/logo-active-directory-720.png" alt="logo-active-directory-720">
+<p>Nesse post vou falar sobre um assunto que ainda é um tabú em qualquer projeto de virtualização: Virtualizar o Active Directory ( e aqui estamos falando basicamente do Microsoft Active Directory Domain Services) ou manter em um servidor físico.<img src="https://homelaber.com.br/imagens/2015/11/logo-active-directory-720.png" alt="logo-active-directory-720">
 Lá atrás haviam questões técnicas para evitar essa prática, mas com o passar do tempo e a evolução do VMware e também da tecnologia atual do Windows Server 2012, esse assunto foi totalmente resolvido e hoje não existem motivos para deixar de aproveitar os benefícios da virtualização.<!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
 <p>A VMware publicou em 2004 - que ainda está bastante atual - um paper  chamado &ldquo;<em><strong>Virtualizing Active Directory Domain Services On VMware vSphere</strong></em>&rdquo; onde é abordado a fundo todos os aspectos técnicos para acabar com esse mito sobre a virtualização de ADs.</p>
 <p>Este ano eu participei de um projeto la na FIRMA onde essa questão foi levantada e confesso que eu também tinha a ideia de que era &ldquo;mais seguro&rdquo; manter ao menos um AD em hardware físico, mas depois de estudar bastante sobre o tema, procurar informações, conversar com especialistas e colegas, acabamos por definir que os ADs seriam todos virtuais e assim estão hoje.</p>
 <p>Portanto, se você ainda estiver em dúvida sobre virtualizar ou não o seu AD, pode ir sem medo :)</p>
-<p>O documento pode ser acessado nesse <a href="https://blogs.vmware.com/apps/2014/01/just-published-virtualizing-active-directory-domain-services-on-vmware-vsphere.html">link</a>. Eu também baixei o documento e disponibilizei para <a href="/imagens/2015/11/Virtualizing-Active-Directory-Domain-Services-on-VMware-vSphere.pdf">download</a> aqui no blog (em Inglês - PDF 2Mb)</p>
+<p>O documento pode ser acessado nesse <a href="https://blogs.vmware.com/apps/2014/01/just-published-virtualizing-active-directory-domain-services-on-vmware-vsphere.html">link</a>. Eu também baixei o documento e disponibilizei para <a href="https://homelaber.com.br/imagens/2015/11/Virtualizing-Active-Directory-Domain-Services-on-VMware-vSphere.pdf">download</a> aqui no blog (em Inglês - PDF 2Mb)</p>
 <p>E pesquisando mais sobre o assunto, encontrei no <a href="http://pt.slideshare.net/">SlideShare</a> 4 apresentações que falam sobre o tema. Vale a pena dar uma olhada.</p>
 <p>[slideshare id=35989102&amp;doc=vapp5618formattedv3-140617172006-phpapp02]</p>
 <p>[slideshare id=46545854&amp;doc=vapp1340formatted2v3-150401114217-conversion-gate01]</p>
 <p>[slideshare id=15749215&amp;doc=12bestpracticesforvirtualizingactivedirectorydcs-121224064602-phpapp02]</p>
 <p>[slideshare id=12716050&amp;doc=wptop12best-practices-for-virtualizing-active-directory-domain-controllersgreg-shields-120427075249-phpapp02&amp;type=d]</p>
 <p>Se você está envolvido em um projeto de virtualização e ficou na dúvida se virtualiza ou não o seu AD, deixe o seu comentário nesse post e não se esqueça de seguir o HomeLaber no Twitter (<a href="https://twitter.com/homelaber">@Homelaber</a>) e dar um LIKE a nossa página no Facebook (<a href="http://fb.com/homelaber">fb.com/homelaber</a>).</p>
-<p><img src="/imagens/2015/11/like_my_page_please__.jpg" alt="like_my_page_please__"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/11/like_my_page_please__.jpg" alt="like_my_page_please__"></p>
 
 	 
 	 <style>
@@ -333,22 +333,22 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;url=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f&amp;title=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;body=%2fvirtualizacao-de-active-directory-no-vmware%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Virtualiza%c3%a7%c3%a3o%20de%20Active%20Directory%20no%20VMware&amp;body=https%3a%2f%2fhomelaber.com.br%2fvirtualizacao-de-active-directory-no-vmware%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -359,7 +359,7 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -405,7 +405,7 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/instalacao-postfix-mailrelay-gmail/">
+                <a href="https://homelaber.com.br/instalacao-postfix-mailrelay-gmail/">
                   <span class="button__icon">←</span>
                   <span class="button__text">Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail</span>
                 </a>
@@ -413,7 +413,7 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
             
             
               <span class="button next">
-                <a href="/instalacao-configuracao-snmp-linux-ubuntu/">
+                <a href="https://homelaber.com.br/instalacao-configuracao-snmp-linux-ubuntu/">
                   <span class="button__text">Instalação e configuração SNMP Linux Ubuntu</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -465,8 +465,8 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -491,9 +491,9 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -501,7 +501,7 @@ Lá atrás haviam questões técnicas para evitar essa prática, mas com o passa
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:44pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

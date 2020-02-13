@@ -11,7 +11,7 @@
 Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o shutdown de todas as VMs do meu ambiente. Tivemos que mudar fisicamente de lugar todos os servidores do ambiente e para isso, realizamos alguns &amp;ldquo;ensaios&amp;rdquo; para garantir que tudo sairia com o planejado no dia D. No primeiro ensaio, acabei por derrubar VM por VM via console do vSphere, mas isso não é uma coisa legal de se fazer quanto você tem mais de 100 VMs em Produção no seu ambiente."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/na-firma-script-powershel-para-stop-vms/" />
+<link rel="canonical" href="https://homelaber.com.br/na-firma-script-powershel-para-stop-vms/" />
 
 
 
@@ -25,23 +25,23 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -56,7 +56,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Na FIRMA - Script Powershel para Stop de VMs " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/na-firma-script-powershel-para-stop-vms/" />
+<meta property="og:url" content="https://homelaber.com.br/na-firma-script-powershel-para-stop-vms/" />
 <meta property="og:title" content="Na FIRMA - Script Powershel para Stop de VMs" />
 <meta property="og:description" content="  - Na FIRMA - Script Powershel para Stop de VMs " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -69,19 +69,19 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
 <meta name="twitter:title" content="Na FIRMA - Script Powershel para Stop de VMs" />
 <meta name="twitter:description" content="  - Na FIRMA - Script Powershel para Stop de VMs " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/na-firma-script-powershel-para-stop-vms/" />
+<meta name="twitter:url" content="https://homelaber.com.br/na-firma-script-powershel-para-stop-vms/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -94,7 +94,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -131,11 +131,11 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -159,11 +159,11 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -198,7 +198,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/na-firma-script-powershel-para-stop-vms/">Na FIRMA - Script Powershel para Stop de VMs</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/na-firma-script-powershel-para-stop-vms/">Na FIRMA - Script Powershel para Stop de VMs</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -219,43 +219,43 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/guest-stop-vm/">Guest Stop-VM</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/guest-stop-vm/">Guest Stop-VM</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/microsoft-powershell/">microsoft powershell</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/microsoft-powershell/">microsoft powershell</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/powercli/">PowerCli</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/powercli/">PowerCli</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/powershell/">powershell</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/powershell/">powershell</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/script/">script</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/script/">script</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/script-para-parar-vms/">script para parar vms</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/script-para-parar-vms/">script para parar vms</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/script-to-shutdown-virtual-machines/">script to shutdown virtual machines</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/script-to-shutdown-virtual-machines/">script to shutdown virtual machines</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/shutdown/">shutdown</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/shutdown/">shutdown</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/shutdown-vm/">Shutdown-VM</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/shutdown-vm/">Shutdown-VM</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vcenter/">vcenter</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vcenter/">vcenter</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vm-shutdown/">vm shutdown</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vm-shutdown/">vm shutdown</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware/">vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware/">vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-powercli/">vmware powercli</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-powercli/">vmware powercli</a>&nbsp;
           
         </span>
       
@@ -264,7 +264,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
         </span>
       
@@ -276,22 +276,22 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;url=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;body=%2fna-firma-script-powershel-para-stop-vms%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;body=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -302,7 +302,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
       <p>Olá Homelabers!</p>
 <p>Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o shutdown de todas as VMs do meu ambiente. Tivemos que mudar fisicamente de lugar todos os servidores do ambiente e para isso, realizamos alguns &ldquo;ensaios&rdquo; para garantir que tudo sairia com o planejado no dia D. No primeiro ensaio, acabei por derrubar VM por VM via console do vSphere, mas isso não é uma coisa legal de se fazer quanto você tem mais de 100 VMs em Produção no seu ambiente.</p>
 <p>Pesquisei um pouco nas internets da vida e encontrei um script bem parecido com o que eu queria. Fiz algumas modificações e reformas para se adequar ao meu ambiente e o resultado é o código que você encontra aqui embaixo.</p>
-<p><img src="/imagens/2016/05/powercli.png" alt="powercli"></p>
+<p><img src="https://homelaber.com.br/imagens/2016/05/powercli.png" alt="powercli"></p>
 <!-- raw HTML omitted -->
 <p>Esse código basicamente, lê um arquivo TXT chamado VMLIST.TXT com uma lista de todas as VMs que eu queria derrubar. O script faz um loop pelo arquivo e vai logando em um arquivo texto o resultado de cada shutdown, junto com o tempo gasto na operação. Esse log, foi bastante útil para conseguir medir o tempo exato e planejar a janela de mudança, uma vez que bastava disparar o código, abrir um Redbull (essas coisas são sempre feitas na madrugada) e esperar.</p>
 <p>Outra curiosidade do código, é que ele tenta derrumar a VM de uma forma &ldquo;graciosa&rdquo;, com o comando &ldquo;<a href="https://www.vmware.com/support/developer/windowstoolkit/wintk40u1/html/Shutdown-VMGuest.html">Shutdown-VMGuest</a>&rdquo; ou seja, dando o comando para o VMware Tools desligar o SO e depois fazer o halt da máquina. Caso não consiga, ele vai no modo bruto mesmo, com o comando &ldquo;<a href="https://www.vmware.com/support/developer/PowerCLI/PowerCLI41U1/html/Stop-VM.html">Stop-VM</a>&rdquo; tipo um DEDOFF. E importante, se você derrubar um monte de VMs de uma vez, você pode ter problemas, por isso, o código espera 30 segundos entre cada VM.</p>
@@ -310,7 +310,7 @@ Hoje vou falar sobre um script em Powershell que eu usei na FIRMA para fazer o s
 <p>[su_box title=&quot;ATENÇÃO&rdquo; style=&quot;glass&rdquo; box_color=&rdquo;#FF0000&rdquo;]<strong>NUNCA</strong> execute um script que você encontraR na internet (nem aqui desse site super confiável) diretamente em seu ambiente de produção. Antes, faça um teste em homologação ou em laboratório.
 E mais uma coisa, <em>eu não me responsabilizo</em> por qualquer dano que por ventura esse código venha causar no seu ambiente OK?[/su_box]</p>
 <p>Outro uso uso interessante para esse código é derrubar o seu LAB quando for necessário. Fácil, rápido e prático!</p>
-<p><img src="/imagens/2016/05/production-we-are-trying.jpg" alt="production-we-are-trying"></p>
+<p><img src="https://homelaber.com.br/imagens/2016/05/production-we-are-trying.jpg" alt="production-we-are-trying"></p>
 <p>É isso ai galera! Vou ficando por aqui! Se você gostou desse post com script ou se esse script foi útil para você, deixe um comentário aqui no post.</p>
 <p>VC</p>
 <p>Ah(1), quase ia me esquecendo de comentar, que para executar esse script, você precisa ter o VMware PowerCLI instalado em seu computador (<a href="https://my.vmware.com/group/vmware/get-download?downloadGroup=PCLI630R1">link para a versão 6.3</a>)</p>
@@ -457,22 +457,22 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;url=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f&amp;title=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;body=%2fna-firma-script-powershel-para-stop-vms%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Na%20FIRMA%20-%20Script%20Powershel%20para%20Stop%20de%20VMs&amp;body=https%3a%2f%2fhomelaber.com.br%2fna-firma-script-powershel-para-stop-vms%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -483,7 +483,7 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -529,7 +529,7 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/">
+                <a href="https://homelaber.com.br/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/">
                   <span class="button__icon">←</span>
                   <span class="button__text">Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento</span>
                 </a>
@@ -537,7 +537,7 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
             
             
               <span class="button next">
-                <a href="/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/">
+                <a href="https://homelaber.com.br/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/">
                   <span class="button__text">Pluralsigth - Uma das muitas vantagens de ser um vEXPERT</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -589,8 +589,8 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -615,9 +615,9 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -625,7 +625,7 @@ LogMessage &quot;Servidor Vcenter Desconectado!&quot;
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

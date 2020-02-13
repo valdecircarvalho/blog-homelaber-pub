@@ -17,7 +17,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
  * Provisionar hosts no VMware vSphere* Provisionar hosts na Cloud Amazon AWS Provisionar hosts no VMware vSphere Para que o Rancher possa provisionar hosts no ambiente VMware vSphere, primeiramente é necessário adicionar o Machine Drive específico para vSphere e para ativar o Machine Driver é muito simples."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
+<link rel="canonical" href="https://homelaber.com.br/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
 
 
 
@@ -31,23 +31,23 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -62,7 +62,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
+<meta property="og:url" content="https://homelaber.com.br/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
 <meta property="og:title" content="Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS" />
 <meta property="og:description" content="  - Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -75,19 +75,19 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 <meta name="twitter:title" content="Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS" />
 <meta name="twitter:description" content="  - Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
+<meta name="twitter:url" content="https://homelaber.com.br/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -100,7 +100,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -137,11 +137,11 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -165,11 +165,11 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -204,7 +204,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/">Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/">Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -225,64 +225,64 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/rancher_labs/">@Rancher_Labs</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/rancher_labs/">@Rancher_Labs</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags//">#k8s</a>&nbsp;
+			<a href="https://homelaber.com.br/tags//">#k8s</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags//">#kubernetes</a>&nbsp;
+			<a href="https://homelaber.com.br/tags//">#kubernetes</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags//">#RancherLabs</a>&nbsp;
+			<a href="https://homelaber.com.br/tags//">#RancherLabs</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/awd/">awd</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/awd/">awd</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/aws/">aws</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/aws/">aws</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog/">blog</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog/">blog</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/como-instalar-rancher/">como instalar rancher</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/como-instalar-rancher/">como instalar rancher</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/container/">container</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/container/">container</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/devops/">devops</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/devops/">devops</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/docker/">docker</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/docker/">docker</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/instala%C3%A7%C3%A3o-rancher/">instalação rancher</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/instala%C3%A7%C3%A3o-rancher/">instalação rancher</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/integra%C3%A7%C3%A3o-rancher-aws/">integração rancher aws</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/integra%C3%A7%C3%A3o-rancher-aws/">integração rancher aws</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/integra%C3%A7%C3%A3o-rancher-vmware/">integração rancher vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/integra%C3%A7%C3%A3o-rancher-vmware/">integração rancher vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/rancher/">rancher</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/rancher/">rancher</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/rancher-labs/">rancher labs</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/rancher-labs/">rancher labs</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/rancher-vsphere/">rancher vsphere</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/rancher-vsphere/">rancher vsphere</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/rancheros/">rancheros</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/rancheros/">rancheros</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/tutorial-rancher/">tutorial rancher</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/tutorial-rancher/">tutorial rancher</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vsphere/">vSphere</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vsphere/">vSphere</a>&nbsp;
           
         </span>
       
@@ -291,16 +291,16 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/homelab/">Homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/homelab/">Homelab</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/tutoriais/">Tutoriais</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/tutoriais/">Tutoriais</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/vmware/">VMware</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/vmware/">VMware</a>&nbsp;
           
         </span>
       
@@ -312,22 +312,22 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;body=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;body=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -348,7 +348,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 <h2 id="provisionar-hosts-no-vmware-vsphere">Provisionar hosts no VMware vSphere</h2>
 <p>Para que o Rancher possa provisionar hosts no ambiente VMware vSphere, primeiramente é necessário adicionar o <a href="https://docs.docker.com/machine/concepts/">Machine Drive</a> específico para <a href="https://docs.docker.com/machine/drivers/vsphere/">vSphere</a> e para ativar o Machine Driver é muito simples.</p>
 <p>Menu INFRASTRUCTURE &raquo; Hosts &raquo; Add Host &raquo; Manage Available machine drivers &raquo; Add Machine Driver e escolher vSphere.</p>
-<p><img src="/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-1-644x484.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-1-644x484.jpg" alt=""></p>
 <p>Feito isso, o próximo passo é preencher os campos com as informações do seu servidor vSphere.</p>
 <pre><code>  * Nome do Host
   * Quantidade de Hosts
@@ -369,7 +369,7 @@ Hoje, vou mostrar como fazer a integração do Rancher com o VMware vSphere e co
 $ docker container logs -f &lt;Container ID&gt;
 </code></pre>
 <p>Após alguns minutos os Hosts estarão provisionados e ativos no Rancher</p>
-<p><img src="/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-2-644x211.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-2-644x211.jpg" alt=""></p>
 <p>Você pode também, acompanhar a criação das VMs pelo console do vCenter.</p>
 <h2 id="provisionar-hosts-na-cloud-amazon-aws">Provisionar hosts na Cloud Amazon AWS</h2>
 <p>O processo para provisionar hosts Rancher na AWS é bem parecido com o processo para vSphere.</p>
@@ -386,14 +386,14 @@ $ docker container logs -f &lt;Container ID&gt;
 <p>Após preencher os campos necessários, basta clicar em Create e o Rancher começará a fazer o seu trabalho de provisionar as instâncias na AWS.</p>
 <p>Você poderá acompanhar a criação pela UI do Rancher, pelos logs e também pela console da AWS.</p>
 <p>Aqui um ponto MUITO importante. <strong>Os hosts criados na AWS precisam se comunicar com o Rancher Server</strong>, se isso não for possível, você receberá um erro &ldquo;Failed to find rancher-agent container&rdquo;.</p>
-<p><img src="/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-3-644x384.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Instalando-Rancher-Host-VMware-vSphere-3-644x384.jpg" alt=""></p>
 <p>Eu uso Vivo Fibra, tentei de várias maneiras configurar um Port Forwarding mas não funcionou - aliás, se você tem Vivo Fibra e conseguiu fazer essa configuração, me ajuda ai vai!!! :)</p>
 <p><strong>Update:</strong> Passei mais algumas HORAS tentando fazer esse negócio funcionar e deu certo. A Vivo bloqueia a porta 8080, então eu subi o Rancher Server em uma porta diferente (9999) no caso e criei um redirecionamento de portas no meu modem. Dessa maneira, consegui fazer o provisionamento na AWS sem erros.</p>
 <p>Comando para subir o Rancher com uma porta diferente:</p>
 <pre><code>docker run -d --restart=unless-stopped -p &lt;span style=&quot;color: #ff0000;&quot;&gt;9999&lt;/span&gt;:8080 rancher/server:stable
 </code></pre>
 <p>Portanto, se você quiser reproduzir isso, antes de mais nada, precisa configurar o port forwarding (redirecionamento de portas) no seu modem/router (<a href="https://portforward.com/">https://portforward.com/</a>) e subir o Rancher na porta configurada.</p>
-<p><img src="/imagens/2018/01/homer-uhuull-deu-certo.png" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/homer-uhuull-deu-certo.png" alt=""></p>
 <p>Se você subir o Rancher Server em algum provedor de Cloud, como a AWS ou configurar a sua rede para receber conexões de fora (via Firewall, VPN ou um link Direct Connect com a AWS) você não irá enfrentar esse problema.</p>
 <h2 id="fechamento-e-próximos-passos">Fechamento e Próximos Passos</h2>
 <p>Bom, pessoal, então é isso! Encerro aqui essa série de posts sobre como montar um Lab de Rancher e espero que vocês tenham gostado e aprendido tanto como eu aprendi.</p>
@@ -439,22 +439,22 @@ $ docker container logs -f &lt;Container ID&gt;
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f&amp;title=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;body=%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Rancher%20Parte%203%20-%20Integra%c3%a7%c3%a3o%20com%20VMware%20vSphere%20e%20Cloud%20Amazon%20AWS&amp;body=https%3a%2f%2fhomelaber.com.br%2francher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -465,7 +465,7 @@ $ docker container logs -f &lt;Container ID&gt;
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -511,7 +511,7 @@ $ docker container logs -f &lt;Container ID&gt;
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/como-atualizar-vmware-vcenter-6-0-para-6-5/">
+                <a href="https://homelaber.com.br/como-atualizar-vmware-vcenter-6-0-para-6-5/">
                   <span class="button__icon">←</span>
                   <span class="button__text">Como atualizar VMware vCenter 6.0 para 6.5</span>
                 </a>
@@ -519,7 +519,7 @@ $ docker container logs -f &lt;Container ID&gt;
             
             
               <span class="button next">
-                <a href="/como-obter-licencas-full-dos-produtos-vmware/">
+                <a href="https://homelaber.com.br/como-obter-licencas-full-dos-produtos-vmware/">
                   <span class="button__text">Como obter licenças FULL dos produtos VMware?</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -571,8 +571,8 @@ $ docker container logs -f &lt;Container ID&gt;
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -597,9 +597,9 @@ $ docker container logs -f &lt;Container ID&gt;
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -607,7 +607,7 @@ $ docker container logs -f &lt;Container ID&gt;
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

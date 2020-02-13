@@ -13,7 +13,7 @@ No meu lab, por diversos motivos, eu estou rodando o vSphere versão 6.0 e nessa
 Recomendações iniciais: Se você for planejar um upgrade, seja em produção ou em seu lab, é muito importante que você leia a documentação disponível e o Release Notes da versão, planeje bem a mudança, valide se o seu hardware é suportado - consulte a HCL - e se possível não faça a mudança direto em produção."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
+<link rel="canonical" href="https://homelaber.com.br/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
 
 
 
@@ -27,23 +27,23 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -58,7 +58,7 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
+<meta property="og:url" content="https://homelaber.com.br/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
 <meta property="og:title" content="Como atualizar VMware vCenter 6.0 para 6.5" />
 <meta property="og:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -71,19 +71,19 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 <meta name="twitter:title" content="Como atualizar VMware vCenter 6.0 para 6.5" />
 <meta name="twitter:description" content="  - Como atualizar VMware vCenter 6.0 para 6.5 " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
+<meta name="twitter:url" content="https://homelaber.com.br/como-atualizar-vmware-vcenter-6-0-para-6-5/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -96,7 +96,7 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -133,11 +133,11 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -161,11 +161,11 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -200,7 +200,7 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/como-atualizar-vmware-vcenter-6-0-para-6-5/">Como atualizar VMware vCenter 6.0 para 6.5</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/como-atualizar-vmware-vcenter-6-0-para-6-5/">Como atualizar VMware vCenter 6.0 para 6.5</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -221,52 +221,52 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/atualiza%C3%A7%C3%A3o-vmware/">atualização vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/atualiza%C3%A7%C3%A3o-vmware/">atualização vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/atualizar-vcenter-6-para-6.5/">atualizar vcenter 6 para 6.5</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/atualizar-vcenter-6-para-6.5/">atualizar vcenter 6 para 6.5</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog/">blog</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog/">blog</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/como-atualizar-vmware/">como atualizar vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/como-atualizar-vmware/">como atualizar vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/tutorial-atualiza%C3%A7%C3%A3o-vmware/">tutorial atualização vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/tutorial-atualiza%C3%A7%C3%A3o-vmware/">tutorial atualização vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/tutorial-vmware/">tutorial vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/tutorial-vmware/">tutorial vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/update-vmware/">update vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/update-vmware/">update vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/upgrade/">upgrade</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/upgrade/">upgrade</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/upgrade-vcenter/">upgrade vcenter</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/upgrade-vcenter/">upgrade vcenter</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/upgrade-vcenter-6-para-6.5/">upgrade vcenter 6 para 6.5</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/upgrade-vcenter-6-para-6.5/">upgrade vcenter 6 para 6.5</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/upgrade-vmware/">upgrade vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/upgrade-vmware/">upgrade vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vcenter-server/">vCenter Server</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vcenter-server/">vCenter Server</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware/">vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware/">vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-vsphere/">vmware vsphere</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-vsphere/">vmware vsphere</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-vsphere-6.5/">vmware vsphere 6.5</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-vsphere-6.5/">vmware vsphere 6.5</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vsphere/">vSphere</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vsphere/">vSphere</a>&nbsp;
           
         </span>
       
@@ -275,16 +275,16 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/homelab/">Homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/homelab/">Homelab</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/tutoriais/">Tutoriais</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/tutoriais/">Tutoriais</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/vmware/">VMware</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/vmware/">VMware</a>&nbsp;
           
         </span>
       
@@ -296,22 +296,22 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;body=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;body=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -322,12 +322,12 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
       <p>Olá Homelabers!</p>
 <p>Qual <strong>versão do VMware vSphere</strong> vocês estão rodando em seus labs ou ambientes produtivos?</p>
 <p>No meu lab, por diversos motivos, eu estou rodando o vSphere versão 6.0 e nessa série de posts, vou mostrar <strong>como fazer o upgrade para o vSphere versão 6.5</strong>, começando pelo <strong>VMware vCenter Server 6.5</strong></p>
-<p><img src="/imagens/2018/01/migrate2vcsa-300x269-300x269.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/migrate2vcsa-300x269-300x269.jpg" alt=""></p>
 <h2 id="recomendações-iniciais">Recomendações iniciais:</h2>
 <p>Se você for planejar um upgrade, seja em produção ou em seu lab, é muito importante que você <a href="https://docs.vmware.com/en/VMware-vSphere/6.5/vsphere-esxi-vcenter-server-65-upgrade-guide.pdf"><strong>leia a documentação disponível</strong></a> e o <strong><a href="https://docs.vmware.com/en/VMware-vSphere/6.5/rn/vsphere-esxi-vcenter-server-65-release-notes.html">Release Notes</a></strong> da versão, <strong>planeje bem a mudança</strong>, <strong>valide se o seu hardware é suportado</strong> - <a href="https://www.vmware.com/resources/compatibility/">consulte a HCL</a> - e se possível <strong>não faça a mudança direto em produção</strong>. Se você não tiver um ambiente de homologação, ao menos <strong>faça testes</strong> com um ambiente nested para você se <strong>acostumar com a migração e evitar surpresas</strong>.</p>
 <p>E o <strong>primeiro componente</strong> que você deve <strong>atualizar é o vCenter Server</strong>.</p>
 <h2 id="preparativos">Preparativos:</h2>
-<p><img src="/imagens/2018/01/vSphere-6.5-Documents-644x191.png" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/vSphere-6.5-Documents-644x191.png" alt=""></p>
 <pre><code>  * Baixe o ISO **antes da janela de manutenção**, pode parecer obvio mas...
   * **Desligue o DRS** antes a atualização.
   * O processo envolve um I**P temporário** para a nova VM do VCSA, de modo que o antigo e o novo IP vão estar online simultaneamente para transferir dados. **Providencie o IP antecipadamente**.
@@ -358,93 +358,93 @@ Recomendações iniciais: Se você for planejar um upgrade, seja em produção o
   * Executar o instalador localizado na pasta  \vcsa-ui-installer\&lt;so&gt;\installer
   * Selecionar a opção **Upgrade** - Para atualizar um vCenter Server Appliance existente.
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-00-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-00-644x483.jpg" alt=""></p>
 <pre><code>  * Clicar em Next para iniciar o primeiro estágio do Upgrade
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-21-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-21-644x483.jpg" alt=""></p>
 <pre><code>  * Aceitar a EULA e clicar em Next
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-30-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-30-644x483.jpg" alt=""></p>
 <pre><code>  * Informar o endereço (FQDN) do servidor vCenter atual
   * Clicar em Connect to Source
   * Clicar em Next
 </code></pre>
 <p>Aqui se o instalador não conseguir encontrar o seu vCenter Server, pare a instalação e verifique o DNS, IP, conectividade, etc.</p>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-47-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-14-47-644x483.jpg" alt=""></p>
 <pre><code>  * Informe os dados de SSO - login de seu vCenter Server
   * Informe os dados do Host ESXi de seu vCenter atual
   * Clique em Next
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-16-39-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-16-39-644x483.jpg" alt=""></p>
 <pre><code>  * Se você informou os dados corretos, aqui pode aparecer uma tela de Certificate Warning, clique em YES e continue.
   * Informe os dados do Host ESXi onde o novo vCenter será instalado
   * Clique em Next
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-17-43-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-17-43-644x483.jpg" alt=""></p>
 <pre><code>  * Se você informou os dados corretos, aqui pode aparecer uma tela de Certificate Warning, clique em YES e continue.
   * Informe o nome da nova VM do vCenter - Se você renomeou a VM antiga, utilize o mesmo nome. No meu caso, eu dei um nome diferente.
   * Informe também a senha de root do vCenter. Anote essa senha!
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-18-46-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-18-46-644x483.jpg" alt=""></p>
 <pre><code>  * Escolha o tamanho da sua instalação de acordo com o seu ambiente
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-19-26-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-19-26-644x483.jpg" alt=""></p>
 <pre><code>  * Escolha o Datastore
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-19-41-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-19-41-644x483.jpg" alt=""></p>
 <pre><code>  * Informe rede ao qual o novo servidor vCenter irá se conectar
   * Informe o IP Temporário, Default Gateway e Servidor DNS
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-27-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-27-644x483.jpg" alt=""></p>
 <pre><code>  * Valide as informações e clique em Finish
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-35-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-35-644x483.jpg" alt=""></p>
 <pre><code>  * O processo de instalação do estágio 1 irá iniciar. O processo pode demorar em torno de 20-30 minutos.
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-42-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_18-20-42-644x483.jpg" alt=""></p>
 <pre><code>  * Ao finalizar, clique em Continue
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-10-56-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-10-56-644x483.jpg" alt=""></p>
 <p>Até agora, o processo de upgrade criou uma nova VM com o VCSA no IP temporário. O próximo estágio será a cópia dos dados da VM antiga para a nova.</p>
 <pre><code>  * Clique em Next para iniciar o segundo estágio do processo
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-11-36-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-11-36-644x483.jpg" alt=""></p>
 <pre><code>  * Aguarde a validação
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-11-56-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-11-56-644x483.jpg" alt=""></p>
 <pre><code>  * Se você não desligou o DRS antes de começar o procedimento, deve fazer agora.
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-11-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-11-644x483.jpg" alt=""></p>
 <pre><code>  * Escolha quais dados serão migrados. No meu caso, eu escolhi migrar todos os dados.
   * Clique em Next
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-22-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-22-644x483.jpg" alt=""></p>
 <pre><code>  * Escolha se você quer participar do [Customer Experience Improvement Program](https://www.vmware.com/solutions/trustvmware/ceip.html)
   * Clique em Next
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-29-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-29-644x483.jpg" alt=""></p>
 <pre><code>  * Confira as informações
   * Selecione a caixa dizendo que você fez o backup de todas as configurações do vCenter atual - certifique-se de ter feito mesmo.
   * Clique em Next.
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-39-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-13-39-644x483.jpg" alt=""></p>
 <pre><code>  * Confirme mais uma vez. Nesse ponto, o upgrade de fato irá começar. O vCenter atual será desligado.
   * Clique em Finish para iniciar o upgrade
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-14-12-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-14-12-644x483.jpg" alt=""></p>
 <pre><code>  * Aguarde a cópia dos dados do vCenter antigo para o novo
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-14-26-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-14-26-644x483.jpg" alt=""></p>
 <p>Eu deixei um ping para o IP do vCenter antigo, durante a troca dos appliances, pedi apenas 9 pacotes.</p>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-29-06-644x483.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-29-06-644x483.jpg" alt=""></p>
 <pre><code>  * Ao final do processo, clique em Close
   * Acesse vCenter https://:443
 </code></pre>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-35-56-644x483.jpg" alt="">
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-35-56-644x483.jpg" alt="">
 vCenter atualizado</p>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-40-09-644x340.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-40-09-644x340.jpg" alt=""></p>
 <p>Para acessar o HTML5 Client, utilize a URL <strong>https://<!-- raw HTML omitted -->/ui</strong></p>
-<p><img src="/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-38-59-644x340.jpg" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2018/01/Como-atualizar-VMware-vCenter-6.0-para-6.5_2018-01-22_19-38-59-644x340.jpg" alt=""></p>
 <h2 id="próximos-passos">Próximos passos:</h2>
 <p>Se você tiver algum plugin (Backup, AV, vRA, vROps, etc) , esse será o momento de fazer a atualização, portanto, não apague o seu backup ou a VM antiga até se certificar de que tudo está funcionando.</p>
 <p>Cheque as configurações de login, AD, etc. Se for necessário fazer qualquer ajuste, você pode acessar o <strong>vSphere Appliance Manager</strong> na URL https://:<strong>5480</strong> com o usuário <strong>root</strong></p>
@@ -493,22 +493,22 @@ vCenter atualizado</p>
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f&amp;title=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;body=%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Como%20atualizar%20VMware%20vCenter%206.0%20para%206.5&amp;body=https%3a%2f%2fhomelaber.com.br%2fcomo-atualizar-vmware-vcenter-6-0-para-6-5%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -519,7 +519,7 @@ vCenter atualizado</p>
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -565,7 +565,7 @@ vCenter atualizado</p>
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/veeamon-2018/">
+                <a href="https://homelaber.com.br/veeamon-2018/">
                   <span class="button__icon">←</span>
                   <span class="button__text">VeeamON 2018</span>
                 </a>
@@ -573,7 +573,7 @@ vCenter atualizado</p>
             
             
               <span class="button next">
-                <a href="/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/">
+                <a href="https://homelaber.com.br/rancher-parte-3-integracao-com-vmware-vsphere-e-cloud-amazon-aws/">
                   <span class="button__text">Rancher Parte 3 - Integração com VMware vSphere e Cloud Amazon AWS</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -625,8 +625,8 @@ vCenter atualizado</p>
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -651,9 +651,9 @@ vCenter atualizado</p>
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -661,7 +661,7 @@ vCenter atualizado</p>
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

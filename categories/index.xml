@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog Homelaber Brasil</title>
-    <link>/categories/</link>
+    <link>https://homelaber.com.br/categories/</link>
     <description>Recent content in Categories on Blog Homelaber Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
@@ -11,384 +11,384 @@
     <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
     <lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://homelaber.com.br/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>/categories/blog/</link>
+      <link>https://homelaber.com.br/categories/blog/</link>
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/blog/</guid>
+      <guid>https://homelaber.com.br/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Veeam</title>
-      <link>/categories/veeam/</link>
+      <link>https://homelaber.com.br/categories/veeam/</link>
       <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/veeam/</guid>
+      <guid>https://homelaber.com.br/categories/veeam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>/categories/aws/</link>
+      <link>https://homelaber.com.br/categories/aws/</link>
       <pubDate>Tue, 17 Dec 2019 10:00:44 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/aws/</guid>
+      <guid>https://homelaber.com.br/categories/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS re:Invent 2019</title>
-      <link>/categories/aws-reinvent-2019/</link>
+      <link>https://homelaber.com.br/categories/aws-reinvent-2019/</link>
       <pubDate>Tue, 17 Dec 2019 10:00:44 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/aws-reinvent-2019/</guid>
+      <guid>https://homelaber.com.br/categories/aws-reinvent-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud</title>
-      <link>/categories/cloud/</link>
+      <link>https://homelaber.com.br/categories/cloud/</link>
       <pubDate>Tue, 17 Dec 2019 10:00:44 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/cloud/</guid>
+      <guid>https://homelaber.com.br/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eventos</title>
-      <link>/categories/eventos/</link>
+      <link>https://homelaber.com.br/categories/eventos/</link>
       <pubDate>Tue, 17 Dec 2019 10:00:44 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/eventos/</guid>
+      <guid>https://homelaber.com.br/categories/eventos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMUG</title>
-      <link>/categories/vmug/</link>
+      <link>https://homelaber.com.br/categories/vmug/</link>
       <pubDate>Fri, 22 Nov 2019 10:00:24 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vmug/</guid>
+      <guid>https://homelaber.com.br/categories/vmug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review</title>
-      <link>/categories/review/</link>
+      <link>https://homelaber.com.br/categories/review/</link>
       <pubDate>Tue, 12 Nov 2019 10:00:33 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/review/</guid>
+      <guid>https://homelaber.com.br/categories/review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure</title>
-      <link>/categories/azure/</link>
+      <link>https://homelaber.com.br/categories/azure/</link>
       <pubDate>Fri, 08 Nov 2019 11:45:57 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/azure/</guid>
+      <guid>https://homelaber.com.br/categories/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Free Stuff</title>
-      <link>/categories/free-stuff/</link>
+      <link>https://homelaber.com.br/categories/free-stuff/</link>
       <pubDate>Fri, 08 Nov 2019 11:45:57 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/free-stuff/</guid>
+      <guid>https://homelaber.com.br/categories/free-stuff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Livro</title>
-      <link>/categories/livro/</link>
+      <link>https://homelaber.com.br/categories/livro/</link>
       <pubDate>Fri, 08 Nov 2019 11:45:57 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/livro/</guid>
+      <guid>https://homelaber.com.br/categories/livro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microsoft</title>
-      <link>/categories/microsoft/</link>
+      <link>https://homelaber.com.br/categories/microsoft/</link>
       <pubDate>Fri, 08 Nov 2019 11:45:57 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/microsoft/</guid>
+      <guid>https://homelaber.com.br/categories/microsoft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>/categories/windows/</link>
+      <link>https://homelaber.com.br/categories/windows/</link>
       <pubDate>Fri, 08 Nov 2019 11:45:57 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/windows/</guid>
+      <guid>https://homelaber.com.br/categories/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MacOS</title>
-      <link>/categories/macos/</link>
+      <link>https://homelaber.com.br/categories/macos/</link>
       <pubDate>Wed, 30 Oct 2019 10:00:59 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/macos/</guid>
+      <guid>https://homelaber.com.br/categories/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Surface</title>
-      <link>/categories/surface/</link>
+      <link>https://homelaber.com.br/categories/surface/</link>
       <pubDate>Wed, 30 Oct 2019 10:00:59 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/surface/</guid>
+      <guid>https://homelaber.com.br/categories/surface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>/categories/tools/</link>
+      <link>https://homelaber.com.br/categories/tools/</link>
       <pubDate>Wed, 30 Oct 2019 10:00:59 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/tools/</guid>
+      <guid>https://homelaber.com.br/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutoriais</title>
-      <link>/categories/tutoriais/</link>
+      <link>https://homelaber.com.br/categories/tutoriais/</link>
       <pubDate>Wed, 30 Oct 2019 10:00:59 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/tutoriais/</guid>
+      <guid>https://homelaber.com.br/categories/tutoriais/</guid>
       <description></description>
     </item>
     
     <item>
       <title>#vCommunity</title>
-      <link>/categories/#vcommunity/</link>
+      <link>https://homelaber.com.br/categories/#vcommunity/</link>
       <pubDate>Tue, 29 Oct 2019 13:15:17 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/#vcommunity/</guid>
+      <guid>https://homelaber.com.br/categories/#vcommunity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blogtober</title>
-      <link>/categories/blogtober/</link>
+      <link>https://homelaber.com.br/categories/blogtober/</link>
       <pubDate>Tue, 29 Oct 2019 13:15:17 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/blogtober/</guid>
+      <guid>https://homelaber.com.br/categories/blogtober/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>/categories/kubernetes/</link>
+      <link>https://homelaber.com.br/categories/kubernetes/</link>
       <pubDate>Tue, 29 Oct 2019 13:15:17 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/kubernetes/</guid>
+      <guid>https://homelaber.com.br/categories/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Homelab</title>
-      <link>/categories/homelab/</link>
+      <link>https://homelaber.com.br/categories/homelab/</link>
       <pubDate>Wed, 23 Oct 2019 10:00:29 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/homelab/</guid>
+      <guid>https://homelaber.com.br/categories/homelab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>/categories/docker/</link>
+      <link>https://homelaber.com.br/categories/docker/</link>
       <pubDate>Tue, 08 Oct 2019 10:00:38 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/docker/</guid>
+      <guid>https://homelaber.com.br/categories/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Veeam Vanguard</title>
-      <link>/categories/veeam-vanguard/</link>
+      <link>https://homelaber.com.br/categories/veeam-vanguard/</link>
       <pubDate>Thu, 03 Oct 2019 10:00:44 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/veeam-vanguard/</guid>
+      <guid>https://homelaber.com.br/categories/veeam-vanguard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oracle Cloud Infrastructure</title>
-      <link>/categories/oracle-cloud-infrastructure/</link>
+      <link>https://homelaber.com.br/categories/oracle-cloud-infrastructure/</link>
       <pubDate>Wed, 02 Oct 2019 09:50:33 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/oracle-cloud-infrastructure/</guid>
+      <guid>https://homelaber.com.br/categories/oracle-cloud-infrastructure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubiquit</title>
-      <link>/categories/ubiquit/</link>
+      <link>https://homelaber.com.br/categories/ubiquit/</link>
       <pubDate>Tue, 24 Sep 2019 10:00:06 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/ubiquit/</guid>
+      <guid>https://homelaber.com.br/categories/ubiquit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unifi</title>
-      <link>/categories/unifi/</link>
+      <link>https://homelaber.com.br/categories/unifi/</link>
       <pubDate>Tue, 24 Sep 2019 10:00:06 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/unifi/</guid>
+      <guid>https://homelaber.com.br/categories/unifi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud Native</title>
-      <link>/categories/cloud-native/</link>
+      <link>https://homelaber.com.br/categories/cloud-native/</link>
       <pubDate>Thu, 05 Sep 2019 11:26:50 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/cloud-native/</guid>
+      <guid>https://homelaber.com.br/categories/cloud-native/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMware</title>
-      <link>/categories/vmware/</link>
+      <link>https://homelaber.com.br/categories/vmware/</link>
       <pubDate>Thu, 05 Sep 2019 11:26:50 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vmware/</guid>
+      <guid>https://homelaber.com.br/categories/vmware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networking</title>
-      <link>/categories/networking/</link>
+      <link>https://homelaber.com.br/categories/networking/</link>
       <pubDate>Tue, 06 Aug 2019 10:00:56 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/networking/</guid>
+      <guid>https://homelaber.com.br/categories/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vExpert</title>
-      <link>/categories/vexpert/</link>
+      <link>https://homelaber.com.br/categories/vexpert/</link>
       <pubDate>Wed, 10 Jul 2019 10:30:31 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vexpert/</guid>
+      <guid>https://homelaber.com.br/categories/vexpert/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>/categories/talks/</link>
+      <link>https://homelaber.com.br/categories/talks/</link>
       <pubDate>Tue, 16 Apr 2019 11:00:33 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/talks/</guid>
+      <guid>https://homelaber.com.br/categories/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>syntax</title>
-      <link>/categories/syntax/</link>
+      <link>https://homelaber.com.br/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/syntax/</guid>
+      <guid>https://homelaber.com.br/categories/syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>/categories/themes/</link>
+      <link>https://homelaber.com.br/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/themes/</guid>
+      <guid>https://homelaber.com.br/categories/themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vBrownbag Brasil</title>
-      <link>/categories/vbrownbag-brasil/</link>
+      <link>https://homelaber.com.br/categories/vbrownbag-brasil/</link>
       <pubDate>Wed, 20 Feb 2019 14:26:29 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vbrownbag-brasil/</guid>
+      <guid>https://homelaber.com.br/categories/vbrownbag-brasil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMworld 2018</title>
-      <link>/categories/vmworld-2018/</link>
+      <link>https://homelaber.com.br/categories/vmworld-2018/</link>
       <pubDate>Wed, 12 Sep 2018 20:07:49 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vmworld-2018/</guid>
+      <guid>https://homelaber.com.br/categories/vmworld-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS Summit 2018 - São Paulo</title>
-      <link>/categories/aws-summit-2018-s%C3%A3o-paulo/</link>
+      <link>https://homelaber.com.br/categories/aws-summit-2018-s%C3%A3o-paulo/</link>
       <pubDate>Fri, 15 Jun 2018 18:31:45 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/aws-summit-2018-s%C3%A3o-paulo/</guid>
+      <guid>https://homelaber.com.br/categories/aws-summit-2018-s%C3%A3o-paulo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMworld 2017</title>
-      <link>/categories/vmworld-2017/</link>
+      <link>https://homelaber.com.br/categories/vmworld-2017/</link>
       <pubDate>Tue, 26 Sep 2017 03:00:12 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vmworld-2017/</guid>
+      <guid>https://homelaber.com.br/categories/vmworld-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>#PapodeQuinta</title>
-      <link>/categories/#papodequinta/</link>
+      <link>https://homelaber.com.br/categories/#papodequinta/</link>
       <pubDate>Tue, 05 Sep 2017 20:58:09 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/#papodequinta/</guid>
+      <guid>https://homelaber.com.br/categories/#papodequinta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VeeamON 17</title>
-      <link>/categories/veeamon-17/</link>
+      <link>https://homelaber.com.br/categories/veeamon-17/</link>
       <pubDate>Mon, 29 May 2017 15:26:47 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/veeamon-17/</guid>
+      <guid>https://homelaber.com.br/categories/veeamon-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Design Master 2017</title>
-      <link>/categories/virtual-design-master-2017/</link>
+      <link>https://homelaber.com.br/categories/virtual-design-master-2017/</link>
       <pubDate>Thu, 25 May 2017 13:30:05 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/virtual-design-master-2017/</guid>
+      <guid>https://homelaber.com.br/categories/virtual-design-master-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VMworld 2016</title>
-      <link>/categories/vmworld-2016/</link>
+      <link>https://homelaber.com.br/categories/vmworld-2016/</link>
       <pubDate>Tue, 25 Oct 2016 11:00:12 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/vmworld-2016/</guid>
+      <guid>https://homelaber.com.br/categories/vmworld-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Design Master 2016</title>
-      <link>/categories/virtual-design-master-2016/</link>
+      <link>https://homelaber.com.br/categories/virtual-design-master-2016/</link>
       <pubDate>Mon, 11 Jul 2016 03:10:50 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/categories/virtual-design-master-2016/</guid>
+      <guid>https://homelaber.com.br/categories/virtual-design-master-2016/</guid>
       <description></description>
     </item>
     

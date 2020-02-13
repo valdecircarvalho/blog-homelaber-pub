@@ -13,7 +13,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
  * O que é Backup as a Service (BaaS)* Quais são as principais vantagens e desvantagens de se adotar BaaS* O que procurar em um fornecedor de BaaS* Quais as ofertas de BaaS Vale lembrar que nesse artigo, não irei falar sobre nenhum vendor ou solução do mercado, quero te dar insumos baseados na minha experiência e nas minhas pesquisas para te ajudar a pensar na hora de escolher a sua solução."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
+<link rel="canonical" href="https://homelaber.com.br/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
 
 
 
@@ -27,23 +27,23 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -58,7 +58,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa. " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
+<meta property="og:url" content="https://homelaber.com.br/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
 <meta property="og:title" content="Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa." />
 <meta property="og:description" content="  - Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa. " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -71,19 +71,19 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 <meta name="twitter:title" content="Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa." />
 <meta name="twitter:description" content="  - Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa. " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
+<meta name="twitter:url" content="https://homelaber.com.br/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -96,7 +96,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -133,11 +133,11 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -161,11 +161,11 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -200,7 +200,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/">Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa.</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/backup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa/">Backup as a Service - O que é backup como serviço, como escolher e porque você deveria começar a pensar nessa estratégia para sua empresa.</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -221,37 +221,37 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags//">#blogtobertech</a>&nbsp;
+			<a href="https://homelaber.com.br/tags//">#blogtobertech</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags//">#vCommunity</a>&nbsp;
+			<a href="https://homelaber.com.br/tags//">#vCommunity</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/baas/">baas</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/baas/">baas</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/backup/">backup</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/backup/">backup</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/backup-as-a-service/">backup as a service</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/backup-as-a-service/">backup as a service</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/backup-cloud/">backup cloud</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/backup-cloud/">backup cloud</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/backup-nuvem/">backup nuvem</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/backup-nuvem/">backup nuvem</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blog/">blog</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blog/">blog</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blogtober/">blogtober</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blogtober/">blogtober</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/blogtober2019/">blogtober2019</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/blogtober2019/">blogtober2019</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/cloud-backup/">cloud backup</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/cloud-backup/">cloud backup</a>&nbsp;
           
         </span>
       
@@ -260,19 +260,19 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blog/">Blog</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/blogtober/">Blogtober</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/blogtober/">Blogtober</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/cloud/">Cloud</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/cloud/">Cloud</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/veeam/">Veeam</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/veeam/">Veeam</a>&nbsp;
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/veeam-vanguard/">Veeam Vanguard</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/veeam-vanguard/">Veeam Vanguard</a>&nbsp;
           
         </span>
       
@@ -284,22 +284,22 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;body=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;body=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -320,7 +320,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 <p>Antes de tudo, eu diria que a ideia de ter um fornecedor externo executando e sendo responsável pelo backup da sua infraestrutura local e seus dados, pode ser uma grande mudança de paradigma para muitas organizações.</p>
 <p>Sabemos que backup é um serviço que muitas vezes é negligenciado pelas empresas, que só lembram que precisam de uma solução de backup confiável, quando enfrentam problemas relacionados a perda de dados, seja por um virus ou ransomware que destrói todos os dados, um HD queimado, um notebook roubado ou uma mudança não planejada que replica os dados de homologação para produção ou ainda erro humano como aquele usuário que apagou sem querer a planilha de clientes.</p>
 <p>Manter e operar uma estrutura de backup - seja ela on-prem ou na nuvem - demanda recursos e custos que muitas vezes não podem ser medidos e principalmente não entregam valor para o negócio da empresa. Novamente, o backup só é lembrado quando existe um incidente.</p>
-<p><img src="/imagens/2019/10/backup-as-a-service-644x290.png" alt=""></p>
+<p><img src="https://homelaber.com.br/imagens/2019/10/backup-as-a-service-644x290.png" alt=""></p>
 <h2 id="o-que-é-backup-as-a-service">O que é Backup as a Service?</h2>
 <p><strong>BaaS</strong> é uma alternativa ao backup tradicional, aquele que você tem - ou deveria ter - dentro da sua empresa. O BaaS é perfeito para negócios e organizações que se encontram no limite para fazer backups localmente, seja por falta de capacidade física ou equipe qualificada. Também é ideal para empresas que não querem investir em uma infraestrutura de TI somente para gerenciamento de backup de dados.</p>
 <h2 id="vantagens-do-baas">Vantagens do BaaS</h2>
@@ -381,22 +381,22 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f&amp;title=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa." onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;body=%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=Backup%20as%20a%20Service%20-%20O%20que%20%c3%a9%20backup%20como%20servi%c3%a7o%2c%20como%20escolher%20e%20porque%20voc%c3%aa%20deveria%20come%c3%a7ar%20a%20pensar%20nessa%20estrat%c3%a9gia%20para%20sua%20empresa.&amp;body=https%3a%2f%2fhomelaber.com.br%2fbackup-as-a-service-o-que-e-backup-como-servico-como-escolher-e-porque-voce-deveria-comecar-a-pensar-nessa-estrategia-para-sua-empresa%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -407,7 +407,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -453,7 +453,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/dns-dinamico-gratis-com-docker-e-cloudflare/">
+                <a href="https://homelaber.com.br/dns-dinamico-gratis-com-docker-e-cloudflare/">
                   <span class="button__icon">←</span>
                   <span class="button__text">DNS Dinâmico Grátis com Docker e Cloudflare</span>
                 </a>
@@ -461,7 +461,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
             
             
               <span class="button next">
-                <a href="/awesome-oracle-cloud-infrastructure-lista-de-recursos-para-oracle-cloud/">
+                <a href="https://homelaber.com.br/awesome-oracle-cloud-infrastructure-lista-de-recursos-para-oracle-cloud/">
                   <span class="button__text">Awesome Oracle Cloud Infrastructure - Lista de recursos para Oracle Cloud</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -513,8 +513,8 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -539,9 +539,9 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -549,7 +549,7 @@ Nesse artigo vou abordar o tema: BaaS - Backup as a Service ou Backup como Servi
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:43pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>

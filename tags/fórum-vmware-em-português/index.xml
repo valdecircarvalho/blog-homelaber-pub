@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fórum VMware em Português on Blog Homelaber Brasil</title>
-    <link>/tags/f%C3%B3rum-vmware-em-portugu%C3%AAs/</link>
+    <link>https://homelaber.com.br/tags/f%C3%B3rum-vmware-em-portugu%C3%AAs/</link>
     <description>Recent content in Fórum VMware em Português on Blog Homelaber Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>br</language>
@@ -11,15 +11,15 @@
     <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
     <lastBuildDate>Wed, 15 Mar 2017 12:00:01 +0000</lastBuildDate>
     
-	<atom:link href="/tags/f%C3%B3rum-vmware-em-portugu%C3%AAs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://homelaber.com.br/tags/f%C3%B3rum-vmware-em-portugu%C3%AAs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMTN - VMware Technology Network - Comunidade Brasil</title>
-      <link>/vmtn-vmware-technology-network-comunidade-brasil/</link>
+      <link>https://homelaber.com.br/vmtn-vmware-technology-network-comunidade-brasil/</link>
       <pubDate>Wed, 15 Mar 2017 12:00:01 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
-      <guid>/vmtn-vmware-technology-network-comunidade-brasil/</guid>
+      <guid>https://homelaber.com.br/vmtn-vmware-technology-network-comunidade-brasil/</guid>
       <description>Olá Homelabers!
 Hoje recebi uma mensagem do meu amigo e vExpert Richardson Porto (@richardsonporto) me contando uma novidade super bacana. Agora temos uma comunidade no VMTN (VMware Technology Network) em Português do Brasil. Para quem não conheçe, o VMTN é o fórum oficial da VMware.
 O Richardson é um verdadeiro RATO dos fóruns e já foi premiado em concursos internos do fórum. Veja o seu perfil aqui.

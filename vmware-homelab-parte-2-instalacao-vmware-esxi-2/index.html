@@ -12,7 +12,7 @@ Essa é a segunda parte da série VMware HomeLab e vamos realizar a instalação
 Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio porte chamada FIRMALABS e seus servidores são antigos, sem garantia e suporte. Foi aprovado pela diretoria um refresh tecnológico e decidido após um estudo pela troca dos servidores físicos e a implantação de um ambiente virtualizado baseado em produtos VMware."/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
+<link rel="canonical" href="https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
 
 
 
@@ -26,23 +26,23 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
   gtag('config', 'UA-60449897-1');
 </script>
 
-<link href="/fontawesome/css/all.css" rel="stylesheet"> 
+<link href="https://homelaber.com.br/fontawesome/css/all.css" rel="stylesheet"> 
 
 
 
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
-<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://homelaber.com.br/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://homelaber.com.br/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://homelaber.com.br/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://homelaber.com.br/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://homelaber.com.br/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://homelaber.com.br/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://homelaber.com.br/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://homelaber.com.br/img/favicon-128.png" sizes="128x128" />
 <meta name="application-name" content="Blog Homelaber Brasil"/>
 <meta name="msapplication-TileColor" content="#FFFFFF" />
 <meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
@@ -57,7 +57,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 <meta property="og:type" content="blog" />
 <meta property="og:description" content="  - VMware HomeLab – Parte 2 – Instalação VMware ESXi " />
 <meta property="og:site_name" content="Homelaber Brasil" />
-<meta property="og:url" content="/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
+<meta property="og:url" content="https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
 <meta property="og:title" content="VMware HomeLab – Parte 2 – Instalação VMware ESXi" />
 <meta property="og:description" content="  - VMware HomeLab – Parte 2 – Instalação VMware ESXi " />
 <meta property="og:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
@@ -70,19 +70,19 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 <meta name="twitter:title" content="VMware HomeLab – Parte 2 – Instalação VMware ESXi" />
 <meta name="twitter:description" content="  - VMware HomeLab – Parte 2 – Instalação VMware ESXi " />
 <meta name="twitter:image" content=" /img/homelaber-twiiter-card-1200x675.png " />
-<meta name="twitter:url" content="/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
+<meta name="twitter:url" content="https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
 
 
 
@@ -95,7 +95,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://homelaber.com.br/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -132,11 +132,11 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
     
       
         
-          <li><a href="/archive/">arquivo</a></li>
+          <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
         
       
         
-          <li><a href="/sobre/">sobre</a></li>
+          <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
         
       
       
@@ -160,11 +160,11 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 			
     
       
-        <li><a href="/archive/">arquivo</a></li>
+        <li><a href="https://homelaber.com.br/archive/">arquivo</a></li>
       
     
       
-        <li><a href="/sobre/">sobre</a></li>
+        <li><a href="https://homelaber.com.br/sobre/">sobre</a></li>
       
     
   </ul>
@@ -199,7 +199,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
   <div class="post">
  
 
-      <h1 class="post-title"><a href="/vmware-homelab-parte-2-instalacao-vmware-esxi-2/">VMware HomeLab – Parte 2 – Instalação VMware ESXi</a></h1>
+      <h1 class="post-title"><a href="https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/">VMware HomeLab – Parte 2 – Instalação VMware ESXi</a></h1>
       <div class="post-meta">
         
           <span class="post-date">
@@ -220,25 +220,25 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
         <span class="post-tags">
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/homelab/">homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/homelab/">homelab</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/homelab-vmware/">homelab vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/homelab-vmware/">homelab vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/how-to/">how-to</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/how-to/">how-to</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/instala%C3%A7%C3%A3o-vmware/">instalação vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/instala%C3%A7%C3%A3o-vmware/">instalação vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/laborat%C3%B3rio-vmware/">laboratório vmware</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/passo-a-passo/">passo-a-passo</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/passo-a-passo/">passo-a-passo</a>&nbsp;
           
             <i class="fas fa-tag"></i>
-			<a href="/tags/vmware-homelab/">vmware homelab</a>&nbsp;
+			<a href="https://homelaber.com.br/tags/vmware-homelab/">vmware homelab</a>&nbsp;
           
         </span>
       
@@ -247,7 +247,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
         <span class="post-categories">
           
             <i class="fas fa-folder-open"></i>
-			<a href="/categories/tutoriais/">Tutoriais</a>&nbsp;
+			<a href="https://homelaber.com.br/categories/tutoriais/">Tutoriais</a>&nbsp;
           
         </span>
       
@@ -259,22 +259,22 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 	
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;body=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;body=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -287,7 +287,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 <p>Relembrando o nosso <a href="http://homelaber.com.br/vmware-homelab-parte-0-introducao-e-arquitetura/">cenário</a>: Você trabalha em uma empresa de pequeno/médio porte chamada <strong>FIRMALABS</strong> e seus servidores são antigos, sem garantia e suporte. Foi aprovado pela diretoria um refresh tecnológico e decidido após um estudo pela troca dos servidores físicos e a implantação de um ambiente virtualizado baseado em produtos VMware.</p>
 <p>Você já fez a compra dos servidores, assim como de todas as licenças de software necessárias para o projeto. Os servidores foram entregues e agora o projeto começa para valer. Chegou a hora de colocar a mão na massa.</p>
 <p>Hoje iremos realizar a instalação do servidor <strong>esx0</strong> - que se acordo com nossa arquitetura de laboratório será a base para a instalação do ambiente virtualizado do cenário da FIRMALABS.</p>
-<p><img src="/imagens/2015/04/2015-04-25_01-02-45.png" alt="2015-04-25_01-02-45"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/2015-04-25_01-02-45.png" alt="2015-04-25_01-02-45"></p>
 <!-- raw HTML omitted -->
 <p>N<a href="http://homelaber.com.br/vmware-homelab-parte-1-preparativos/">o post anterior</a>, eu indiquei todos os downloads necessários para essa instalação. Caso ainda não tenha feito o seu registro no site da VMware e baixado as ISOs necessárias, volte ao post anterior e depois continue a partir daqui. Então vamos lá!</p>
 <p><strong>Pré-requisitos:</strong></p>
@@ -300,72 +300,72 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 <p>O tempo estimado para realização de todas os passos deve ficar entre 20 e 30 minutos.</p>
 <p><strong>Passo a passo:</strong></p>
 <p>Com o pendrive de boot já criado, faça o boot pelo USB</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL2.png" alt="042415_0353_VMwareHomeL2.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL2.png" alt="042415_0353_VMwareHomeL2.png"></p>
 <p>Após o boot você verá a tela a seguir. Escolha a primeira opção para executar o instalador</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL3.png" alt="042415_0353_VMwareHomeL3.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL4.png" alt="042415_0353_VMwareHomeL4.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL5.png" alt="042415_0353_VMwareHomeL5.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL3.png" alt="042415_0353_VMwareHomeL3.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL4.png" alt="042415_0353_VMwareHomeL4.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL5.png" alt="042415_0353_VMwareHomeL5.png"></p>
 <p>Após o instalador carregar todos os arquivos necessários na memória, a tela inicial do instalador irá aparecer. Pressione ENTER para continuar</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL6.png" alt="042415_0353_VMwareHomeL6.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL6.png" alt="042415_0353_VMwareHomeL6.png"></p>
 <p>Pressione F11 para aceitar a licença e continuar</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL7.png" alt="042415_0353_VMwareHomeL7.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL7.png" alt="042415_0353_VMwareHomeL7.png"></p>
 <p>Na próxima tela, você deverá escolher o local de instalação. Escolha o seu Pendrive e pressione ENTER para continuar</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL8.png" alt="042415_0353_VMwareHomeL8.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL8.png" alt="042415_0353_VMwareHomeL8.png"></p>
 <p>A próxima tela apresenta a escolha do idioma do teclado. Escolha a opção que melhor te atender. Eu sempre costumo escolher US Default. Pressione ENTER para continuar</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL9.png" alt="042415_0353_VMwareHomeL9.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL9.png" alt="042415_0353_VMwareHomeL9.png"></p>
 <p>A próxima tela solicita que você informe a senha de ROOT. Escolha uma senha fácil de ser lembrada e anote em algum lugar. Para efeitos de laboratório, vou escolher a senha “install”. Pressione ENTER para continuar.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL10.png" alt="042415_0353_VMwareHomeL10.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL10.png" alt="042415_0353_VMwareHomeL10.png"></p>
 <p>Pressione F11 para confirmar e iniciar a instalação</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL12.png" alt="042415_0353_VMwareHomeL12.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL13.png" alt="042415_0353_VMwareHomeL13.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL14.png" alt="042415_0353_VMwareHomeL14.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL12.png" alt="042415_0353_VMwareHomeL12.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL13.png" alt="042415_0353_VMwareHomeL13.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL14.png" alt="042415_0353_VMwareHomeL14.png"></p>
 <p>Quando a instalação finalizar, pressione ENTER para reiniciar o servidor.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL15.png" alt="042415_0353_VMwareHomeL15.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL16.png" alt="042415_0353_VMwareHomeL16.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL15.png" alt="042415_0353_VMwareHomeL15.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL16.png" alt="042415_0353_VMwareHomeL16.png"></p>
 <p>Após o boot, o servidor ESXi irá receber um IP do seu DHCP (no caso de existir um servidor DHPC na sua rede) e está pronto para ser utilizado.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL17.png" alt="042415_0353_VMwareHomeL17.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL17.png" alt="042415_0353_VMwareHomeL17.png"></p>
 <p>Viu como é fácil? À primeira vista instalar um SERVIDOR de virtualização parece um bixo de sete cabeças.</p>
 <p>Agora vamos as configurações:</p>
 <p>Pressione F2 e insira o seu usuário e password, no nosso caso “root” | “install”.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL18.png" alt="042415_0353_VMwareHomeL18.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL18.png" alt="042415_0353_VMwareHomeL18.png"></p>
 <p>Selecione a opção “Configure Management Network” e pressione ENTER</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL19.png" alt="042415_0353_VMwareHomeL19.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL19.png" alt="042415_0353_VMwareHomeL19.png"></p>
 <p>Selecione a sua placa de rede - em nosso caso só temos 1 e pressione ENTER</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL20.png" alt="042415_0353_VMwareHomeL20.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL20.png" alt="042415_0353_VMwareHomeL20.png"></p>
 <p>Selecione “Network Adapters” e pressione ENTER</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL21.png" alt="042415_0353_VMwareHomeL21.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL21.png" alt="042415_0353_VMwareHomeL21.png"></p>
 <p>Nessa tela você deverá realizar as configurações de IP. Marque a opção “Set static IP address and network configuration:”</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL22.png" alt="042415_0353_VMwareHomeL22.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL22.png" alt="042415_0353_VMwareHomeL22.png"></p>
 <p>Escolha um IP livre na sua rede e preencha os campos IP Address, Subnet Mask e Default Gateway. Pressione ENTER para confirmar e voltar a tela anterior.</p>
 <p>Selecione “DNS Configuration” e pressione ENTER.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL23.png" alt="042415_0353_VMwareHomeL23.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL23.png" alt="042415_0353_VMwareHomeL23.png"></p>
 <p>Selecione a opção “Use the following DNS server address and hostname:” e preencha os campos com o IP de seus servidores DNS e escolha um nome para o seu servidor. Vou utilizar “ESX0”, você pode escolher o nome que quiser. Pressione ENTER para confirmar.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL24.png" alt="042415_0353_VMwareHomeL24.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL24.png" alt="042415_0353_VMwareHomeL24.png"></p>
 <p>Na próxima tela, pressione Y (yes) para aplicar as alterações e reiniciar o servidor.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL25.png" alt="042415_0353_VMwareHomeL25.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL26.png" alt="042415_0353_VMwareHomeL26.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL25.png" alt="042415_0353_VMwareHomeL25.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL26.png" alt="042415_0353_VMwareHomeL26.png"></p>
 <p>Após o boot, você verá que ele já assumiu as novas configurações de IP. Faltam agora somente mais alguns passos e finalizaremos a instalação.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL27.png" alt="042415_0353_VMwareHomeL27.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL27.png" alt="042415_0353_VMwareHomeL27.png"></p>
 <p>Pronto. O seu servidor ESXi está instalado e configurado. O acesso ao servidor será feito remotamente via o vSphere Client.</p>
 <p>Vamos agora fazer o download e a instalação do vSphere Client:</p>
 <p>Abra o browser e acesse https://ip-do-seu-servidor-esxi/ no nosso caso https://192.168.100.150/</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL30.png" alt="042415_0353_VMwareHomeL30.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL30.png" alt="042415_0353_VMwareHomeL30.png"></p>
 <p>Clique em “Download vSphere Client” e faça o download do arquivo que tem aproximadamente 350MB.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL31.png" alt="042415_0353_VMwareHomeL31.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL31.png" alt="042415_0353_VMwareHomeL31.png"></p>
 <p>A instalação do vSphere Client é bem simples: aceite todos os defaults e next, next, finish.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL32.png" alt="042415_0353_VMwareHomeL32.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL33.png" alt="042415_0353_VMwareHomeL33.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL34.png" alt="042415_0353_VMwareHomeL34.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL35.png" alt="042415_0353_VMwareHomeL35.png"></p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL36.png" alt="042415_0353_VMwareHomeL36.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL32.png" alt="042415_0353_VMwareHomeL32.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL33.png" alt="042415_0353_VMwareHomeL33.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL34.png" alt="042415_0353_VMwareHomeL34.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL35.png" alt="042415_0353_VMwareHomeL35.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL36.png" alt="042415_0353_VMwareHomeL36.png"></p>
 <p>Abra o vSphere Client e coloque as informações de IP, User name e Password do seu servidor ESXi.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL37.png" alt="042415_0353_VMwareHomeL37.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL37.png" alt="042415_0353_VMwareHomeL37.png"></p>
 <p>Na tela de aviso de segurança, marque para instalar o certificado e depois clique no botão Ignore.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL38.png" alt="042415_0353_VMwareHomeL38.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL38.png" alt="042415_0353_VMwareHomeL38.png"></p>
 <p>Clique em OK na próxima tela para aceitar a licença de avaliação.</p>
-<p><img src="/imagens/2015/04/042415_0353_VMwareHomeL39.png" alt="042415_0353_VMwareHomeL39.png"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/042415_0353_VMwareHomeL39.png" alt="042415_0353_VMwareHomeL39.png"></p>
 <p>Seja bem-vindo ao seu novo servidor VMware ESXi novinho em folha! :D</p>
-<p><img src="/imagens/2015/04/vmware-homelab-parte-2-instalacao-vmware-esxi-058.png" alt="vmware-homelab-parte-2-instalacao-vmware-esxi-058"></p>
+<p><img src="https://homelaber.com.br/imagens/2015/04/vmware-homelab-parte-2-instalacao-vmware-esxi-058.png" alt="vmware-homelab-parte-2-instalacao-vmware-esxi-058"></p>
 <p>No próximo post, iremos instalar 2 VMs com o ESXi, basicamente repetir os passos acima. Esses serão os hosts do cluster VM da FIRMALABS.</p>
 <p>Caso você encontre alguma dificuldade ou dúvidas sobre o que foi apresentado nesse post, não deixe de comentar no post, pois faço questão de te responder a todas as suas dúvidas.</p>
 <p>Até o próximo post e não se esqueça de deixar o seu comentário no post, seguir o HomeLaber no Twitter (@Homelaber) e curtir a nossa página no Facebook (fb.com/homelaber) para ficar sempre atualizado das novidades do blog.</p>
@@ -401,22 +401,22 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
     
 <i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
 <span class="share-box"> 
-   <a href="https://www.facebook.com/sharer/sharer.php?u=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://twitter.com/intent/tweet?text=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="http://www.reddit.com/submit?url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="whatsapp://send?text=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f&amp;title=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
 &nbsp;
-    <a href="mailto:?subject=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;body=%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+    <a href="mailto:?subject=VMware%20HomeLab%20%e2%80%93%20Parte%202%20%e2%80%93%20Instala%c3%a7%c3%a3o%20VMware%20ESXi&amp;body=https%3a%2f%2fhomelaber.com.br%2fvmware-homelab-parte-2-instalacao-vmware-esxi-2%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
   </span>
 
 
@@ -427,7 +427,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 <div class="media author-box">
 
     <div class="media-figure">
-        <img src="/img/avatar-valdecir-8bits.png" width="100" height="100">
+        <img src="https://homelaber.com.br/img/avatar-valdecir-8bits.png" width="100" height="100">
     </div>
 
     <div class="media-body">
@@ -473,7 +473,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="/instalacao-phpipam-open-source-ip-address-management/">
+                <a href="https://homelaber.com.br/instalacao-phpipam-open-source-ip-address-management/">
                   <span class="button__icon">←</span>
                   <span class="button__text">phpIPAM - Open Source IP Address Management</span>
                 </a>
@@ -481,7 +481,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
             
             
               <span class="button next">
-                <a href="/veeam-endpoint-backup/">
+                <a href="https://homelaber.com.br/veeam-endpoint-backup/">
                   <span class="button__text">Veeam EndPoint Backup</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -533,8 +533,8 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
          </p>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
 
 <hr>
 <style>
@@ -559,9 +559,9 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 
 
 <div class="row">
-  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
-  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
-  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="https://homelaber.com.br/img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="https://homelaber.com.br/img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="https://homelaber.com.br/img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
 
 </div>
 
@@ -569,7 +569,7 @@ Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio p
 
 <footer class="footer">
   <div class="footer__inner">
-      <div class="copyright copyright--user"> Last update: 12-Feb-2020 @ 11:44pm
+      <div class="copyright copyright--user"> Last update: 13-Feb-2020 @ 12:13am
 	  </div>
 	  
     </div>
