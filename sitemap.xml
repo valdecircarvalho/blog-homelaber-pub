@@ -3,42 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://homelaber.com.br/tags/backup/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <loc>https://homelaber.com.br/tags/acesso-remoto/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories/blog/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/como-acessar-homelab-remotamente/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/homelab/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/homelab/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/post/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/remoto/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/tags/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/veeam/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vpn/</loc>
+    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/backup/</loc>
     <lastmod>2020-02-12T03:15:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -53,13 +102,6 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/veeam/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/veeam/</loc>
     <lastmod>2020-02-12T03:15:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -171,14 +213,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/aws-reinvent-2019/</loc>
+    <loc>https://homelaber.com.br/tags/aws-reinvent-2019/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/aws-reinvent-2019/</loc>
+    <loc>https://homelaber.com.br/categories/aws-reinvent-2019/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -486,14 +528,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/azure/</loc>
+    <loc>https://homelaber.com.br/categories/azure/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/azure/</loc>
+    <loc>https://homelaber.com.br/tags/azure/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -626,14 +668,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/macos/</loc>
+    <loc>https://homelaber.com.br/tags/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/macos/</loc>
+    <loc>https://homelaber.com.br/categories/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -837,13 +879,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/devops/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/categories/homelab/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1543,13 +1578,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/homelab/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/storage/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2180,14 +2208,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/themes/</loc>
+    <loc>https://homelaber.com.br/categories/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/themes/</loc>
+    <loc>https://homelaber.com.br/tags/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4260,13 +4288,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/#sysadmin-%23itpros/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/acesso-remoto/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12884,13 +12905,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/oid/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vpn/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
