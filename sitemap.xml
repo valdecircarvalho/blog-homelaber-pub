@@ -3,28 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://homelaber.com.br/tags/acesso-remoto/</loc>
-    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/categories/blog/</loc>
-    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/cheatsheet/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/hugo/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/links/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/links/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/markdown/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/markdown-cheatsheet/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/pi-dashboard/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/raspberry/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/acesso-remoto/</loc>
     <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -52,21 +122,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/post/</loc>
-    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <loc>https://homelaber.com.br/projetos/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/tags/remoto/</loc>
-    <lastmod>2020-02-13T01:37:29-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/</loc>
     <lastmod>2020-02-13T01:37:29-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -116,35 +179,28 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/blog/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T13:50:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/tags/cms/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T13:50:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/post/2020-01-19-homelaber-2020/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/hugo/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T13:50:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/tags/wordpress/</loc>
-    <lastmod>2020-02-12T03:15:50-03:00</lastmod>
+    <lastmod>2020-02-13T13:50:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -242,13 +298,6 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/eventos/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/links/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -668,14 +717,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/macos/</loc>
+    <loc>https://homelaber.com.br/categories/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/macos/</loc>
+    <loc>https://homelaber.com.br/tags/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2180,13 +2229,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/markdown/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/_draft/markdown-syntax/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2208,14 +2250,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/themes/</loc>
+    <loc>https://homelaber.com.br/tags/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/themes/</loc>
+    <loc>https://homelaber.com.br/categories/themes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2348,14 +2390,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/vbrownbag-brasil/</loc>
+    <loc>https://homelaber.com.br/tags/vbrownbag-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vbrownbag-brasil/</loc>
+    <loc>https://homelaber.com.br/categories/vbrownbag-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
