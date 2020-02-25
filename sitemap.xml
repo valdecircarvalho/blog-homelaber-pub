@@ -4,14 +4,98 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/blog/</loc>
-    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/blog/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories/</loc>
-    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/comunidade/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vcommunity/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/vexpert/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vexpert/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vexpert2020/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vm/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/vmware/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/vmware-vexpert-classe-2020/</loc>
+    <lastmod>2020-02-25T00:45:20-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,21 +157,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/post/</loc>
-    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/categories/raspberry/</loc>
-    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/</loc>
     <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -180,13 +250,6 @@
   <url>
     <loc>https://homelaber.com.br/veeam-v10-novidades-da-versao/</loc>
     <lastmod>2020-02-12T03:15:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/blog/</loc>
-    <lastmod>2020-02-13T13:50:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -360,20 +423,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vm/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/ad/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -410,13 +459,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/backup-veritas/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/comunidade/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1417,13 +1459,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmware-kubernetes/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1719,13 +1754,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/storage-gateway/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/categories/vexpert/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2237,13 +2265,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/comunidade-vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vexpert/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
