@@ -4107,5 +4107,24 @@ Quem aqui costuma fazer PoCs no seu dia a dia?
 No meu atual trabalho, conduzir PoCs de diversos produtos e tecnologias faz parte do meu dia a dia. Então resolvi escrever esse artigo para conceituar o que é uma PoC, compartilhar minha experiência e dicas e melhores práticas para executar uma boa Poc, assim como o que evitar para que sua PoC não seja um desastre.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://homelaber.com.br/post/tabela/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://homelaber.com.br/post/tabela/</guid>
+      <description>Name Cidade UF Twitter Blog     Trond Eirik Haavarstein Fortaleza CE @xenappblog https://xenappblog.com   Maurício Harley Fortaleza CE @mauricioharley https://itHarley.com/   Daniel Mendes Brasília DF @danielslmendes    Felipe Lacerda Brasília DF @philps    Fernando Silva Brasília DF @vmnetbrasil http://www.vmnetbrasil.com.br/   Guilherme Barros Brasília DF  https://medium.com/@admin.guilherme   Mauricio Amorim Brasília DF     Pedro Calixto Brasília DF @BlogPCalixto https://pedrocalixto.</description>
+    </item>
+    
+    <item>
+      <title>titulo</title>
+      <link>https://homelaber.com.br/url-do-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://homelaber.com.br/url-do-post/</guid>
+      <description>Olá Homelabers!
+ Subititle-1  Subititle-2  Subititle-3  Subititle-4  Subititle-5   </description>
+    </item>
+    
   </channel>
 </rss>

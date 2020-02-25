@@ -2981,5 +2981,15 @@ Eu espero que consiga participar da votação no próximo ano, mesmo esse blog s
 A ideia desse blog é criar e compartilhar conteúdo em Português sobre Homelabs, virtualização, servidores, redes, softwares open source, orquestração, monitoração, windows, linux, vmware, hyper-v, cisco e por ai vai, além de servir como uma base de conhecimento e memória para meus (e seus também) estudos e pesquisas.</description>
     </item>
     
+    <item>
+      <title>titulo</title>
+      <link>https://homelaber.com.br/url-do-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://homelaber.com.br/url-do-post/</guid>
+      <description>Olá Homelabers!
+ Subititle-1  Subititle-2  Subititle-3  Subititle-4  Subititle-5   </description>
+    </item>
+    
   </channel>
 </rss>

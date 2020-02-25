@@ -4,27 +4,27 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/blog/</loc>
-    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories/</loc>
-    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/tags/cheatsheet/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/hug/</loc>
     <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -38,14 +38,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/links/</loc>
+    <loc>https://homelaber.com.br/tags/links/</loc>
     <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/links/</loc>
+    <loc>https://homelaber.com.br/categories/links/</loc>
     <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://homelaber.com.br/post/</loc>
-    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -96,6 +96,13 @@
   <url>
     <loc>https://homelaber.com.br/tags/acesso-remoto/</loc>
     <lastmod>2020-02-13T01:37:29-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/</loc>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -269,7 +276,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/aws-reinvent-2019/</loc>
+    <loc>https://homelaber.com.br/tags/aws/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -277,6 +284,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/aws-reinvent-2019/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/aws-reinvent-2019/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -297,7 +311,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/cloud/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/categories/eventos/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/linux/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -318,7 +346,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/video/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/videos/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vm/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -332,7 +374,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/ad/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/adistec/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/alexandre/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -472,6 +528,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/palestra/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/palestras/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -535,6 +598,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/cursos/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/cursos-gr%C3%A1tis/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -577,6 +647,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/azure/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/categories/azure/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -584,7 +661,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/azure/</loc>
+    <loc>https://homelaber.com.br/tags/download/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -717,14 +794,14 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/macos/</loc>
+    <loc>https://homelaber.com.br/tags/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/macos/</loc>
+    <loc>https://homelaber.com.br/categories/macos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -843,6 +920,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/grupo/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/grupo-de-usu%C3%A1rios/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -865,13 +949,6 @@
   
   <url>
     <loc>https://homelaber.com.br/hashicorp-user-group-sao-paulo-hugsp-5o-encontro-no-dia-30-10/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/hug/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -970,6 +1047,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/review/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/tool/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1229,13 +1313,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/hostifi_net/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/cloud/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1522,13 +1599,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/aws/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/cloud-storage/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1564,6 +1634,20 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/open/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/open-source/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/open-source-storage/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1572,6 +1656,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/s3/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/storage/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1627,13 +1718,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/storage/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/storage-gateway/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1642,6 +1726,13 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/vexpert/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/evento-veeam/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1732,6 +1823,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/amazon/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/amazon-aws/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1781,28 +1879,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/open-source/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/tool/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/32-evento-aws-user-group-sao-paulo/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/amazon/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1831,13 +1908,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/iac/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/palestra/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2040,6 +2110,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/download-vmware/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/download-vmware-vsan/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2062,6 +2139,20 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/treinamento-vsan/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/tutoria/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/tutorial/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2131,6 +2222,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/brasi/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2160,6 +2258,13 @@
   
   <url>
     <loc>https://homelaber.com.br/vexpert-classe-2019-brasil/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware-vexpert/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2390,6 +2495,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vbrownbag/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vbrownbag-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2404,13 +2516,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/grupo/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/grupo-nsx/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2419,6 +2524,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/grupo-nsx-portugu%C3%AAs/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/grupo-vmware/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2446,6 +2558,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/nsx/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/nsx-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2461,6 +2580,13 @@
   
   <url>
     <loc>https://homelaber.com.br/como-fazer-inventario-e-documentacao-de-ambientes-vmware-vsphere/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/documenta%C3%A7%C3%A3o/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2551,6 +2677,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vcp/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vcp5-dcv/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2587,6 +2720,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vbrownbagbrasil/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/nova-vers%C3%A3o/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2705,13 +2845,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vmware-vexpert/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmware-vexpert-2019/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2748,6 +2881,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/estudar-vmware/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/lab/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2845,6 +2985,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/e-book/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/e-book-free/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2922,6 +3069,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vcenter/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vcenter-5.5/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -2937,13 +3091,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vsphere-5.5/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/evento-veeam/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3006,6 +3153,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/servidor/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/servidor-apache/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3028,6 +3182,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/lab-free-vmware/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/lab-gratis/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3146,13 +3307,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vbrownbag/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/vbrownbag-brasil-o-que-e-e-para-que-serve-esse-tal-de-coaching/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3230,6 +3384,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vmtn/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vmtn5514u/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3279,6 +3440,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/book/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/book-nsx-free/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3315,13 +3483,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/livro-vmware-nsx-gr%C3%A1tis/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/nsx/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3475,6 +3636,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/podcast-infraestrutura/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/podcast-infraestrutura-em-portugu%C3%AAs/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3566,13 +3734,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/podcast-infraestrutura/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/podcast-ti/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3609,6 +3770,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/top-vblog/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/top-vblogs/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3867,6 +4035,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/profiss%C3%A3o/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/profiss%C3%A3o-arquiteto-de-ti/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3875,6 +4050,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/profiss%C3%A3o-especialista-de-ti/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/tarsio/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3930,6 +4112,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/script/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/script-vmware/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3951,7 +4140,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/beta/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/beta-rancher-2.0/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/como-instalar-rancher/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3965,7 +4168,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/como-instalar/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/disponivel-beta-da-versao-2-0-do-rancher-comece-a-testar-agora/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/novidades/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -3994,13 +4211,6 @@
   
   <url>
     <loc>https://homelaber.com.br/como-fazer-o-download-manual-de-todas-as-versoes-do-vmware-tools/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/download/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4252,7 +4462,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vblog/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vblogs/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/como-fazer/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4337,6 +4561,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/acesso-remoto-gr%C3%A1tis/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/alternativa/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4435,6 +4666,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/substituir-teamviewer/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/suporte/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4609,13 +4847,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/tarsio/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/valdecir-carvalho/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -4638,6 +4869,13 @@
   
   <url>
     <loc>https://homelaber.com.br/feliz-aniversario-homelaber/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/comunidade-veeam/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -4693,13 +4931,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/suporte/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/suporte-t%C3%A9cnico/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -4715,13 +4946,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/download-powercli/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/download-vmware/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5043,13 +5267,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/video/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmug-leader-summit/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5135,13 +5352,6 @@
   
   <url>
     <loc>https://homelaber.com.br/download-de-todos-os-software-da-vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/linux/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5288,7 +5498,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/como-instalar-rancher/</loc>
+    <loc>https://homelaber.com.br/tags/instala%C3%A7%C3%A3o/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5352,6 +5562,13 @@
   
   <url>
     <loc>https://homelaber.com.br/como-obter-licencas-full-dos-produtos-vmware/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/software/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5568,13 +5785,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/beta/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/beta-vmware-2017/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5673,6 +5883,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vca/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vcap/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5736,13 +5953,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/alternativa/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/draw.io/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5758,13 +5968,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/microsoft-visio/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/software/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5821,6 +6024,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmug-s%C3%A3o-paulo/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware-user-group/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -5918,13 +6128,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vmware-user-group/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/categories/#papodequinta/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5960,6 +6163,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vmworld-us/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vmworld-us-2017/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -5989,13 +6199,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vexpert-vsan/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/brasi/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6079,13 +6282,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/profiss%C3%A3o/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/sthefanie-marques/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -6108,6 +6304,20 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/brasileiros-na-vmworld/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/dica/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/dicas/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6142,21 +6352,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vmworld-us/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/#topvblog2017/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/top-vblogs/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6359,13 +6555,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/tutorial/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/royaltsapp/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -6402,13 +6591,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/royalts/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/book/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6478,13 +6660,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/e-book/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vcap-dcv/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -6542,13 +6717,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/docs.vmware.com/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/documenta%C3%A7%C3%A3o/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6689,6 +6857,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/how-to-be-a-vexpert/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/how-to/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -6836,6 +7011,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vforum/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vforum-online/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -7080,6 +7262,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/vdm/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/vdm-challenge/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -7102,6 +7291,13 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/virtual-design-master-2017/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmiss/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -7305,13 +7501,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/programa-veeam-vanguardblog/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/comunidade-veeam/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -7654,6 +7843,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/boot/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/bootcamp-aws/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -7710,6 +7906,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/evento-tecnologia/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/evento-tecnologia-em-s%C3%A3o-paulo/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -7759,13 +7962,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vdm/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmware-on-aws/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -7801,6 +7997,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/google-cloud/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/google-cloud-platform/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -7823,6 +8026,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/google-next-2017/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/nuvem/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -7984,13 +8194,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/f%C3%B3rum-vmware-em-portugu%C3%AAs/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vmtn/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -8179,6 +8382,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/valores-certifica%C3%A7%C3%A3o-vmware/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/valores-certifica%C3%A7%C3%A3o-vmware-no-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -8187,13 +8397,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/ferramentas/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/nova-vers%C3%A3o/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -8242,28 +8445,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/valores-certifica%C3%A7%C3%A3o-vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vca/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vcdx/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vcp/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -8306,13 +8488,6 @@
   
   <url>
     <loc>https://homelaber.com.br/novo-homelab-para-2017-hpe-ml-110-g9/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/servidor/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -8578,13 +8753,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/google-cloud/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/blog-official-vmworld-2016/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -8614,6 +8782,20 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/brasileiro-vmworld/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/canal/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/canal-youtube/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -8949,6 +9131,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/lan%C3%A7amento/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/lan%C3%A7amento-vmware-vsphere-6.5/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -9026,13 +9215,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/evento-tecnologia/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/evento-resumo-dell-emc-forum-2016/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -9097,13 +9279,6 @@
   
   <url>
     <loc>https://homelaber.com.br/vmware-e-amazon-juntas-agora-voce-podera-rodar-softwares-vmware-na-aws/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/grupo-vmware/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -9726,13 +9901,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vcenter/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmware-knowledge-base/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -9748,6 +9916,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmware-vrealize-automation/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vrealize/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -10230,13 +10405,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vmiss/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vmiss.net/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10350,6 +10518,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/solu%C3%A7%C3%A3o-backup-linux-gr%C3%A1tis/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/solu%C3%A7%C3%A3o-de-backup/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -10489,13 +10664,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/lab/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/lab-cisco/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10622,13 +10790,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/how-to/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/howto/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10671,13 +10832,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/tutoria/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/tutorial-alpine-linux/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10693,13 +10847,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/video-tutorial-alpine-linux/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/como-instalar/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -10755,13 +10902,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/alexandre/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/parreira/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10804,13 +10944,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/canal-youtube/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/passo-a-passo/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10819,6 +10952,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/tutorial-veeam-em-portugu%C3%AAs/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/veeam-endpoint-backup/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -10923,13 +11063,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/script/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/script-para-parar-vms/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -10980,13 +11113,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/curso-online-vmware/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/cursos/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -11154,6 +11280,13 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/ds/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/dsl/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11266,7 +11399,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vm/</loc>
+    <loc>https://homelaber.com.br/tags/evento-online/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -11281,20 +11414,6 @@
   
   <url>
     <loc>https://homelaber.com.br/evento-vmware-forum-online-spring-2016/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vforum-online/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/canal/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -11358,13 +11477,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/tutorial-youtube/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vblog/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -11581,13 +11693,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/veeam-endpoint-backup/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/canal-do-youtube-do-blog-homelaber-brasil/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -11764,13 +11869,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/software-de-backup-para-vm/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/solu%C3%A7%C3%A3o-de-backup/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -11987,7 +12085,21 @@
   </url>
   
   <url>
+    <loc>https://homelaber.com.br/tags/log/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/tags/log-insight/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/management/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12002,13 +12114,6 @@
   
   <url>
     <loc>https://homelaber.com.br/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/nuvem/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12071,13 +12176,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vrealize/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vrealize-business/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12121,13 +12219,6 @@
   
   <url>
     <loc>https://homelaber.com.br/acabou-o-carnaval/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/novidades/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12253,13 +12344,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/lan%C3%A7amento/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/pi-zero/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12331,13 +12415,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/browser/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/dica/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12477,13 +12554,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/ad/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/adds/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12492,13 +12562,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/domain-controller/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/ds/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12541,6 +12604,13 @@
   
   <url>
     <loc>https://homelaber.com.br/instalacao-configuracao-snmp-linux-ubuntu/</loc>
+    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/linux-ubuntu/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12715,13 +12785,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/evento-online/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/vforum-online-fall-2015/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12778,28 +12841,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/como-fazer/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/instala%C3%A7%C3%A3o/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/log/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -12862,13 +12904,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/linux-ubuntu/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/desafio-vdm30in30/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -12912,13 +12947,6 @@
   
   <url>
     <loc>https://homelaber.com.br/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/dicas/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -13149,20 +13177,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/management/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/open/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/phpipam/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -13247,13 +13261,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/boot/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/criando-ubs-boot-vmware-exsi-com-rufus/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -13318,13 +13325,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/software-para-homelab/</loc>
-    <lastmod>2020-01-21T00:19:50-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/lab-gratis/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -13402,12 +13402,28 @@
   
   <url>
     <loc>https://homelaber.com.br/post/2020-01-21-o-que-e-poc-copy/</loc>
-    <priority>0</priority>
+    <lastmod>2020-02-20T19:07:09-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post/tabela/</loc>
+    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/archive/</loc>
     <lastmod>2020-01-21T00:19:50-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/url-do-post/</loc>
+    <lastmod>2020-02-24T23:35:13-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
