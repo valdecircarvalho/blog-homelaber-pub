@@ -1,65 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>veeam brasil on Blog Homelaber Brasil</title>
-    <link>https://homelaber.com.br/tags/veeam-brasil/</link>
-    <description>Recent content in veeam brasil on Blog Homelaber Brasil</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>br</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
-    <lastBuildDate>Tue, 04 Dec 2018 11:00:18 +0000</lastBuildDate>
-    
-	<atom:link href="https://homelaber.com.br/tags/veeam-brasil/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Veeam Vanguard 2019 - Inscrições abertas</title>
-      <link>https://homelaber.com.br/veeam-vanguard-2019-inscricoes-abertas/</link>
-      <pubDate>Tue, 04 Dec 2018 11:00:18 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/veeam-vanguard-2019-inscricoes-abertas/</guid>
-      <description>Olá Homelabers!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>veeam brasil on Blog Homelaber Brasil</title><link>https://homelaber.com.br/tags/veeam-brasil/</link><description>Recent content in veeam brasil on Blog Homelaber Brasil</description><generator>Hugo -- gohugo.io</generator><language>br</language><managingEditor>youremail@domain.com (Some Person)</managingEditor><webMaster>youremail@domain.com (Some Person)</webMaster><copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright><lastBuildDate>Tue, 04 Dec 2018 11:00:18 +0000</lastBuildDate><atom:link href="https://homelaber.com.br/tags/veeam-brasil/index.xml" rel="self" type="application/rss+xml"/><item><title>Veeam Vanguard 2019 - Inscrições abertas</title><link>https://homelaber.com.br/veeam-vanguard-2019-inscricoes-abertas/</link><pubDate>Tue, 04 Dec 2018 11:00:18 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/veeam-vanguard-2019-inscricoes-abertas/</guid><description>Olá Homelabers!
 A Veeam anunciou na semana passada que as inscrições para participar de seu programa de influenciadores estão abertas e as nomeações vão até o dia 02/01/2019.
 https://twitter.com/RickVanover/status/1067429274100019201
 Eu já falei sobre o programa Veeam Vanguard aqui e em março de 2018 fiquei super contente de tersido selecionado como o segundo Vanguard no Brasil.
-Em 2018 o programa completou 4 anos de existência e posso dizer que é um dos melhores e mais exclusivos programas de comunidades e influenciadores do mercado.</description>
-    </item>
-    
-    <item>
-      <title>Eu sou Veeam Vanguard</title>
-      <link>https://homelaber.com.br/eu-sou-veeam-vanguard/</link>
-      <pubDate>Tue, 06 Mar 2018 16:45:52 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/eu-sou-veeam-vanguard/</guid>
-      <description>Olá Homelabers!
+Em 2018 o programa completou 4 anos de existência e posso dizer que é um dos melhores e mais exclusivos programas de comunidades e influenciadores do mercado.</description></item><item><title>Eu sou Veeam Vanguard</title><link>https://homelaber.com.br/eu-sou-veeam-vanguard/</link><pubDate>Tue, 06 Mar 2018 16:45:52 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/eu-sou-veeam-vanguard/</guid><description>Olá Homelabers!
 To read this post in English go here
 Hoje pela manhã recebi um email do Rick Vanover dizendo que fui aceito no programa Veeam Vanguard 2018.
-Estou super feliz e honrado de fazer parte dessa comunidade, de pessoas inteligentes e super bacanas. Meu muito obrigado ao Rickatron aka Rick Vanover (@rickvanover), Matt Crape (@MattThatITGuy), Jorge de la Cruz (@jorgedlcruz), Michael Cade (@MichaelCade1), Razvan Duhan (@Razvan_Duhan), Tim Smith (@tsmith_co), Dmitry Kniazev (@vmdk_co), Ariel Sanchez Mora (@arielsanchezmor) e a tantas outras pessoas da #vCommunity.</description>
-    </item>
-    
-    <item>
-      <title>Certificações Veeam - VMCE | VMCE-A D&amp;O | VMCA</title>
-      <link>https://homelaber.com.br/certificacoes-veeam-vmce-vmce-a-do-vmca/</link>
-      <pubDate>Mon, 08 May 2017 11:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/certificacoes-veeam-vmce-vmce-a-do-vmca/</guid>
-      <description>Olá Homelabers!
+Estou super feliz e honrado de fazer parte dessa comunidade, de pessoas inteligentes e super bacanas. Meu muito obrigado ao Rickatron aka Rick Vanover (@rickvanover), Matt Crape (@MattThatITGuy), Jorge de la Cruz (@jorgedlcruz), Michael Cade (@MichaelCade1), Razvan Duhan (@Razvan_Duhan), Tim Smith (@tsmith_co), Dmitry Kniazev (@vmdk_co), Ariel Sanchez Mora (@arielsanchezmor) e a tantas outras pessoas da #vCommunity.</description></item><item><title>Certificações Veeam - VMCE | VMCE-A D&amp;O | VMCA</title><link>https://homelaber.com.br/certificacoes-veeam-vmce-vmce-a-do-vmca/</link><pubDate>Mon, 08 May 2017 11:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/certificacoes-veeam-vmce-vmce-a-do-vmca/</guid><description>Olá Homelabers!
 Dando continuidade na série sobre Veeam, hoje vou falar um pouco sobre as certificações técnicas oferecidas pela Veeam.
-Sinceramente, não sei o quanto essas certificações são populares no Brasil. Mas de qualquer maneira, a Veeam é uma empresa que está crescendo muito no mundo e no também no Brasil e profissionais técnicos certificamos, sempre são valorizados no mercado. Eu pedi informações a Veeam, mas ainda não tive nenhuma resposta.</description>
-    </item>
-    
-    <item>
-      <title>NOVO Veeam Endpoint Backup FREE 1.5</title>
-      <link>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</link>
-      <pubDate>Mon, 21 Mar 2016 11:00:19 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</guid>
-      <description>Olá Homelabers!
+Sinceramente, não sei o quanto essas certificações são populares no Brasil. Mas de qualquer maneira, a Veeam é uma empresa que está crescendo muito no mundo e no também no Brasil e profissionais técnicos certificamos, sempre são valorizados no mercado. Eu pedi informações a Veeam, mas ainda não tive nenhuma resposta.</description></item><item><title>NOVO Veeam Endpoint Backup FREE 1.5</title><link>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</link><pubDate>Mon, 21 Mar 2016 11:00:19 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</guid><description>Olá Homelabers!
 Semana passada a Veeam lançou a nova versão do Veeam Endpoint Backup (que eu já falei aqui). Venho usando o VEB desde a versão BETA para fazer backup dos meus computadores, tanto aqui em casa quanto na FIRMA! E até hoje ele nunca me deixou na mão e até já me salvou algumas vezes.
-A nova versão (1.5), trás algumas novidades interessantes e a correção de alguns bugs. Nesselink, você poderá ver todas novas funcionalidades, assim como as melhorias do produto.</description>
-    </item>
-    
-  </channel>
-</rss>
+A nova versão (1.5), trás algumas novidades interessantes e a correção de alguns bugs. Nesselink, você poderá ver todas novas funcionalidades, assim como as melhorias do produto.</description></item></channel></rss>

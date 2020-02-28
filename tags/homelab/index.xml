@@ -1,258 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>homelab on Blog Homelaber Brasil</title>
-    <link>https://homelaber.com.br/tags/homelab/</link>
-    <description>Recent content in homelab on Blog Homelaber Brasil</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>br</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
-    <lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://homelaber.com.br/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Como acessar seu homelab remotamente</title>
-      <link>https://homelaber.com.br/como-acessar-homelab-remotamente/</link>
-      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-acessar-homelab-remotamente/</guid>
-      <description>Olá Homelabers!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>homelab on Blog Homelaber Brasil</title><link>https://homelaber.com.br/tags/homelab/</link><description>Recent content in homelab on Blog Homelaber Brasil</description><generator>Hugo -- gohugo.io</generator><language>br</language><managingEditor>youremail@domain.com (Some Person)</managingEditor><webMaster>youremail@domain.com (Some Person)</webMaster><copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright><lastBuildDate>Thu, 13 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://homelaber.com.br/tags/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>Como acessar seu homelab remotamente</title><link>https://homelaber.com.br/como-acessar-homelab-remotamente/</link><pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-acessar-homelab-remotamente/</guid><description>Olá Homelabers!
 Algum dia você já precisou acessar o seu homelab enquanto estava fora de casa? Seja no trabalho ou em alguma viagem? Eu aposto que sim! Então nesse post, vou mostrar a vocês as ferramentas mais comuns para acessar remotamente o seu ambiente e também os metodos que eu costumo usar.
- Primeiramente quero deixar claro que você deve tomar MUITO CUIDADO sempre que expor algum serviço para internet, você pode comprometer seus dados caso haja algum acesso indevido.</description>
-    </item>
-    
-    <item>
-      <title>AWS Storage Gateway - O seu file server com espaço infinito</title>
-      <link>https://homelaber.com.br/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/</link>
-      <pubDate>Wed, 10 Jul 2019 10:30:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/</guid>
-      <description>Olá Homelabers!
+Primeiramente quero deixar claro que você deve tomar MUITO CUIDADO sempre que expor algum serviço para internet, você pode comprometer seus dados caso haja algum acesso indevido.</description></item><item><title>AWS Storage Gateway - O seu file server com espaço infinito</title><link>https://homelaber.com.br/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/</link><pubDate>Wed, 10 Jul 2019 10:30:31 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/aws-storage-gateway-o-seu-file-server-com-espaco-infinito/</guid><description>Olá Homelabers!
 Hoje vou falar sobre um produto da Amazon AWS que tenho estudado recentemente para resolver um problema na FIRMA, o** AWS Storage Gateway**, um serviço de armazenamento híbrido que permite que aplicativos locais tenham acesso - transparente - aos serviços de armazenamento na nuvem da AWS.
-Nesse post vou mostrar como instalar e configurar um gateway no seu ambiente VMware vSphere para ser usado como um File Server.</description>
-    </item>
-    
-    <item>
-      <title>Git para quem não é Developer</title>
-      <link>https://homelaber.com.br/git-para-quem-nao-e-developer/</link>
-      <pubDate>Wed, 20 Feb 2019 14:26:29 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/git-para-quem-nao-e-developer/</guid>
-      <description>Olá Homelabers,
+Nesse post vou mostrar como instalar e configurar um gateway no seu ambiente VMware vSphere para ser usado como um File Server.</description></item><item><title>Git para quem não é Developer</title><link>https://homelaber.com.br/git-para-quem-nao-e-developer/</link><pubDate>Wed, 20 Feb 2019 14:26:29 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/git-para-quem-nao-e-developer/</guid><description>Olá Homelabers,
 Você trabalha com Infra e não sabe usar Git? Então chega mais!
 No último dia 18/02, eu apresentei no Podcast vBrownbag Brasil (@vBrownbagBrasil) uma sessão com o passo a passo para você sair do zero e fazer o seu primeiro commit no GitHub.
 O vídeo já foi publicado e está disponível no canal do vBrownBag Brasil no Youtube. Aproveita e já assina o canal!
-Essa foi a primeira vez que eu apresento esse talk, então o seu feedback é importante.</description>
-    </item>
-    
-    <item>
-      <title>Novo serviço DNS - CloudFlare 1.1.1.1</title>
-      <link>https://homelaber.com.br/novo-servico-dns-cloudflare-1-1-1-1/</link>
-      <pubDate>Sun, 01 Apr 2018 16:24:18 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/novo-servico-dns-cloudflare-1-1-1-1/</guid>
-      <description>Olá Homelabers!
+Essa foi a primeira vez que eu apresento esse talk, então o seu feedback é importante.</description></item><item><title>Novo serviço DNS - CloudFlare 1.1.1.1</title><link>https://homelaber.com.br/novo-servico-dns-cloudflare-1-1-1-1/</link><pubDate>Sun, 01 Apr 2018 16:24:18 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/novo-servico-dns-cloudflare-1-1-1-1/</guid><description>Olá Homelabers!
 Qual servidor de DNS vocês costumam usar em seu ambiente?
 Hoje, sim, dia 01/04, também considerado o dia da mentira, a CloudFlare lançou publicamente o seu serviço de DNS Público com um endereço IP terrivelmente fácil de se lembrar : 1.1.1.1 e 1.0.0.1
 https://twitter.com/Cloudflare/status/980430875258212352
-Para quem é mais antigo na área, o DNS padrão era o 4.2.2.2 da Level3. Anos depois o Google lançou o seu próprio serviço 8.</description>
-    </item>
-    
-    <item>
-      <title>vBrownBag Brasil – S02E05 – Como montar o seu homelab com Valdecir Carvalho</title>
-      <link>https://homelaber.com.br/vbrownbag-brasil-s02e05-como-montar-o-seu-homelab-com-valdecir-carvalho/</link>
-      <pubDate>Tue, 27 Feb 2018 12:00:40 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vbrownbag-brasil-s02e05-como-montar-o-seu-homelab-com-valdecir-carvalho/</guid>
-      <description>Olá Homelabers!
+Para quem é mais antigo na área, o DNS padrão era o 4.2.2.2 da Level3. Anos depois o Google lançou o seu próprio serviço 8.</description></item><item><title>vBrownBag Brasil – S02E05 – Como montar o seu homelab com Valdecir Carvalho</title><link>https://homelaber.com.br/vbrownbag-brasil-s02e05-como-montar-o-seu-homelab-com-valdecir-carvalho/</link><pubDate>Tue, 27 Feb 2018 12:00:40 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vbrownbag-brasil-s02e05-como-montar-o-seu-homelab-com-valdecir-carvalho/</guid><description>Olá Homelabers!
 Está no ar o vídeo do vBrownBag Brasil sobre Como montar o seu homelab com Valdecir Carvalho do blog Homelaber - sim, eu mesmo! :) - onde falo sobre como montar o seu homelab sem gastar muito dinheiro.
 Siga o vBrownBag Brasil no Twitter @vBrowbBagBrasil e no Youtube https://www.youtube.com/vbrownbagbrasil
-Se você ainda não sabe o que é o vBrownBag veja esse post e faça parte dessa comunidade. Estamos precisando de pessoas para falar sobre assunto técnicos diversos.</description>
-    </item>
-    
-    <item>
-      <title>Links de Segunda #02</title>
-      <link>https://homelaber.com.br/links-de-segunda-02/</link>
-      <pubDate>Mon, 20 Mar 2017 11:00:34 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/links-de-segunda-02/</guid>
-      <description>Olá Homelabers!
+Se você ainda não sabe o que é o vBrownBag veja esse post e faça parte dessa comunidade. Estamos precisando de pessoas para falar sobre assunto técnicos diversos.</description></item><item><title>Links de Segunda #02</title><link>https://homelaber.com.br/links-de-segunda-02/</link><pubDate>Mon, 20 Mar 2017 11:00:34 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/links-de-segunda-02/</guid><description>Olá Homelabers!
 O Links de Segunda #02 está no ar! Ainda não sei se esse é o melhor formato. Preciso encontrar uma maneira de automatizar a curadoria e publicação desses posts, mas está sendo bastante divertido e recompensador, garimpar e compartilhar essas informações com vocês.
-#LINKS DE SEGUNDA #02 #1. Agora o @VMTNcommunity tem uma comunidade em PT-BR. Junte-se a nós! http://bit.ly/2nEbbid  Nova comunidade no Fórum Oficial da VMware (VMTN) em Português do Brasil, moderada pelo #vExpert Richardson Porto.</description>
-    </item>
-    
-    <item>
-      <title>Novo Homelab para 2017 - HPE ML 110 G9</title>
-      <link>https://homelaber.com.br/novo-homelab-para-2017-hpe-ml-110-g9/</link>
-      <pubDate>Tue, 14 Feb 2017 10:00:05 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/novo-homelab-para-2017-hpe-ml-110-g9/</guid>
-      <description>Olá Homelabers!!
-Quem acompanha o blog há algum tempo, deve ter visto que no começo do ano passado eu consegui um Laptop para usar como lab remoto. Um Lenovo Thinkpad W510 Intel Core i7 com 32GB de RAM, 2 SSDs, etc, etc. Um maquinão que eu acabei usando pouco. No final de novembro pintou uma oportunidade de vendê-lo e com a grana da venda e mais uns trocados, consegui comprar um servidor novinho para o meu lab.</description>
-    </item>
-    
-    <item>
-      <title>VMware vExpert Classe de 2017</title>
-      <link>https://homelaber.com.br/vmware-vexpert-classe-de-2017/</link>
-      <pubDate>Thu, 09 Feb 2017 00:19:16 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-vexpert-classe-de-2017/</guid>
-      <description>Olá Homelabers!
+#LINKS DE SEGUNDA #02 #1. Agora o @VMTNcommunity tem uma comunidade em PT-BR. Junte-se a nós! http://bit.ly/2nEbbid  Nova comunidade no Fórum Oficial da VMware (VMTN) em Português do Brasil, moderada pelo #vExpert Richardson Porto.</description></item><item><title>Novo Homelab para 2017 - HPE ML 110 G9</title><link>https://homelaber.com.br/novo-homelab-para-2017-hpe-ml-110-g9/</link><pubDate>Tue, 14 Feb 2017 10:00:05 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/novo-homelab-para-2017-hpe-ml-110-g9/</guid><description>Olá Homelabers!!
+Quem acompanha o blog há algum tempo, deve ter visto que no começo do ano passado eu consegui um Laptop para usar como lab remoto. Um Lenovo Thinkpad W510 Intel Core i7 com 32GB de RAM, 2 SSDs, etc, etc. Um maquinão que eu acabei usando pouco. No final de novembro pintou uma oportunidade de vendê-lo e com a grana da venda e mais uns trocados, consegui comprar um servidor novinho para o meu lab.</description></item><item><title>VMware vExpert Classe de 2017</title><link>https://homelaber.com.br/vmware-vexpert-classe-de-2017/</link><pubDate>Thu, 09 Feb 2017 00:19:16 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-vexpert-classe-de-2017/</guid><description>Olá Homelabers!
 Hoje a VMware fez o anúncio dos novos vExpert´s 2017 e mais uma vez, fui escolhido. Estou super feliz com esse reconhecimento e agradeço aqui a VMware e ao time do vExpert (@vExpert) e em especial ao Corey Romero (@vcommunityguy).
 [video width=&amp;quot;460&amp;rdquo; height=&amp;quot;344&amp;rdquo; mp4=&amp;rdquo;/imagens/2017/02/thumbs-up.mp4&amp;rdquo; loop=&amp;quot;true&amp;rdquo; autoplay=&amp;quot;true&amp;rdquo; preload=&amp;quot;auto&amp;rdquo;][/video]
-Fiquei mais feliz ainda, pois o número de Brasileiros está aumentando a cada ano! Em 2016 eramos 11 e agora em 2017 somos 18.</description>
-    </item>
-    
-    <item>
-      <title>Resumo VMworld Europa 2016 - Barcelona</title>
-      <link>https://homelaber.com.br/resumo-vmworld-europa-2016-barcelona/</link>
-      <pubDate>Tue, 25 Oct 2016 11:00:12 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/resumo-vmworld-europa-2016-barcelona/</guid>
-      <description>Olá Homelabers!
+Fiquei mais feliz ainda, pois o número de Brasileiros está aumentando a cada ano! Em 2016 eramos 11 e agora em 2017 somos 18.</description></item><item><title>Resumo VMworld Europa 2016 - Barcelona</title><link>https://homelaber.com.br/resumo-vmworld-europa-2016-barcelona/</link><pubDate>Tue, 25 Oct 2016 11:00:12 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/resumo-vmworld-europa-2016-barcelona/</guid><description>Olá Homelabers!
 A edição da Europa da VMword 2016 terminou semana passada e nesse post faço um breve resumo sobre o que aconteceu por lá.
 Esse post será uma colagem de links e videos com um pouco do que eu consegui ver dos keynotes.
-Eu fiz um post sobre como acompanhar a VMworld no conforto do seu sofá e mesmo com o término do evento, muitos dos links ainda são válidos e você pode procurar mais informações se achar necessário ou quiser se profundar mais.</description>
-    </item>
-    
-    <item>
-      <title>43 novos labs disponíveis no VMware Hands-On Labs (HOL)</title>
-      <link>https://homelaber.com.br/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link>
-      <pubDate>Thu, 20 Oct 2016 09:00:38 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid>
-      <description>Olá Homelabers!
+Eu fiz um post sobre como acompanhar a VMworld no conforto do seu sofá e mesmo com o término do evento, muitos dos links ainda são válidos e você pode procurar mais informações se achar necessário ou quiser se profundar mais.</description></item><item><title>43 novos labs disponíveis no VMware Hands-On Labs (HOL)</title><link>https://homelaber.com.br/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link><pubDate>Thu, 20 Oct 2016 09:00:38 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/43-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid><description>Olá Homelabers!
 A VMware liberou essa semana mais 43 novos laboratórios em sua plataforma de Virtual Labs chamada HOL - VMware Hands-On Labs.
 Agora o catálogo de labs versão 2017 conta com mais de 80 labs totalmente grátis sobre todas as tecnologias da VMware.
 Você encontrará laboratórios de VMware NSX, VMware vSphere, vSAN, Horizon, vSON e até de Air Watch.
-Você pode ler mais sobre o HOL (@vmwarehol) aqui e acessar uma lista de 41 outros labs aqui</description>
-    </item>
-    
-    <item>
-      <title>VMware vSphere 6.5 - Lançamento oficial</title>
-      <link>https://homelaber.com.br/vmware-vsphere-6-5-lancamento-oficial/</link>
-      <pubDate>Tue, 18 Oct 2016 10:08:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-vsphere-6-5-lancamento-oficial/</guid>
-      <description>Olá Homelabers!
+Você pode ler mais sobre o HOL (@vmwarehol) aqui e acessar uma lista de 41 outros labs aqui</description></item><item><title>VMware vSphere 6.5 - Lançamento oficial</title><link>https://homelaber.com.br/vmware-vsphere-6-5-lancamento-oficial/</link><pubDate>Tue, 18 Oct 2016 10:08:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-vsphere-6-5-lancamento-oficial/</guid><description>Olá Homelabers!
 Update 1 - O Pedro do blog Pedro Calixo fez um post bem bacana sobre o lançamento do vSphere 6.5. Confira aqui
 Update 2 - O Thiago do Blog VMware Brasil fez uma série super completa sobre o lançamento do vSphere 6.5. Confira aqui
 A nova versão do VMware vSphere 6.5 foi oficialmente anunciada hoje na VMworld de Barcelona.
-Vou destacar aqui algumas das novidades. Nos próximos dias pretendo fazer um review mais completo.</description>
-    </item>
-    
-    <item>
-      <title>VMworld Europa 2017 - Barcelona</title>
-      <link>https://homelaber.com.br/vmworld-europa-2017-barcelona/</link>
-      <pubDate>Tue, 18 Oct 2016 00:56:22 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-europa-2017-barcelona/</guid>
-      <description>Olá Homelabers!
+Vou destacar aqui algumas das novidades. Nos próximos dias pretendo fazer um review mais completo.</description></item><item><title>VMworld Europa 2017 - Barcelona</title><link>https://homelaber.com.br/vmworld-europa-2017-barcelona/</link><pubDate>Tue, 18 Oct 2016 00:56:22 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-europa-2017-barcelona/</guid><description>Olá Homelabers!
 [caption id=&amp;quot;attachment_2359&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Como assistir a VMworld do sofá da sua casa[/caption]
 A VMworld 2017 da Europa começou oficialmente hoje (17/10) mas o Keynote principal, onde os &amp;ldquo;grandes&amp;rdquo; anúncios serão feitos acontecerá amanhã 18/09 as 09:00am (05:00am no horário de Brasília). Geralmente a edição da Europa é um grande repeteco da edição americana, mas esse ano como pouca coisa foi anunciada em Las Vegas, essa edição promete.
-O twitter está bastante movimentado, muitos eventos começaram ontem.</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Resumão da VMworld - Parte 1 - O que acontece em Vegas, NÃO fica em Vegas!</title>
-      <link>https://homelaber.com.br/vmworld-2016-resumao-da-vmworld-parte-1-o-que-acontece-em-vegas-nao-fica-em-vegas/</link>
-      <pubDate>Mon, 26 Sep 2016 11:00:45 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-resumao-da-vmworld-parte-1-o-que-acontece-em-vegas-nao-fica-em-vegas/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+O twitter está bastante movimentado, muitos eventos começaram ontem.</description></item><item><title>VMworld 2016 - Resumão da VMworld - Parte 1 - O que acontece em Vegas, NÃO fica em Vegas!</title><link>https://homelaber.com.br/vmworld-2016-resumao-da-vmworld-parte-1-o-que-acontece-em-vegas-nao-fica-em-vegas/</link><pubDate>Mon, 26 Sep 2016 11:00:45 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-resumao-da-vmworld-parte-1-o-que-acontece-em-vegas-nao-fica-em-vegas/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 Esse é o primeiro post da série RESUMÃO DA VMWORLD. Eu pensei em escrever um &amp;ldquo;postão&amp;rdquo; com tudo o que vi no evento, cheio de links, referências, fotos e detalhes dos produtos, etc. Mas depois pensei bem e resolvi dividir em partes para facilitar a leitura.
-No próximo post vou falar sobre as novidades e tudo o que foi apresentado na VMworld 2016.</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Sessões da VMworls 2016 disponíveis para acesso e download - Grátis para todo mundo</title>
-      <link>https://homelaber.com.br/vmworld-2016-sessoes-da-vmworls-2016-disponiveis-para-acesso-e-download-gratis-para-todo-mundo/</link>
-      <pubDate>Mon, 19 Sep 2016 12:00:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-sessoes-da-vmworls-2016-disponiveis-para-acesso-e-download-gratis-para-todo-mundo/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+No próximo post vou falar sobre as novidades e tudo o que foi apresentado na VMworld 2016.</description></item><item><title>VMworld 2016 - Sessões da VMworls 2016 disponíveis para acesso e download - Grátis para todo mundo</title><link>https://homelaber.com.br/vmworld-2016-sessoes-da-vmworls-2016-disponiveis-para-acesso-e-download-gratis-para-todo-mundo/</link><pubDate>Mon, 19 Sep 2016 12:00:31 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-sessoes-da-vmworls-2016-disponiveis-para-acesso-e-download-gratis-para-todo-mundo/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 Ao contrário dos outros anos, a **VMware **(@VMware) já liberou as gravações das sessões da VMworld 2016 (@VMworld).
 Isso é muito legal, pois eu devo ter assistido 2-3 sessões técnicas na VMworld, agora eu e você podemos assistir TODAS as sessões &amp;ldquo;no conforto de nossos lares&amp;rdquo;:D
-O link para acessar o site é esse: http://www.vmworld.com/en/sessions/2016.html. Basta fazer um cadastro simples e pronto!</description>
-    </item>
-    
-    <item>
-      <title>41 novos labs disponíveis no VMware Hands-On Labs (HOL)</title>
-      <link>https://homelaber.com.br/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link>
-      <pubDate>Fri, 16 Sep 2016 20:15:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid>
-      <description>Olá Homelabers!
+O link para acessar o site é esse: http://www.vmworld.com/en/sessions/2016.html. Basta fazer um cadastro simples e pronto!</description></item><item><title>41 novos labs disponíveis no VMware Hands-On Labs (HOL)</title><link>https://homelaber.com.br/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</link><pubDate>Fri, 16 Sep 2016 20:15:51 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/41-novos-labs-disponiveis-no-vmware-hands-on-labs-hol/</guid><description>Olá Homelabers!
 Mais um post atrasado! Mas aqui a gente tarda, mais não falha :)
 No começo dessa semana (12/09/16), o VMware Hands-On Lab (HOL) Blog publicou um artigo sobre os novos Hand-On Labs (Catálogo de 2017) que foram lançados logo após a VMworld 2016. São 41 novos LABs que você pode fazer totalmente &amp;ldquo;de grátis&amp;rdquo;. E mais novidades irão aparecer após a VMworld Barcelona.
-Para quem chegou agora ou vive embaixo de uma pedra e ainda não conhece ou não sabe o que é o HOL (@vmwarehol), eu escrevi um post aqui no blog ano passado.</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Video: #vBrownBag LATAM Focus on the expert - Valdecir Carvalho - @homelaber</title>
-      <link>https://homelaber.com.br/vmworldvideo-vbrownbag-latam-focus-on-the-expert-valdecir-carvalho-homelaber/</link>
-      <pubDate>Fri, 16 Sep 2016 12:00:29 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworldvideo-vbrownbag-latam-focus-on-the-expert-valdecir-carvalho-homelaber/</guid>
-      <description>Esse post era para ter sido publicado no começo da semana, mas o &amp;ldquo;jenio&amp;rdquo; aqui esqueceu de publicar :(
+Para quem chegou agora ou vive embaixo de uma pedra e ainda não conhece ou não sabe o que é o HOL (@vmwarehol), eu escrevi um post aqui no blog ano passado.</description></item><item><title>VMworld 2016 - Video: #vBrownBag LATAM Focus on the expert - Valdecir Carvalho - @homelaber</title><link>https://homelaber.com.br/vmworldvideo-vbrownbag-latam-focus-on-the-expert-valdecir-carvalho-homelaber/</link><pubDate>Fri, 16 Sep 2016 12:00:29 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworldvideo-vbrownbag-latam-focus-on-the-expert-valdecir-carvalho-homelaber/</guid><description>Esse post era para ter sido publicado no começo da semana, mas o &amp;ldquo;jenio&amp;rdquo; aqui esqueceu de publicar :(
 [caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
-Gostaria de compartilhar com vocês um video que gravei aos 45 minutos da VMworld (no quarto do hotel - reparem na minha mala no canto e a nossa cara de cansados hehe) com o meu grande amigo Ariel Sanchez Mora (@arielsanchezmor) para o vBrownBag.</description>
-    </item>
-    
-    <item>
-      <title>Nova versão VMware Fusion e Fusion Pro 8.5</title>
-      <link>https://homelaber.com.br/nova-versao-vmware-fusion-e-fusion-pro-8-5/</link>
-      <pubDate>Tue, 13 Sep 2016 23:23:57 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/nova-versao-vmware-fusion-e-fusion-pro-8-5/</guid>
-      <description>Olá Homelabers!
+Gostaria de compartilhar com vocês um video que gravei aos 45 minutos da VMworld (no quarto do hotel - reparem na minha mala no canto e a nossa cara de cansados hehe) com o meu grande amigo Ariel Sanchez Mora (@arielsanchezmor) para o vBrownBag.</description></item><item><title>Nova versão VMware Fusion e Fusion Pro 8.5</title><link>https://homelaber.com.br/nova-versao-vmware-fusion-e-fusion-pro-8-5/</link><pubDate>Tue, 13 Sep 2016 23:23:57 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/nova-versao-vmware-fusion-e-fusion-pro-8-5/</guid><description>Olá Homelabers!
 Hoje foi um dia cheio de anúncios da VMware :)
 A VMware anunciou hoje a nova versão do VMware Fusion 8.5 e VMware Fusion Pro 8.5 (em conjunto com o VMware Workstation - clique aqui para ler o post).
 A nova versão 8.5 está disponível gratuitamente para usuários da versão 8.0.
 Entre as novidades dessa versão estão:
- * Suporte para **Windows 10 Anniversary Edition*** Suporte para **macOS Sierra** Host e Guest* Suporte ao **Windows Server 2016*** Suporte ao **Siri** Para ler todo o release note, clique aqui</description>
-    </item>
-    
-    <item>
-      <title>Nova versão do VMware Workstation Pro 12.5 e VMware Workstation Player 12.5</title>
-      <link>https://homelaber.com.br/nova-versao-do-vmware-workstation-pro-12-5-e-vmware-workstation-player-12-5/</link>
-      <pubDate>Tue, 13 Sep 2016 22:34:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/nova-versao-do-vmware-workstation-pro-12-5-e-vmware-workstation-player-12-5/</guid>
-      <description>Olá Homelabers!
+* Suporte para **Windows 10 Anniversary Edition**
+* Suporte para **macOS Sierra** Host e Guest
+* Suporte ao **Windows Server 2016**
+* Suporte ao **Siri**
+Para ler todo o release note, clique aqui</description></item><item><title>Nova versão do VMware Workstation Pro 12.5 e VMware Workstation Player 12.5</title><link>https://homelaber.com.br/nova-versao-do-vmware-workstation-pro-12-5-e-vmware-workstation-player-12-5/</link><pubDate>Tue, 13 Sep 2016 22:34:07 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/nova-versao-do-vmware-workstation-pro-12-5-e-vmware-workstation-player-12-5/</guid><description>Olá Homelabers!
 Notícia fresquinha: A VMware acabou de anunciar as novas versões do VMware Workstation Player 12.5 e VMware Workstation Pro 12.5.
 As atualizações são gratuitas para usuários da versão 12.
 Esta versão suporta o Windows 10 Anniversary Edition da Microsoft, e está pronto para suportar o Windows Server 2016 após a sua libertação.
-Esta versão também inclui numerosas correções de bugs, atualizações de segurança e melhorias de desempenho. Entre as principais novas funcionalidades se destacam o suporte ao Windows 10 Anniversary Edition e Windows Server 2016, que deve ser lançado oficialmente ainda esse mês (setembro/2016)</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Apresentação vBrownBag LATAM &#43; VMUG</title>
-      <link>https://homelaber.com.br/vmworld-2016-apresentacao-vbrownbag-latam-vmug/</link>
-      <pubDate>Wed, 31 Aug 2016 21:52:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-apresentacao-vbrownbag-latam-vmug/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+Esta versão também inclui numerosas correções de bugs, atualizações de segurança e melhorias de desempenho. Entre as principais novas funcionalidades se destacam o suporte ao Windows 10 Anniversary Edition e Windows Server 2016, que deve ser lançado oficialmente ainda esse mês (setembro/2016)</description></item><item><title>VMworld 2016 - Apresentação vBrownBag LATAM + VMUG</title><link>https://homelaber.com.br/vmworld-2016-apresentacao-vbrownbag-latam-vmug/</link><pubDate>Wed, 31 Aug 2016 21:52:59 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-apresentacao-vbrownbag-latam-vmug/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 Ontem (30/08) tive a oportunidade de participar de um painel do #vBrownBag para discutir sobre o VMUG na América Latina.
-
-Estiveram presentes: Brad Tompkins (@VMUG_CEO), CEO do VMUG (@MyVMUG), **Mariano Maluf **(@mjmaluf), Presidente do VMUG, Larry Gonzalez (@virtualizecr), VMUG Leader da Costa Rica, e Iván Raul Camargo (@ivanrcamargo) da Colombia. O apresentador é meu amigo Ariel Sanchez Mora (@arielsanchezmor).</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Mais sessões disponíveis no YouTube</title>
-      <link>https://homelaber.com.br/vmworld-2016-mais-sessoes-disponiveis-no-youtube/</link>
-      <pubDate>Wed, 31 Aug 2016 21:05:12 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-mais-sessoes-disponiveis-no-youtube/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+Estiveram presentes: Brad Tompkins (@VMUG_CEO), CEO do VMUG (@MyVMUG), **Mariano Maluf **(@mjmaluf), Presidente do VMUG, Larry Gonzalez (@virtualizecr), VMUG Leader da Costa Rica, e Iván Raul Camargo (@ivanrcamargo) da Colombia. O apresentador é meu amigo Ariel Sanchez Mora (@arielsanchezmor).</description></item><item><title>VMworld 2016 - Mais sessões disponíveis no YouTube</title><link>https://homelaber.com.br/vmworld-2016-mais-sessoes-disponiveis-no-youtube/</link><pubDate>Wed, 31 Aug 2016 21:05:12 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-mais-sessoes-disponiveis-no-youtube/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 A VMware já disponibilizou no YouTube algumas sessões que aconteceram aqui na @VMworld.
 Segue a lista e os links.
@@ -261,717 +71,194 @@ NET9989 – VMware NSX, Network Bridge to Multi-Cloud Future
 EUC7601 – Advances in Remote Display Protocol Tec
 EUC8404 – What’s New with Horizon 7
 MGT7718 – The KISS of vRealize Operations!
-INF8038 – Getting Started with PowerShell and PowerCLI for Your VMware Environment</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - General Session - Dia 2 Já está liberado no YouTube</title>
-      <link>https://homelaber.com.br/vmworld-2016-general-session-dia-2-ja-esta-liberado-no-youtube/</link>
-      <pubDate>Wed, 31 Aug 2016 18:27:10 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-general-session-dia-2-ja-esta-liberado-no-youtube/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+INF8038 – Getting Started with PowerShell and PowerCLI for Your VMware Environment</description></item><item><title>VMworld 2016 - General Session - Dia 2 Já está liberado no YouTube</title><link>https://homelaber.com.br/vmworld-2016-general-session-dia-2-ja-esta-liberado-no-youtube/</link><pubDate>Wed, 31 Aug 2016 18:27:10 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-general-session-dia-2-ja-esta-liberado-no-youtube/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 A VMware já liberou no YouTube o video da Sessão Geral do segundo dia da @VMworld 2016.
-[embed]https://youtu.be/AjJ-cQtVyPI[/embed]</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - General Session - Dia 1 Já está liberado no YouTube</title>
-      <link>https://homelaber.com.br/vmworld-2016-general-session-dia-1-ja-esta-liberado-no-youtube/</link>
-      <pubDate>Wed, 31 Aug 2016 18:23:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-general-session-dia-1-ja-esta-liberado-no-youtube/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+[embed]https://youtu.be/AjJ-cQtVyPI[/embed]</description></item><item><title>VMworld 2016 - General Session - Dia 1 Já está liberado no YouTube</title><link>https://homelaber.com.br/vmworld-2016-general-session-dia-1-ja-esta-liberado-no-youtube/</link><pubDate>Wed, 31 Aug 2016 18:23:28 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-general-session-dia-1-ja-esta-liberado-no-youtube/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 A VMware já liberou no YouTube o video da Sessão Geral do primeiro (segunda) dia da @VMworld 2016.
-https://youtu.be/PwS-AwGtEMw</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Sessão de abertura</title>
-      <link>https://homelaber.com.br/vmworld-2016-sessao-de-abertura/</link>
-      <pubDate>Mon, 29 Aug 2016 21:45:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-sessao-de-abertura/</guid>
-      <description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
+https://youtu.be/PwS-AwGtEMw</description></item><item><title>VMworld 2016 - Sessão de abertura</title><link>https://homelaber.com.br/vmworld-2016-sessao-de-abertura/</link><pubDate>Mon, 29 Aug 2016 21:45:08 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-sessao-de-abertura/</guid><description>[caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Olá Homelabers!
 A VMworld 2016 começou &amp;ldquo;oficialmente&amp;rdquo; hoje pela manhã. As 09hs (horário de Las Vegas, 13hs no BR) o CEO da VMware, Pat Gelsinger (@PGelsinger) iniciou a Sessão Principal. Vou colocar aqui alguns pontos que achei interessante e relevante.
- * Pat Gelsinger fez um agredecimento especial a 21 pessoas que estiveram em todas as VMworlds até agora. Elas ganharm um Life-Time passe da VMworld!</description>
-    </item>
-    
-    <item>
-      <title>VMworld 2016 - Eu vou!</title>
-      <link>https://homelaber.com.br/vmworld-2016-eu-vou/</link>
-      <pubDate>Mon, 22 Aug 2016 11:00:06 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmworld-2016-eu-vou/</guid>
-      <description>Olá Homelabers!
+* Pat Gelsinger fez um agredecimento especial a 21 pessoas que estiveram em todas as VMworlds até agora. Elas ganharm um Life-Time passe da VMworld!</description></item><item><title>VMworld 2016 - Eu vou!</title><link>https://homelaber.com.br/vmworld-2016-eu-vou/</link><pubDate>Mon, 22 Aug 2016 11:00:06 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmworld-2016-eu-vou/</guid><description>Olá Homelabers!
 [caption id=&amp;quot;attachment_1851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;800&amp;rdquo;]Homelaber Brasil - Blog Oficial da VMworld 2016[/caption]
 Esse é o primeiro video sobre a VMworld 2016.
 [embed]https://youtu.be/C08nSkXabmw[/embed]
 É um video bem curtinho, onde explico o que é a VMworld, o que pretendo fazer por lá.
 Quero produzir muitos videos, no formato de vlog enquanto eu estiver por lá!
-Embarco na próxima quinta-feira, dia 25/08 para Las Vegas, então preparem-se! Vocês irão comigo na mala! :)</description>
-    </item>
-    
-    <item>
-      <title>Homelaber Brasil: Blog oficial da VMworld 2016</title>
-      <link>https://homelaber.com.br/homelaber-brasil-blog-oficial-da-vmworld-2016/</link>
-      <pubDate>Mon, 08 Aug 2016 13:00:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/homelaber-brasil-blog-oficial-da-vmworld-2016/</guid>
-      <description>Olá Homelabers!
+Embarco na próxima quinta-feira, dia 25/08 para Las Vegas, então preparem-se! Vocês irão comigo na mala! :)</description></item><item><title>Homelaber Brasil: Blog oficial da VMworld 2016</title><link>https://homelaber.com.br/homelaber-brasil-blog-oficial-da-vmworld-2016/</link><pubDate>Mon, 08 Aug 2016 13:00:41 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/homelaber-brasil-blog-oficial-da-vmworld-2016/</guid><description>Olá Homelabers!
 Mais uma notinha fresquinha para vocês: O Homelaber Brasil é um dos blogs oficiais da VMworld 2016.
 Estou super feliz! Mais um objetivo alcançado! E agora a responsabilidade aumenta. O link do blog está na página oficial da VMworld, junto com vários outros blogs grandes do mundo todo e o único em Português.
-Sugiro a vocês que conheçam os outros blogs, são na sua maioria escritos por vExperts e com um conteúdo pra lá de bacana.</description>
-    </item>
-    
-    <item>
-      <title>Newsletter Homelaber Brasil - Edição 01</title>
-      <link>https://homelaber.com.br/newsletter-homelaber-edicao-01/</link>
-      <pubDate>Tue, 12 Jul 2016 05:23:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/newsletter-homelaber-edicao-01/</guid>
-      <description>Olá Homelabers!
+Sugiro a vocês que conheçam os outros blogs, são na sua maioria escritos por vExperts e com um conteúdo pra lá de bacana.</description></item><item><title>Newsletter Homelaber Brasil - Edição 01</title><link>https://homelaber.com.br/newsletter-homelaber-edicao-01/</link><pubDate>Tue, 12 Jul 2016 05:23:28 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/newsletter-homelaber-edicao-01/</guid><description>Olá Homelabers!
 Já fazia um tempo que eu estava planejando criar uma newsletter para o blog. Finalmente consegui tirar do papel.
 Essa é a primeira versão, feita praticamente toda a mão. Tive que lembrar do meu tempo de Frontpage e das aulinhas de HTML, mas gostei do resultado final.
-Nas próxima semanas, vou criar uma caixinha ali do lado, para que você possa assinar e receber a newsletter todo o mês e também estudar uma forma de criar automaticamente através dos posts.</description>
-    </item>
-    
-    <item>
-      <title>Cisco Packet Tracer - Agora liberado para todo mundo</title>
-      <link>https://homelaber.com.br/cisco-packet-tracer-agora-liberado-para-todo-mundo/</link>
-      <pubDate>Mon, 20 Jun 2016 09:00:06 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/cisco-packet-tracer-agora-liberado-para-todo-mundo/</guid>
-      <description>Olá Homelabers!
+Nas próxima semanas, vou criar uma caixinha ali do lado, para que você possa assinar e receber a newsletter todo o mês e também estudar uma forma de criar automaticamente através dos posts.</description></item><item><title>Cisco Packet Tracer - Agora liberado para todo mundo</title><link>https://homelaber.com.br/cisco-packet-tracer-agora-liberado-para-todo-mundo/</link><pubDate>Mon, 20 Jun 2016 09:00:06 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/cisco-packet-tracer-agora-liberado-para-todo-mundo/</guid><description>Olá Homelabers!
 UPDATE: Dois dias depois da publicação desse post, saiu a versão 7 do Cisco Packet Tracer. Mais informações aqui no blog Lab Cisco do Samuel Brito (@shbbrito)
 No post de hoje vou falar sobre o Cisco Packet Tracer.
 Quem é do mundo Cisco já deve ter ouvido falar do Packet Tracer pelo menos uma vez.
-O Cisco Packet Tracer é um simulador de redes, bastante utilizado no treinamento para a certificação CCNA (Cisco Certified Network Associate).</description>
-    </item>
-    
-    <item>
-      <title>Estão abertas as inscrições para o vExpert 2016</title>
-      <link>https://homelaber.com.br/estao-abertas-as-inscricoes-para-o-vexpert-2016/</link>
-      <pubDate>Tue, 07 Jun 2016 03:00:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/estao-abertas-as-inscricoes-para-o-vexpert-2016/</guid>
-      <description>Olá Homelabers!
+O Cisco Packet Tracer é um simulador de redes, bastante utilizado no treinamento para a certificação CCNA (Cisco Certified Network Associate).</description></item><item><title>Estão abertas as inscrições para o vExpert 2016</title><link>https://homelaber.com.br/estao-abertas-as-inscricoes-para-o-vexpert-2016/</link><pubDate>Tue, 07 Jun 2016 03:00:51 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/estao-abertas-as-inscricoes-para-o-vexpert-2016/</guid><description>Olá Homelabers!
 As inscrições para oprograma vExpert 2016 (segunda metade de 2016) já estão abertas.
 Eujá falei bastante aqui sobre o programa vExpert e gostaria de reforçar a importância do programa para quem trabalha com VMware.
 A comunidade VMware é bastante forte e ativa fora do Brasil e eu acredito que temos potencial de sobra para fazer algo parecido aqui no BR.
-Somos apenas7 vExperts no Brasil em 2016 e esse número, na minha opinião é MUITO pequeno.</description>
-    </item>
-    
-    <item>
-      <title>Alpine Linux - Uma nova distro linux ligth que vale a pena conhecer</title>
-      <link>https://homelaber.com.br/alpine-linux-uma-nova-distro-linux-ligth-que-vale-a-pena-conhecer/</link>
-      <pubDate>Mon, 06 Jun 2016 05:31:57 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/alpine-linux-uma-nova-distro-linux-ligth-que-vale-a-pena-conhecer/</guid>
-      <description>Olá Homelabers!
+Somos apenas7 vExperts no Brasil em 2016 e esse número, na minha opinião é MUITO pequeno.</description></item><item><title>Alpine Linux - Uma nova distro linux ligth que vale a pena conhecer</title><link>https://homelaber.com.br/alpine-linux-uma-nova-distro-linux-ligth-que-vale-a-pena-conhecer/</link><pubDate>Mon, 06 Jun 2016 05:31:57 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/alpine-linux-uma-nova-distro-linux-ligth-que-vale-a-pena-conhecer/</guid><description>Olá Homelabers!
 Essa semana por meio de uma galera do grupo Infraestrutura TI no Telegram conheci uma nova distro Linux super levinha chamada Alpine Linux (http://www.alpinelinux.org/).
 O download do Alpine Linux tem apenas 87MB em sua versão Standard. E em meus testes, consegui rodar em uma VM com 128MB de memória.
-Estou testando o Alpine Linux e gostando muito. A curva de aprendizagem para quem está acostumado com outras distros como Ubuntu, CentOS, RedHat é bastante curta e a documentação existente no site é bem completa.</description>
-    </item>
-    
-    <item>
-      <title>VM RHEL - Criando Snapshots</title>
-      <link>https://homelaber.com.br/vm-rhel-criando-snapshots/</link>
-      <pubDate>Fri, 20 May 2016 20:09:02 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vm-rhel-criando-snapshots/</guid>
-      <description>****
+Estou testando o Alpine Linux e gostando muito. A curva de aprendizagem para quem está acostumado com outras distros como Ubuntu, CentOS, RedHat é bastante curta e a documentação existente no site é bem completa.</description></item><item><title>VM RHEL - Criando Snapshots</title><link>https://homelaber.com.br/vm-rhel-criando-snapshots/</link><pubDate>Fri, 20 May 2016 20:09:02 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vm-rhel-criando-snapshots/</guid><description>****
 Olá Homelabers!
 Vamos ver como criar Snapshots de nossa VM para termos pontos de restauração do estado da máquina em caso de problemas ou mesmo se estivermos testando novos componentes ou funcionalidades temporariamente.
 Nível: Fácil.
 Este artigo se baseia na VM criada no artigo anterior da série:
 Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento.
 Para criar Snapshots acessamos o menu VM &amp;gt; Snapshot &amp;gt; Take Snapshot.
-Na passo seguinte fornecemos um nome e descrição.</description>
-    </item>
-    
-    <item>
-      <title>Video: Veeam Endpoint Backup Free - Instalação, Backup, Restore e Desastre Recovery</title>
-      <link>https://homelaber.com.br/video-veeam-endpoint-backup-free-instalacao-backup-restore-e-desastre-recovery/</link>
-      <pubDate>Mon, 16 May 2016 00:16:45 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/video-veeam-endpoint-backup-free-instalacao-backup-restore-e-desastre-recovery/</guid>
-      <description>Olá Homelabers!
+Na passo seguinte fornecemos um nome e descrição.</description></item><item><title>Video: Veeam Endpoint Backup Free - Instalação, Backup, Restore e Desastre Recovery</title><link>https://homelaber.com.br/video-veeam-endpoint-backup-free-instalacao-backup-restore-e-desastre-recovery/</link><pubDate>Mon, 16 May 2016 00:16:45 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/video-veeam-endpoint-backup-free-instalacao-backup-restore-e-desastre-recovery/</guid><description>Olá Homelabers!
 Hoje trago a vocês mais um video no Canal do Homelaber no Youtube.
 O video de hoje, fala sobre o Veeam Endpoint Backup. Como instalar, realizar backups, restores e como fazer um desastre recovery.
-O motivador desse blog, foi uma discussão iniciado em umgrupo do Telegram sobre Virtualização, onde discutimos sobre soluções de backup para endpoints (computadores de usuário final) que fossem baratas, confiáveis e fáceis de implementar e o Veeam Endpoint Backup é tudo isso e ainda com a vantagem de ser totalmente FREE.</description>
-    </item>
-    
-    <item>
-      <title>VM RHEL - Ajustes após a instalação</title>
-      <link>https://homelaber.com.br/vm-rhel-ajustes-apos-a-instalacao/</link>
-      <pubDate>Fri, 13 May 2016 13:52:32 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vm-rhel-ajustes-apos-a-instalacao/</guid>
-      <description>****
+O motivador desse blog, foi uma discussão iniciado em umgrupo do Telegram sobre Virtualização, onde discutimos sobre soluções de backup para endpoints (computadores de usuário final) que fossem baratas, confiáveis e fáceis de implementar e o Veeam Endpoint Backup é tudo isso e ainda com a vantagem de ser totalmente FREE.</description></item><item><title>VM RHEL - Ajustes após a instalação</title><link>https://homelaber.com.br/vm-rhel-ajustes-apos-a-instalacao/</link><pubDate>Fri, 13 May 2016 13:52:32 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vm-rhel-ajustes-apos-a-instalacao/</guid><description>****
 Olá Homelabers!
 Neste post vamos ver alguns ajustes pós instalação da VM RHEL para Desenvolvimento.
 Nível: Fácil.
 Este artigo se baseia na VM criada no artigo anterior da série:
 Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento.
 Após a instalação inicial do RHEL na VM temos alguns ajustes que são importantes e alguns que são meros caprichos, mas por que não&amp;hellip;
-Conexão com a Internet Confirme se a conexão com a internet está ativa.</description>
-    </item>
-    
-    <item>
-      <title>Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento</title>
-      <link>https://homelaber.com.br/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/</link>
-      <pubDate>Fri, 13 May 2016 03:36:09 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/</guid>
-      <description>****
+Conexão com a Internet Confirme se a conexão com a internet está ativa.</description></item><item><title>Preparando uma VM Red Hat Enterprise Linux para Desenvolvimento</title><link>https://homelaber.com.br/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/</link><pubDate>Fri, 13 May 2016 03:36:09 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/preparando-uma-vm-red-hat-enterprise-linux-para-desenvolvimento/</guid><description>****
 Olá Homelabers!
 Neste artigo de estréia pretendo apresentar um guia para a preparação de uma VM com o Red Hat para desenvolvimento em múltiplas plataformas.
 Esta VM deve servir de base para outros artigos onde entraremos nos detalhes mais específicos no desenvolvimento de aplicações.
 Nível: Fácil.
-A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados.</description>
-    </item>
-    
-    <item>
-      <title>Pluralsigth - Uma das muitas vantagens de ser um vEXPERT</title>
-      <link>https://homelaber.com.br/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/</link>
-      <pubDate>Wed, 11 May 2016 10:00:47 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/</guid>
-      <description>Olá Homelabers!
+A idéia a produzir uma série modular de artigos de forma que, dependendo do objetivo de utilização, somente os componentes necessários sejam abordados.</description></item><item><title>Pluralsigth - Uma das muitas vantagens de ser um vEXPERT</title><link>https://homelaber.com.br/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/</link><pubDate>Wed, 11 May 2016 10:00:47 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/pluralsigth-uma-das-muitas-vantagens-de-ser-um-vexpert/</guid><description>Olá Homelabers!
 Hoje vou falar um pouco sobre as vantagens de ser um vExpert. Além de ter acesso gratuito a produtos de diversos fabricantes (em sua maioria com licenças NFR - Not for Resale) e a todos os produtos da VMware por 1 ano, o melhor dos &amp;ldquo;bônus&amp;rdquo; na minha opinião é o acesso FULL ao catálogo de cursos da Pluralsigth.
-O catálogo de cursos é realmente gigantesco, abrangendo diversas áreas como Web Design, Programação, Infraestrutura, Desenvolvimento de Jogos, enfim, uma gama enorme de assuntos e tópicos.</description>
-    </item>
-    
-    <item>
-      <title>Programa vSphere Beta Tester</title>
-      <link>https://homelaber.com.br/programa-vsphere-beta-tester/</link>
-      <pubDate>Sun, 08 May 2016 11:00:24 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/programa-vsphere-beta-tester/</guid>
-      <description>Olá Homelabers!
+O catálogo de cursos é realmente gigantesco, abrangendo diversas áreas como Web Design, Programação, Infraestrutura, Desenvolvimento de Jogos, enfim, uma gama enorme de assuntos e tópicos.</description></item><item><title>Programa vSphere Beta Tester</title><link>https://homelaber.com.br/programa-vsphere-beta-tester/</link><pubDate>Sun, 08 May 2016 11:00:24 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/programa-vsphere-beta-tester/</guid><description>Olá Homelabers!
 Recebi um e-mail na semana passada do programa vExpert sobre a abertura das incrições do novo beta do Vmware vSphere e gostaria de convidar vocês a participar.
-Se você curte testar coisas novas essa é a sua chance. O programa BETA do vSphere é privado e está sob NDA ou Acordo de Não Divulgação (Non-Disclosure Agreement em Inglês), que basicamente te proibe de publicar ou divulgar publicamente qualquer informação sobre a nova versão do vSphere.</description>
-    </item>
-    
-    <item>
-      <title>3 distros Linux pequenas e leves para o seu home lab</title>
-      <link>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</link>
-      <pubDate>Wed, 04 May 2016 14:00:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</guid>
-      <description>Olá Homelabers!
+Se você curte testar coisas novas essa é a sua chance. O programa BETA do vSphere é privado e está sob NDA ou Acordo de Não Divulgação (Non-Disclosure Agreement em Inglês), que basicamente te proibe de publicar ou divulgar publicamente qualquer informação sobre a nova versão do vSphere.</description></item><item><title>3 distros Linux pequenas e leves para o seu home lab</title><link>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</link><pubDate>Wed, 04 May 2016 14:00:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</guid><description>Olá Homelabers!
 Nesse post vou falar sobre algumas distribuições (distro) Linux bem pequenas para aqueles momentos onde você precisa apenas fazer alguns testes seu lab, mas não quer (ou não pode) subir um SO (Sistema Operacional) grande e pesado.
 Eu costumo usar bastante essas distros quando preciso testar redes (interconexão de uma rede com outra) e também testes de vMotion e HA.
-Essas distros linux são simples, leves e não consomem muitos recursos de disco, memória ou processador.</description>
-    </item>
-    
-    <item>
-      <title>Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)</title>
-      <link>https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/</link>
-      <pubDate>Tue, 26 Apr 2016 09:00:54 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/</guid>
-      <description>Olá Homelabers!
+Essas distros linux são simples, leves e não consomem muitos recursos de disco, memória ou processador.</description></item><item><title>Back-to-Basics: Diferenças entre tipos de disco em uma VM (Thin vs Thick Provision)</title><link>https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/</link><pubDate>Tue, 26 Apr 2016 09:00:54 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/back-to-basics-diferencas-entre-tipos-de-disco-em-uma-vm-thin-vs-thick-provision/</guid><description>Olá Homelabers!
 Hoje vou começar uma série de artigos chamada Back-To-Basics (ou De volta ao básico em bom Português). Nessa série vou escreve sobre aspectos básicos referente a virtualização. Geralmente serão posts curtos, explicando o conceito de uma determinada tecnologia;
 No artigo de hoje, vou esclarecer diferença entre: Thick Provision vs Thin Provision
 Em resumo:
-**Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, todo o espaço é alocado no momento da sua criação.</description>
-    </item>
-    
-    <item>
-      <title>Instalação Homelab VMware 6.x - Parte 01 - Introdução</title>
-      <link>https://homelaber.com.br/instalacao-homelab-vmware-6-x-parte-01-introducao/</link>
-      <pubDate>Wed, 06 Apr 2016 07:00:23 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/instalacao-homelab-vmware-6-x-parte-01-introducao/</guid>
-      <description>Olá Homelabers!
+**Thick Provision Lazy Zeroed **– é um disco “thick” padrão, ou seja, todo o espaço é alocado no momento da sua criação.</description></item><item><title>Instalação Homelab VMware 6.x - Parte 01 - Introdução</title><link>https://homelaber.com.br/instalacao-homelab-vmware-6-x-parte-01-introducao/</link><pubDate>Wed, 06 Apr 2016 07:00:23 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/instalacao-homelab-vmware-6-x-parte-01-introducao/</guid><description>Olá Homelabers!
 Como prometido, estou de volta com o Reboot da série Instalação Home lab VMware.
 E desta vez eu vou até o final. Escolhi fazer de uma maneira diferente dessa vez, em formato de videos, para tornar a coisa mais dinâmica e mais fácil(para vocês) seguirem a série.
-Eu gosto de texto, posts longos e cheios de figuras (como os blogs da década passada), mas o mundo mudou. A nova geração (vocês) preferem videos e não o antigo e ultrapassado (será) textão.</description>
-    </item>
-    
-    <item>
-      <title>Red Hat lança versão de desenvolvedor do RHEL GRÁTIS!</title>
-      <link>https://homelaber.com.br/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/</link>
-      <pubDate>Sun, 03 Apr 2016 15:44:14 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/</guid>
-      <description>Olá Homelabers!
+Eu gosto de texto, posts longos e cheios de figuras (como os blogs da década passada), mas o mundo mudou. A nova geração (vocês) preferem videos e não o antigo e ultrapassado (será) textão.</description></item><item><title>Red Hat lança versão de desenvolvedor do RHEL GRÁTIS!</title><link>https://homelaber.com.br/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/</link><pubDate>Sun, 03 Apr 2016 15:44:14 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/red-hat-lanca-versao-de-desenvolvedor-do-rhel-gratis/</guid><description>Olá Homelabers!
 A Red Hat (https://www.redhat.com/pt-br) dona do Linux mais utilizado no mundo corporativo, o Red Hat Enterprise Linux (RHEL), anunciou essa semana que vai disponibilizar uma versão para desenvolvedores totalmente** GRÁTIS** do seu software!
-Essa notícia, na minha opinião é fantástica, uma vez que antes, para utilizar o RHEL você precisa recorrer a &amp;ldquo;truques&amp;rdquo; e downloads de lugares não muito &amp;ldquo;recomendáveis&amp;rdquo; e agora você tem total suporte da fabricante do produto.</description>
-    </item>
-    
-    <item>
-      <title>Nova versão do RVTools acaba de ser lançada</title>
-      <link>https://homelaber.com.br/nova-versao-do-rvtools-acaba-de-ser-lancada/</link>
-      <pubDate>Fri, 01 Apr 2016 17:58:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/nova-versao-do-rvtools-acaba-de-ser-lancada/</guid>
-      <description>Olá Homelabers!
+Essa notícia, na minha opinião é fantástica, uma vez que antes, para utilizar o RHEL você precisa recorrer a &amp;ldquo;truques&amp;rdquo; e downloads de lugares não muito &amp;ldquo;recomendáveis&amp;rdquo; e agora você tem total suporte da fabricante do produto.</description></item><item><title>Nova versão do RVTools acaba de ser lançada</title><link>https://homelaber.com.br/nova-versao-do-rvtools-acaba-de-ser-lancada/</link><pubDate>Fri, 01 Apr 2016 17:58:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/nova-versao-do-rvtools-acaba-de-ser-lancada/</guid><description>Olá Homelabers!
 Já comentei aqui com vocês sobre a ferramenta RVTools. Essa ferramenta é um item obrigatório para todo administrador VMware.
 A versão 3.8 acabou de ser lançada e apresenta correções de alguns bugs e também alguma melhorias e novas funcionalidades, principalmente para a versão 6.x do vSphere.
 A ferramenta pode ser baixada diretamente do site do Rob.
 Para conhecer mais sobre o RVTools, acesse o post.
-Até a próxima!</description>
-    </item>
-    
-    <item>
-      <title>VMware ESXi FREE - Diferenças e Limitações</title>
-      <link>https://homelaber.com.br/vmware-esxi-free-diferencas-e-limitacoes/</link>
-      <pubDate>Wed, 23 Mar 2016 05:48:17 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-esxi-free-diferencas-e-limitacoes/</guid>
-      <description>Olá Homelabers!
+Até a próxima!</description></item><item><title>VMware ESXi FREE - Diferenças e Limitações</title><link>https://homelaber.com.br/vmware-esxi-free-diferencas-e-limitacoes/</link><pubDate>Wed, 23 Mar 2016 05:48:17 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-esxi-free-diferencas-e-limitacoes/</guid><description>Olá Homelabers!
 Hoje vou falar sobre as principais diferenças e limitações entre a versão FREE do VMware ESXi e a versão paga.
 Muitas pessoas ao ter o primeiro contato o mundo da virtualização descobrem que existe uma versão FREE do VMware ESXi e logo surge uma dúvida:
- &amp;ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&amp;quot;  De uma forma bem resumida, as principais limitações são:</description>
-    </item>
-    
-    <item>
-      <title>NOVO Veeam Endpoint Backup FREE 1.5</title>
-      <link>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</link>
-      <pubDate>Mon, 21 Mar 2016 11:00:19 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</guid>
-      <description>Olá Homelabers!
+&amp;ldquo;Quais são as diferenças entre a versão FREE e a versão paga?&amp;quot; De uma forma bem resumida, as principais limitações são:</description></item><item><title>NOVO Veeam Endpoint Backup FREE 1.5</title><link>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</link><pubDate>Mon, 21 Mar 2016 11:00:19 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/novo-veeam-endpoint-backup-free-1-5/</guid><description>Olá Homelabers!
 Semana passada a Veeam lançou a nova versão do Veeam Endpoint Backup (que eu já falei aqui). Venho usando o VEB desde a versão BETA para fazer backup dos meus computadores, tanto aqui em casa quanto na FIRMA! E até hoje ele nunca me deixou na mão e até já me salvou algumas vezes.
-A nova versão (1.5), trás algumas novidades interessantes e a correção de alguns bugs. Nesselink, você poderá ver todas novas funcionalidades, assim como as melhorias do produto.</description>
-    </item>
-    
-    <item>
-      <title>Grupo de Virtualização no Telegram</title>
-      <link>https://homelaber.com.br/grupo-de-virtualizacao-no-telegram/</link>
-      <pubDate>Wed, 09 Mar 2016 11:00:53 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/grupo-de-virtualizacao-no-telegram/</guid>
-      <description>Olá Homelabers!
+A nova versão (1.5), trás algumas novidades interessantes e a correção de alguns bugs. Nesselink, você poderá ver todas novas funcionalidades, assim como as melhorias do produto.</description></item><item><title>Grupo de Virtualização no Telegram</title><link>https://homelaber.com.br/grupo-de-virtualizacao-no-telegram/</link><pubDate>Wed, 09 Mar 2016 11:00:53 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/grupo-de-virtualizacao-no-telegram/</guid><description>Olá Homelabers!
 Quem aqui é usuário do Telegram?
-Se você não esteve embaixo de uma pedra nos últimos tempos, deve se lembrar (ou não - Brasileiro tem memória curta) que no final do ano passado, ajustiça Brasileira bloqueou o WhatsApp por 48 horas. Foi quase um apocalipse, pois hoje estamos super dependentes desse aplicativozinho do Tio Markito, e toda a &amp;ldquo;galera&amp;rdquo; migrou para o Telegram, levando o aplicativo a&amp;ldquo;ganhar&amp;rdquo; + 2MM de usuários brasileiros em 24 horas.</description>
-    </item>
-    
-    <item>
-      <title>vDM30in30 2016 - Edição Maio</title>
-      <link>https://homelaber.com.br/vdm30in30-2016-edicao-maio/</link>
-      <pubDate>Wed, 09 Mar 2016 01:00:09 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vdm30in30-2016-edicao-maio/</guid>
-      <description>Olá Homelabers!
+Se você não esteve embaixo de uma pedra nos últimos tempos, deve se lembrar (ou não - Brasileiro tem memória curta) que no final do ano passado, ajustiça Brasileira bloqueou o WhatsApp por 48 horas. Foi quase um apocalipse, pois hoje estamos super dependentes desse aplicativozinho do Tio Markito, e toda a &amp;ldquo;galera&amp;rdquo; migrou para o Telegram, levando o aplicativo a&amp;ldquo;ganhar&amp;rdquo; + 2MM de usuários brasileiros em 24 horas.</description></item><item><title>vDM30in30 2016 - Edição Maio</title><link>https://homelaber.com.br/vdm30in30-2016-edicao-maio/</link><pubDate>Wed, 09 Mar 2016 01:00:09 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vdm30in30-2016-edicao-maio/</guid><description>Olá Homelabers!
 Olha eu aqui novamente falando para vocês sobre o &amp;ldquo;Desafio&amp;rdquo; #vDM30in30. Para quem acompanha o blog há algum tempo, já sabe o que é, mas se você chegou agora vou explicar:
-O desafio #vDM30in30 é organizado pela comunidade de vBlogs (os nossos amigos gringos) todos os anos em Novembro e consiste em blogar todos os dias durante um mês. Em 2015 eu participei pela primeira vez e a foi uma experiência bem legal.</description>
-    </item>
-    
-    <item>
-      <title>Homelab Móvel - Thinkpad W510</title>
-      <link>https://homelaber.com.br/homelab-movel-thinkpad-w510/</link>
-      <pubDate>Tue, 08 Mar 2016 11:00:46 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/homelab-movel-thinkpad-w510/</guid>
-      <description>Olá Homelabers!
+O desafio #vDM30in30 é organizado pela comunidade de vBlogs (os nossos amigos gringos) todos os anos em Novembro e consiste em blogar todos os dias durante um mês. Em 2015 eu participei pela primeira vez e a foi uma experiência bem legal.</description></item><item><title>Homelab Móvel - Thinkpad W510</title><link>https://homelaber.com.br/homelab-movel-thinkpad-w510/</link><pubDate>Tue, 08 Mar 2016 11:00:46 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/homelab-movel-thinkpad-w510/</guid><description>Olá Homelabers!
 Essa semana adicionei mais um brinquedinho ao meu Homelab. Um notebook Lenovo Thinkpad W510.
 ThinkPad W510
 É notebook é meio velhinho, mas suas especificações são muito excelentes. Consegui esse notebook em um &amp;ldquo;rolo&amp;rdquo; pelo Mercado Livre e por um preço super bacana. Custo X Benefício nota 10!
-O que mais me chamou a atenção nesse notebook foi a possibilidade de colocar 4 pentes de memória e deixar o &amp;ldquo;bixo&amp;rdquo; com 32 GB de RAM (a documentação diz que o máximo suportado é 16GB, mas eu coloquei 32GB e como você pode ver, funciona e roda muito bem).</description>
-    </item>
-    
-    <item>
-      <title>Happy B-Day Homelaber - Um ano de blog</title>
-      <link>https://homelaber.com.br/happy-b-day-homelaber-1-ano-de-blog/</link>
-      <pubDate>Mon, 07 Mar 2016 23:00:37 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/happy-b-day-homelaber-1-ano-de-blog/</guid>
-      <description>Olá Homelabers!
+O que mais me chamou a atenção nesse notebook foi a possibilidade de colocar 4 pentes de memória e deixar o &amp;ldquo;bixo&amp;rdquo; com 32 GB de RAM (a documentação diz que o máximo suportado é 16GB, mas eu coloquei 32GB e como você pode ver, funciona e roda muito bem).</description></item><item><title>Happy B-Day Homelaber - Um ano de blog</title><link>https://homelaber.com.br/happy-b-day-homelaber-1-ano-de-blog/</link><pubDate>Mon, 07 Mar 2016 23:00:37 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/happy-b-day-homelaber-1-ano-de-blog/</guid><description>Olá Homelabers!
 Hoje é aniversário do blog e eu nem lembrei. Se não fosse um cara (Moisés) do grupo de Virtualização no Telegram (vou falar sobre isso outro dia) me lembar, tinha passado em branco.Mas eu já coloquei uma notificação na agenda do Google. Ano que vem não esqueço mais. Essas duas últimas semanas tem sido tão corridas no trabalho que infelizmente não tenho dado conta de escrever aqui.
-São 365 dias de existência do blog, mas a idéia já estava na minha cabeça bem antes.</description>
-    </item>
-    
-    <item>
-      <title>Mudanças e nova forma de licenciamento do VMware vSphere</title>
-      <link>https://homelaber.com.br/mudancas-e-nova-forma-de-licenciamento-do-vmware-vsphere/</link>
-      <pubDate>Tue, 16 Feb 2016 11:00:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/mudancas-e-nova-forma-de-licenciamento-do-vmware-vsphere/</guid>
-      <description>Olá Homelabers!
+São 365 dias de existência do blog, mas a idéia já estava na minha cabeça bem antes.</description></item><item><title>Mudanças e nova forma de licenciamento do VMware vSphere</title><link>https://homelaber.com.br/mudancas-e-nova-forma-de-licenciamento-do-vmware-vsphere/</link><pubDate>Tue, 16 Feb 2016 11:00:59 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/mudancas-e-nova-forma-de-licenciamento-do-vmware-vsphere/</guid><description>Olá Homelabers!
 Dando sequência nos posts sobre os anúncios da VMware que aconteceram na semana passada (10/03/2016), hoje vou comentar sobre as mudanças no licenciamento do vSphere (a base da virtualização no portfólio da VMware).
 Essas mudanças acabaram por simplificar a forma de licenciamento do vSphere, que teve o número de opções de licenciamento reduzido de 6 para 3 opções.
-A nova linha de produtos será composta pelos seguintes pacotes: * **VMware vSphere Standard**: Versão mais básica, voltada para a consolidação de servidores.</description>
-    </item>
-    
-    <item>
-      <title>Novas versões da plataforma de Cloud VMware:  vCloud Suite 7 e vRealize Suite 7</title>
-      <link>https://homelaber.com.br/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</link>
-      <pubDate>Mon, 15 Feb 2016 10:30:34 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</guid>
-      <description>Olá Homelabers!
+A nova linha de produtos será composta pelos seguintes pacotes: * **VMware vSphere Standard**: Versão mais básica, voltada para a consolidação de servidores.</description></item><item><title>Novas versões da plataforma de Cloud VMware: vCloud Suite 7 e vRealize Suite 7</title><link>https://homelaber.com.br/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</link><pubDate>Mon, 15 Feb 2016 10:30:34 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/novas-versoes-plataforma-de-cloud-vmware-vcloud-suite-7-e-vrealize-suite-7/</guid><description>Olá Homelabers!
 Nesse post (um pouco longo mais vale a pena ler!) vou comentar sobre as novidades que a VMware anunciou no último dia 10/03/2016.
 Se segurem ai porque tem bastante coisa nova e interessante, principalmente para o mundo corporativo.
 Apresentando as novas versões da plataforma de Cloud da VMware: VMware vCloud 7 e vRealize Suite 7
-No último dia 10/02/2016 a VMware apresentou a nova versão dos pacotes VMware vCloud Suite 7 e vRealize Suite 7.</description>
-    </item>
-    
-    <item>
-      <title>Acabou o carnaval...</title>
-      <link>https://homelaber.com.br/acabou-o-carnaval/</link>
-      <pubDate>Thu, 11 Feb 2016 22:00:54 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/acabou-o-carnaval/</guid>
-      <description>Olá Homelabers!
+No último dia 10/02/2016 a VMware apresentou a nova versão dos pacotes VMware vCloud Suite 7 e vRealize Suite 7.</description></item><item><title>Acabou o carnaval...</title><link>https://homelaber.com.br/acabou-o-carnaval/</link><pubDate>Thu, 11 Feb 2016 22:00:54 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/acabou-o-carnaval/</guid><description>Olá Homelabers!
 Feliz 2016! Pois como diz o populacho tupiniquim, o ano só começa depois do carnaval (ainda bem que o carnaval esse ano foi bem no começo de fevereiro).
 2015 passou voando e foi um ano e tanto. Pessoal e profissionalmente. Foram incontáveis desafios, novidades, dificuldades, mudanças, conquistas e perdas, mas entre mortos e feridos, todos se salvaram :)
-Mas eu não me esqueci dele, todo pouco tempo que tive (no chuveiro, no carro, etc) eu pensei em &amp;ldquo;coisas&amp;rdquo; para fazer aqui, melhorias e montei um plano que vou dividir com vocês.</description>
-    </item>
-    
-    <item>
-      <title>vExpert 2016 - Eu consegui!</title>
-      <link>https://homelaber.com.br/vexpert-2016-eu-consegui/</link>
-      <pubDate>Fri, 05 Feb 2016 16:03:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vexpert-2016-eu-consegui/</guid>
-      <description>Olá Homelabers!
+Mas eu não me esqueci dele, todo pouco tempo que tive (no chuveiro, no carro, etc) eu pensei em &amp;ldquo;coisas&amp;rdquo; para fazer aqui, melhorias e montei um plano que vou dividir com vocês.</description></item><item><title>vExpert 2016 - Eu consegui!</title><link>https://homelaber.com.br/vexpert-2016-eu-consegui/</link><pubDate>Fri, 05 Feb 2016 16:03:59 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vexpert-2016-eu-consegui/</guid><description>Olá Homelabers!
 A espera foi longa, mas valeu a pena! A VMware divulgou há pouco a lista dos vExperts 2016 e eu fui escolhido.
 É uma honra fazer parte desse programa super bacana da VMware e estou super feliz! Trabalhei bastante (daria para ser um pouco mais) para conseguir essa nominação e agora vou trabalhar ainda mais para a comunidade #VMware.
-Até 2015 haviam apenas 3 brasileiros com o título de vExpert e agora eu sou mais um deles!</description>
-    </item>
-    
-    <item>
-      <title>VMware Flings</title>
-      <link>https://homelaber.com.br/vmware-flings/</link>
-      <pubDate>Thu, 17 Dec 2015 13:45:40 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-flings/</guid>
-      <description>Olá Homelabers! Hoje vou falar sobre a site VMware Labs e mais especificamente sobre o Flings.
+Até 2015 haviam apenas 3 brasileiros com o título de vExpert e agora eu sou mais um deles!</description></item><item><title>VMware Flings</title><link>https://homelaber.com.br/vmware-flings/</link><pubDate>Thu, 17 Dec 2015 13:45:40 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-flings/</guid><description>Olá Homelabers! Hoje vou falar sobre a site VMware Labs e mais especificamente sobre o Flings.
 O VMware Labs é a &amp;ldquo;casa&amp;rdquo; de colaboração da VMware. Nesse site, os engenheiros da VMware publicam papers, aplicativos e ferramentas que ainda não são (ou nunca serão) produtos da VMware.
 O seu Homelab é o lugar perfeito para testar, validar e aprender sobre os novos Flings.
-Alguns Flings que se destacaram em 2015:</description>
-    </item>
-    
-    <item>
-      <title>Raspberry Pi Zero - um computador de 5 dólares</title>
-      <link>https://homelaber.com.br/raspberry-pi-zero-um-computador-de-5-dolares/</link>
-      <pubDate>Fri, 27 Nov 2015 18:00:58 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/raspberry-pi-zero-um-computador-de-5-dolares/</guid>
-      <description>Você provavelmente deve conhecer ou pelo menos ouviu falar no Raspberry Pi certo? Aquele computadorzinho de 35 dólares que abalou o mercado há alguns anos certo?
+Alguns Flings que se destacaram em 2015:</description></item><item><title>Raspberry Pi Zero - um computador de 5 dólares</title><link>https://homelaber.com.br/raspberry-pi-zero-um-computador-de-5-dolares/</link><pubDate>Fri, 27 Nov 2015 18:00:58 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/raspberry-pi-zero-um-computador-de-5-dolares/</guid><description>Você provavelmente deve conhecer ou pelo menos ouviu falar no Raspberry Pi certo? Aquele computadorzinho de 35 dólares que abalou o mercado há alguns anos certo?
 Ontem (26/11), a RASPBERRY PI FOUNDATION lançou o Pi Zero, uma versão menor do Pi e que custa impressionantes míseros 5 dólares.As características dessa plaquinha são bastante interessantes:
 Mais o barato aqui é o tamanho ridículo: 65mm × 30mm × 5mm.
-A plaquinha tem um custo de produção tão barato, que ela está vindo como &amp;ldquo;brinde&amp;rdquo; na edição de dezembro da odos os exemplares da edição de dezembro da revista britânica The MagPi.</description>
-    </item>
-    
-    <item>
-      <title>Como clonar uma VM no VMware ESXi sem vCenter</title>
-      <link>https://homelaber.com.br/como-clonar-uma-vm-no-vmware-esxi-sem-vcenter/</link>
-      <pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-clonar-uma-vm-no-vmware-esxi-sem-vcenter/</guid>
-      <description>Olá Homelabers! Nesse post rapidinho vou mostrar como clonar uma VM no VMware ESXi sem vCenter.
+A plaquinha tem um custo de produção tão barato, que ela está vindo como &amp;ldquo;brinde&amp;rdquo; na edição de dezembro da odos os exemplares da edição de dezembro da revista britânica The MagPi.</description></item><item><title>Como clonar uma VM no VMware ESXi sem vCenter</title><link>https://homelaber.com.br/como-clonar-uma-vm-no-vmware-esxi-sem-vcenter/</link><pubDate>Fri, 27 Nov 2015 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-clonar-uma-vm-no-vmware-esxi-sem-vcenter/</guid><description>Olá Homelabers! Nesse post rapidinho vou mostrar como clonar uma VM no VMware ESXi sem vCenter.
 Essa dica é util e ajuda bastante se você tiver um host ESXi sem vCenter (a versão free) e precisa clonar uma vm como por exemplo um template Linux que você montou. Na verdade, o que faremos é uma &amp;ldquo;cópia&amp;rdquo; do disco da VM e criaremos uma nova VM apontando para esse disco.
-Com isso, todo o trabalho da instalação do SO será poupado.</description>
-    </item>
-    
-    <item>
-      <title>Na FIRMA - Plugin Google Chrome - TabCarousel</title>
-      <link>https://homelaber.com.br/plugin-google-chrome-tabcarousel/</link>
-      <pubDate>Mon, 23 Nov 2015 23:00:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/plugin-google-chrome-tabcarousel/</guid>
-      <description>Olá Homelabers!
+Com isso, todo o trabalho da instalação do SO será poupado.</description></item><item><title>Na FIRMA - Plugin Google Chrome - TabCarousel</title><link>https://homelaber.com.br/plugin-google-chrome-tabcarousel/</link><pubDate>Mon, 23 Nov 2015 23:00:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/plugin-google-chrome-tabcarousel/</guid><description>Olá Homelabers!
 Dica rápida! Essa aconteceu na FIRMA hoje.
-A missão era colocar alguns dashboards (todos via web) para rodar em 2 TVs de 55 pol que ficam na minha área. A ideia inicial era criar uma página HTML com &amp;ldquo;frames&amp;rdquo; para dividir a tela, mas depois de vários testes, chegamos a conclusão de que não ficou legal e que a melhor solução seria fazer as páginas &amp;ldquo;rodarem&amp;rdquo; uma a uma na tela.</description>
-    </item>
-    
-    <item>
-      <title>#vDM30in30 a primeira metade</title>
-      <link>https://homelaber.com.br/vdm30in30-a-primeira-metade/</link>
-      <pubDate>Tue, 17 Nov 2015 00:00:39 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vdm30in30-a-primeira-metade/</guid>
-      <description>Olá Homelabers!
+A missão era colocar alguns dashboards (todos via web) para rodar em 2 TVs de 55 pol que ficam na minha área. A ideia inicial era criar uma página HTML com &amp;ldquo;frames&amp;rdquo; para dividir a tela, mas depois de vários testes, chegamos a conclusão de que não ficou legal e que a melhor solução seria fazer as páginas &amp;ldquo;rodarem&amp;rdquo; uma a uma na tela.</description></item><item><title>#vDM30in30 a primeira metade</title><link>https://homelaber.com.br/vdm30in30-a-primeira-metade/</link><pubDate>Tue, 17 Nov 2015 00:00:39 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vdm30in30-a-primeira-metade/</guid><description>Olá Homelabers!
 Chegamos a primeira metade do mês de Novembro e estou firme e forte no engajamento do desafio #vDM30in30.
 Quero mostrar a vocês alguns números de acesso ao site, facebook, etc e contar um pouco como foram esses primeiros 15 dias.
 [caption id=&amp;quot;attachment_970&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;600&amp;rdquo;]Sim, eu gosto de Bon Jovi![/caption]
-Depois que me decidi pelo assunto, eu costumo gastar pelo menos 2 horas pesquisando, procurando referencias, lendo outros blogs sobre o assunto.</description>
-    </item>
-    
-    <item>
-      <title>Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail</title>
-      <link>https://homelaber.com.br/instalacao-postfix-mailrelay-gmail/</link>
-      <pubDate>Fri, 13 Nov 2015 14:00:27 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/instalacao-postfix-mailrelay-gmail/</guid>
-      <description>Olá Homelabers!
+Depois que me decidi pelo assunto, eu costumo gastar pelo menos 2 horas pesquisando, procurando referencias, lendo outros blogs sobre o assunto.</description></item><item><title>Postfix Mail Relay - Instalação servidor de e-mail Postfix no Linux Ubuntu e configuração para enviar e-mails via Gmail</title><link>https://homelaber.com.br/instalacao-postfix-mailrelay-gmail/</link><pubDate>Fri, 13 Nov 2015 14:00:27 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/instalacao-postfix-mailrelay-gmail/</guid><description>Olá Homelabers!
 Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.
 [caption id=&amp;quot;attachment_922&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;580&amp;rdquo;]Logo PostFix - http://www.postfix.org/[/caption]
-Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:</description>
-    </item>
-    
-    <item>
-      <title>10 ferramentas para monitoração de redes e servidores</title>
-      <link>https://homelaber.com.br/10-ferramentas-para-monitoracao-de-redes-e-servidores/</link>
-      <pubDate>Sat, 07 Nov 2015 18:00:13 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/10-ferramentas-para-monitoracao-de-redes-e-servidores/</guid>
-      <description>Olá Homelabers!
+Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:</description></item><item><title>10 ferramentas para monitoração de redes e servidores</title><link>https://homelaber.com.br/10-ferramentas-para-monitoracao-de-redes-e-servidores/</link><pubDate>Sat, 07 Nov 2015 18:00:13 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/10-ferramentas-para-monitoracao-de-redes-e-servidores/</guid><description>Olá Homelabers!
 Nesse post vou apresentar a vocês 10 ferramentas - Open Source e Comerciais - para monitoração de redes e servidores.
-Algumas dessas ferramentas eu utilizo no dia-a-dia lá na FIRMA e também as tenho instaladas em meu Homelab. Essas ferramentas são amplamente utilizadas em empresas de todos os tamanhos e você pode aproveitar o que vai conhecer aqui para implantar uma delas em sua empresa, facilitar a sua vida e impressionar o seu chefe :)</description>
-    </item>
-    
-    <item>
-      <title>AutoLab - O script que facilita o setup do seu HomeLab</title>
-      <link>https://homelaber.com.br/autolab-o-script-que-facilita-o-setup-do-seu-homelab/</link>
-      <pubDate>Fri, 06 Nov 2015 23:59:01 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/autolab-o-script-que-facilita-o-setup-do-seu-homelab/</guid>
-      <description>Olá Homelabers!
+Algumas dessas ferramentas eu utilizo no dia-a-dia lá na FIRMA e também as tenho instaladas em meu Homelab. Essas ferramentas são amplamente utilizadas em empresas de todos os tamanhos e você pode aproveitar o que vai conhecer aqui para implantar uma delas em sua empresa, facilitar a sua vida e impressionar o seu chefe :)</description></item><item><title>AutoLab - O script que facilita o setup do seu HomeLab</title><link>https://homelaber.com.br/autolab-o-script-que-facilita-o-setup-do-seu-homelab/</link><pubDate>Fri, 06 Nov 2015 23:59:01 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/autolab-o-script-que-facilita-o-setup-do-seu-homelab/</guid><description>Olá Homelabers!
 Nesse post vou mostrar a vocês uma &amp;ldquo;coleção de scripts&amp;rdquo; que automatiza a criação de um lab VMware completo. Esse &amp;ldquo;produto&amp;rdquo; se chama AutoLab e foi criado pelo Nick Marshall - autor dos melhores livros sobre VMware que eu já li até hoje - Mastering VMware vSphere 5.5 e Mastering VMware vSphere 6 (assunto para um outro post).
-Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo.</description>
-    </item>
-    
-    <item>
-      <title>Welcome! We speak English now! And other languages too</title>
-      <link>https://homelaber.com.br/we-speak-english-now/</link>
-      <pubDate>Thu, 05 Nov 2015 22:30:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/we-speak-english-now/</guid>
-      <description>Olá Homelabers! Uma pequena pausa na programação para anunciar que devido crescimento do número de visitantes estrangeiros no blog, instalei um plugin que faz tradução automática dos textos do blog, facilitando assim, a visita de nossos amigos que não falam (ou leem) Português. Mas os textos e todo o conteúdo aqui produzido continua sendo em PT-BR :)
-Hi there! Now that I&amp;rsquo;ve started to participate in the #vDM30in30 challenge, the number of non Portuguese speakers (or readers) of this blog has increased a lot.</description>
-    </item>
-    
-    <item>
-      <title>Linux Dashboards - Ferramentas simples para monitorar o seu servidor Linux</title>
-      <link>https://homelaber.com.br/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/</link>
-      <pubDate>Wed, 04 Nov 2015 12:50:19 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/</guid>
-      <description>Olá Homelabers!
+Com o AutoLab é possível subir um ambiente completo de VMware - ESXi, vCenter, etc em questão de 2 ou 3 horas e com um esfoço mínimo.</description></item><item><title>Welcome! We speak English now! And other languages too</title><link>https://homelaber.com.br/we-speak-english-now/</link><pubDate>Thu, 05 Nov 2015 22:30:28 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/we-speak-english-now/</guid><description>Olá Homelabers! Uma pequena pausa na programação para anunciar que devido crescimento do número de visitantes estrangeiros no blog, instalei um plugin que faz tradução automática dos textos do blog, facilitando assim, a visita de nossos amigos que não falam (ou leem) Português. Mas os textos e todo o conteúdo aqui produzido continua sendo em PT-BR :)
+Hi there! Now that I&amp;rsquo;ve started to participate in the #vDM30in30 challenge, the number of non Portuguese speakers (or readers) of this blog has increased a lot.</description></item><item><title>Linux Dashboards - Ferramentas simples para monitorar o seu servidor Linux</title><link>https://homelaber.com.br/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/</link><pubDate>Wed, 04 Nov 2015 12:50:19 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/linux-dashboards-ferramentas-simples-para-monitorar-o-seu-servidor-linux/</guid><description>Olá Homelabers!
 Nesse post vou apresentar a vocês 3 opções de ferramentas simples, porém muito poderosas para monitorar o seu servidor Linux.
 Eu gosto muito de &amp;ldquo;fuçar&amp;rdquo; no GitHub e foi lá que encontrei essas ferramentas.
 Todas elas necessitam apenas de um servidor Linux com Apache (ou outro servidor web) e Php instalado e podem ser executadas em todas as distribuições.
-Antes de mostrar como instalar cada uma das ferramentas, vamos instalar os pacotes básicos e comum aos 3 sistemas.</description>
-    </item>
-    
-    <item>
-      <title>Instalar e configurar o SquidAnalyzer no Ubuntu Server</title>
-      <link>https://homelaber.com.br/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</link>
-      <pubDate>Tue, 03 Nov 2015 13:00:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</guid>
-      <description>Olá Homelabers!
-No post anterior, realizamos a instalação e configuração do Squid Proxy. Agora chegou a hora de aprender como instalar e configurar o SquidAnalyzer, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc.</description>
-    </item>
-    
-    <item>
-      <title>Instalação e configuração proxy Squid no Ubuntu Server</title>
-      <link>https://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/</link>
-      <pubDate>Mon, 02 Nov 2015 13:00:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/</guid>
-      <description>Olá Homelabers!
+Antes de mostrar como instalar cada uma das ferramentas, vamos instalar os pacotes básicos e comum aos 3 sistemas.</description></item><item><title>Instalar e configurar o SquidAnalyzer no Ubuntu Server</title><link>https://homelaber.com.br/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</link><pubDate>Tue, 03 Nov 2015 13:00:51 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/instalar-e-configurar-o-squidanalyzer-no-ubuntu-server/</guid><description>Olá Homelabers!
+No post anterior, realizamos a instalação e configuração do Squid Proxy. Agora chegou a hora de aprender como instalar e configurar o SquidAnalyzer, um software responsável por ler e formatar os logs do Squid de uma forma totalmente gráfica e intuitiva. É uma excelente ferramenta para que o administrador do Squid possa entender o que passa pelo seu proxy, quais são as URLs de maior acesso, usuários, etc.</description></item><item><title>Instalação e configuração proxy Squid no Ubuntu Server</title><link>https://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/</link><pubDate>Mon, 02 Nov 2015 13:00:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/instalacao-e-configuracao-proxy-squid-no-ubuntu-server/</guid><description>Olá Homelabers!
 Nesse post vou mostrar como instalar e configurar o proxy Squid no Ubuntu Server. O Squid é uma ferramenta bastante difundida em várias empresas. Provavelmente você usa o Squid (ou outra solução de proxy) no seu dia-a-dia e nem percebe.
 O que é um servidor Proxy?
-Um servidor proxy é uma ferramenta importante em uma rede interna que tenha contato com outra pública como a internet, pois implementa uma série de facilidades e controles, de modo a possibilitar que máquinas de uma rede privada possam acessar uma rede pública sem que para isso tenham uma ligação direta.</description>
-    </item>
-    
-    <item>
-      <title>Como instalar e configurar o Linux Ubuntu Server</title>
-      <link>https://homelaber.com.br/como-instalar-e-configurar-o-linux-ubuntu-server/</link>
-      <pubDate>Sun, 01 Nov 2015 13:00:39 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-instalar-e-configurar-o-linux-ubuntu-server/</guid>
-      <description>Olá Homelabers!
+Um servidor proxy é uma ferramenta importante em uma rede interna que tenha contato com outra pública como a internet, pois implementa uma série de facilidades e controles, de modo a possibilitar que máquinas de uma rede privada possam acessar uma rede pública sem que para isso tenham uma ligação direta.</description></item><item><title>Como instalar e configurar o Linux Ubuntu Server</title><link>https://homelaber.com.br/como-instalar-e-configurar-o-linux-ubuntu-server/</link><pubDate>Sun, 01 Nov 2015 13:00:39 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-instalar-e-configurar-o-linux-ubuntu-server/</guid><description>Olá Homelabers!
 Neste post vou mostrar como criar e instalar uma VM com o Ubuntu Server. Será uma instalação básica que será a base para várias outras instalações. Aliás eu já deveria ter feito esse post há bastante tempo.
 Em um primeiro momento, para quem nunca instalou um servidor Linux, pode parecer coisa de outro mundo, mas o processo de instalação é bastante fácil e rápido.
 Vamos lá?
-Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &amp;ldquo;recheado&amp;rdquo; de telinhas com todos os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível.</description>
-    </item>
-    
-    <item>
-      <title>Dica: Cisco ASA - Consultar sessões VPN ativas via SNMP</title>
-      <link>https://homelaber.com.br/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</link>
-      <pubDate>Tue, 06 Oct 2015 00:06:54 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</guid>
-      <description>Olá Homelabers,
+Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas ele está &amp;ldquo;recheado&amp;rdquo; de telinhas com todos os passos para a instalação do Linux Ubuntu Server, tentei ser o mais didático e detalhista possível.</description></item><item><title>Dica: Cisco ASA - Consultar sessões VPN ativas via SNMP</title><link>https://homelaber.com.br/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</link><pubDate>Tue, 06 Oct 2015 00:06:54 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/dica-cisco-asa-consultar-sessoes-vpn-ativas-via-snmp/</guid><description>Olá Homelabers,
 Vou começar a postar mais coisas sobre o meu dia-a-dia na FIRMA. É uma forma de guardar a informação para consultas futuras e ainda ajudar quem está passando pelo mesmo problema agora ou em um futuro distante.
-Hoje precisei fazer um monitor no OpManager (a ferramenta de monitoração que utilizamos na firma) que mostrasse o número de sessões VPN ativas no Cisco ASA (Firewall). A idéia é monitorar de uma forma fácil e gráfica quantos usuários estão utilizando a VPN, determinar horários de pico para otimizar a banda de internet, etc.</description>
-    </item>
-    
-    <item>
-      <title>DuckDNS - Serviço de DNS Dinâmico Grátis</title>
-      <link>https://homelaber.com.br/duckdns-servico-de-dns-dinamico-gratis/</link>
-      <pubDate>Fri, 08 May 2015 12:00:28 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/duckdns-servico-de-dns-dinamico-gratis/</guid>
-      <description>Olá Homelabers!
+Hoje precisei fazer um monitor no OpManager (a ferramenta de monitoração que utilizamos na firma) que mostrasse o número de sessões VPN ativas no Cisco ASA (Firewall). A idéia é monitorar de uma forma fácil e gráfica quantos usuários estão utilizando a VPN, determinar horários de pico para otimizar a banda de internet, etc.</description></item><item><title>DuckDNS - Serviço de DNS Dinâmico Grátis</title><link>https://homelaber.com.br/duckdns-servico-de-dns-dinamico-gratis/</link><pubDate>Fri, 08 May 2015 12:00:28 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/duckdns-servico-de-dns-dinamico-gratis/</guid><description>Olá Homelabers!
 Hoje vou apresentar a vocês um serviço bastante bacana e útil para nossos Home Labs:DuckDNS.
 O DuckDNS é um serviço de DNS dinâmico grátis aos moldes do noip.net, do dyndns entre outros.
 Se você não sabe o que é um DNS dinâmico, senta que lá vem história:
 DNS significa Domain Name System
- São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número.</description>
-    </item>
-    
-    <item>
-      <title>Como instalar VMware Tools em um servidor ESXi (nested)</title>
-      <link>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-esxi-nested/</link>
-      <pubDate>Mon, 04 May 2015 12:00:03 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-esxi-nested/</guid>
-      <description>Olá Homelabers!
+São como as páginas brancas da lista telefônica para a Internet. Você fornece um nome, o DNS fornece um número.</description></item><item><title>Como instalar VMware Tools em um servidor ESXi (nested)</title><link>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-esxi-nested/</link><pubDate>Mon, 04 May 2015 12:00:03 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-esxi-nested/</guid><description>Olá Homelabers!
 Neste post vamos instalar o VMware Tools em um servidor ESXi.
 Uma instalação &amp;ldquo;nested&amp;rdquo; é quando você instalar um virtualizador em cima de outro virtualizador, ou seja, instalar o VMware ESXi como uma VM de um outro servidor ESXi. Vale lembrar que essa função não é suportada pela VMware e deve ser utilizada somente em laboratório, NUNCA em produção.
-O VMware Tools é um conjunto de utilitários que melhora o desempenho da máquina virtual do sistema operacional convidado e aprimora o gerenciamento da máquina virtual.</description>
-    </item>
-    
-    <item>
-      <title>VMware HomeLab – Parte 2 – Instalação VMware ESXi</title>
-      <link>https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/</link>
-      <pubDate>Fri, 24 Apr 2015 12:00:16 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/</guid>
-      <description>Olá Homelabers!
+O VMware Tools é um conjunto de utilitários que melhora o desempenho da máquina virtual do sistema operacional convidado e aprimora o gerenciamento da máquina virtual.</description></item><item><title>VMware HomeLab – Parte 2 – Instalação VMware ESXi</title><link>https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/</link><pubDate>Fri, 24 Apr 2015 12:00:16 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-homelab-parte-2-instalacao-vmware-esxi-2/</guid><description>Olá Homelabers!
 Essa é a segunda parte da série VMware HomeLab e vamos realizar a instalação do VMware ESXi em seu servidor.
-Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio porte chamada FIRMALABS e seus servidores são antigos, sem garantia e suporte. Foi aprovado pela diretoria um refresh tecnológico e decidido após um estudo pela troca dos servidores físicos e a implantação de um ambiente virtualizado baseado em produtos VMware.</description>
-    </item>
-    
-    <item>
-      <title>VMware HomeLab – Parte 1 – Preparativos</title>
-      <link>https://homelaber.com.br/vmware-homelab-parte-1-preparativos/</link>
-      <pubDate>Mon, 13 Apr 2015 12:00:59 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-homelab-parte-1-preparativos/</guid>
-      <description>Olá HomeLabers!
+Relembrando o nosso cenário: Você trabalha em uma empresa de pequeno/médio porte chamada FIRMALABS e seus servidores são antigos, sem garantia e suporte. Foi aprovado pela diretoria um refresh tecnológico e decidido após um estudo pela troca dos servidores físicos e a implantação de um ambiente virtualizado baseado em produtos VMware.</description></item><item><title>VMware HomeLab – Parte 1 – Preparativos</title><link>https://homelaber.com.br/vmware-homelab-parte-1-preparativos/</link><pubDate>Mon, 13 Apr 2015 12:00:59 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-homelab-parte-1-preparativos/</guid><description>Olá HomeLabers!
 Esse é o segundo post da série VMware HomeLab e iremos falar sobre os preparativos para a instalação do nosso HomeLab.
 O primeiro passo é verificar e garantir que o hardware onde será instalado o VMware ESXi atender os requisitos mínimos para a instalação. Existe um KB (2017269) da VMware indicando esses requisitos e pode ser consultado aqui. Em resumo necessitamos de:
- * CPU x86 64 bits e 2 cores* 2GB Memória RAM* 1 Placa de rede Após garantir que o seu hardware é suportado para a instalação, o próximo passo é fazer o download do VMware ESXi através do site da VMware.</description>
-    </item>
-    
-    <item>
-      <title>VMware Feature Walkthroughs</title>
-      <link>https://homelaber.com.br/vmware-feature-walkthroughs/</link>
-      <pubDate>Wed, 08 Apr 2015 21:00:10 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-feature-walkthroughs/</guid>
-      <description>Olá Homelabers!
+* CPU x86 64 bits e 2 cores
+* 2GB Memória RAM
+* 1 Placa de rede
+Após garantir que o seu hardware é suportado para a instalação, o próximo passo é fazer o download do VMware ESXi através do site da VMware.</description></item><item><title>VMware Feature Walkthroughs</title><link>https://homelaber.com.br/vmware-feature-walkthroughs/</link><pubDate>Wed, 08 Apr 2015 21:00:10 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-feature-walkthroughs/</guid><description>Olá Homelabers!
 Passeando pelo blog do amigo Jorge Dela Cruz (em Espanhol) descobri um &amp;ldquo;hot-site&amp;rdquo; da VMware chamado &amp;ldquo;VMware Walkthrough&amp;rdquo; ou VMware Passo-a-Passo em uma tradução livre.
 O site é bem legal (está todo em Inglês) e mostra o passo-a-passo sobre vários assuntos relacionados a virtualização e produtos VMware.
 É um site que vale conhecer, explorar e salvar nos favoritos: http://featurewalkthrough.vmware.com/
-Notinha rápida para não deixar o blog esfriar. A continuação da série vem logo logo!</description>
-    </item>
-    
-    <item>
-      <title>Como criar Pendrive com Boot do VMware EXSi utilizando a ferramenta Rufus</title>
-      <link>https://homelaber.com.br/criando-ubs-boot-vmware-exsi-com-rufus/</link>
-      <pubDate>Wed, 01 Apr 2015 15:03:17 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/criando-ubs-boot-vmware-exsi-com-rufus/</guid>
-      <description>Olá Homelaber!
+Notinha rápida para não deixar o blog esfriar. A continuação da série vem logo logo!</description></item><item><title>Como criar Pendrive com Boot do VMware EXSi utilizando a ferramenta Rufus</title><link>https://homelaber.com.br/criando-ubs-boot-vmware-exsi-com-rufus/</link><pubDate>Wed, 01 Apr 2015 15:03:17 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/criando-ubs-boot-vmware-exsi-com-rufus/</guid><description>Olá Homelaber!
 Nesse post, vamos aprender como criar um Pendrive com o boot do VMware ESXi para instalação do seu servidor ESXi utilizando a ferramenta Rufus. https://rufus.akeo.ie/
 ****
-Fazendo o boot e instalando o ESXi no pendrive, você irá economizar um HD no seu servidor ESXi e ainda terá a faciliade de quando quiser testar outra versão ou ainda outro virtualizador, não precisa gastar tempo reinstalando tudo do zero. É só dar o boot pelo pendrive e pronto.</description>
-    </item>
-    
-    <item>
-      <title>VMware HomeLab - Parte 0 - Introdução e Arquitetura</title>
-      <link>https://homelaber.com.br/vmware-homelab-parte-0-introducao-e-arquitetura/</link>
-      <pubDate>Mon, 30 Mar 2015 12:00:56 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/vmware-homelab-parte-0-introducao-e-arquitetura/</guid>
-      <description>Olá HomeLabers! Chegou a hora tão esperada. Vou dar início a essa série com o passo a passo para a instalação completa do seu Homelab VMware.
+Fazendo o boot e instalando o ESXi no pendrive, você irá economizar um HD no seu servidor ESXi e ainda terá a faciliade de quando quiser testar outra versão ou ainda outro virtualizador, não precisa gastar tempo reinstalando tudo do zero. É só dar o boot pelo pendrive e pronto.</description></item><item><title>VMware HomeLab - Parte 0 - Introdução e Arquitetura</title><link>https://homelaber.com.br/vmware-homelab-parte-0-introducao-e-arquitetura/</link><pubDate>Mon, 30 Mar 2015 12:00:56 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-homelab-parte-0-introducao-e-arquitetura/</guid><description>Olá HomeLabers! Chegou a hora tão esperada. Vou dar início a essa série com o passo a passo para a instalação completa do seu Homelab VMware.
 Particularmente gosto de trabalhar com cenários, acredito que dessa maneira, a &amp;ldquo;aplicabilidade&amp;rdquo; do LAB fica mais próximo do mundo real.
-Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja fazer um refresh tecnológico e trocar seu parque de servidores antigos por um ambiente totalmente virtual.</description>
-    </item>
-    
-    <item>
-      <title>Como instalar VMware Tools em um servidor Ubuntu por linha de comando</title>
-      <link>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-ubuntu-por-linha-de-comando/</link>
-      <pubDate>Sat, 28 Mar 2015 07:08:41 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-ubuntu-por-linha-de-comando/</guid>
-      <description>Olá HomeLabers!
+Com isso, irei descrever o nosso cenário com uma empresa fictícia que deseja fazer um refresh tecnológico e trocar seu parque de servidores antigos por um ambiente totalmente virtual.</description></item><item><title>Como instalar VMware Tools em um servidor Ubuntu por linha de comando</title><link>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-ubuntu-por-linha-de-comando/</link><pubDate>Sat, 28 Mar 2015 07:08:41 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-instalar-vmware-tools-em-um-servidor-ubuntu-por-linha-de-comando/</guid><description>Olá HomeLabers!
 Essa semana estava subindo uma nova VM no meu ambiente e aproveitei para documentar o passo a passo de como instalar o VMware Tools em um servidor Ubuntu por linha de comando.
 Vamos lá:
 Selecione a VM que onde você quer instalar o VMware Tools, clique com o botão direito e escolha a opção &amp;ldquo;Open Console&amp;rdquo;
 Clique no men VM &amp;ndash;&amp;gt; Guest &amp;ndash;&amp;gt; Install/Upgrade VMware Tools
-Acesse seu servidor com o Putty ou via Console</description>
-    </item>
-    
-    <item>
-      <title>Como montar um Homelab - Software</title>
-      <link>https://homelaber.com.br/como-montar-um-homelab-software/</link>
-      <pubDate>Wed, 25 Mar 2015 12:00:08 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-montar-um-homelab-software/</guid>
-      <description>Olá Homelabers! Nesse post vou falar sobre algumas das maneiras de se conseguir o software para o seu HomeLab.
- Hardware é o que você chuta! Software é o que você xinga
- Primeiro você entendeu por que ter um Homelab VMware em sua casa, depois você escolheu o Hardware e agora é a vez do Software.
-Basicamente, existem 3 maneiras de você conseguir software para o seu Homelab. Sendo que por software vou considerar o Hypervisor e o Sistema Operacional para as VMs que irão rodar no seu lab.</description>
-    </item>
-    
-    <item>
-      <title>Lab VMware Grátis - VMware HOL - Hands On Lab</title>
-      <link>https://homelaber.com.br/lab-vmware-gratis-vmware-hol-hands-on-lab/</link>
-      <pubDate>Mon, 23 Mar 2015 12:00:25 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/lab-vmware-gratis-vmware-hol-hands-on-lab/</guid>
-      <description>[caption id=&amp;quot;attachment_154&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;300&amp;rdquo;]VMware Hands-On Lab[/caption]
+Acesse seu servidor com o Putty ou via Console</description></item><item><title>Como montar um Homelab - Software</title><link>https://homelaber.com.br/como-montar-um-homelab-software/</link><pubDate>Wed, 25 Mar 2015 12:00:08 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-montar-um-homelab-software/</guid><description>Olá Homelabers! Nesse post vou falar sobre algumas das maneiras de se conseguir o software para o seu HomeLab.
+Hardware é o que você chuta! Software é o que você xinga
+Primeiro você entendeu por que ter um Homelab VMware em sua casa, depois você escolheu o Hardware e agora é a vez do Software.
+Basicamente, existem 3 maneiras de você conseguir software para o seu Homelab. Sendo que por software vou considerar o Hypervisor e o Sistema Operacional para as VMs que irão rodar no seu lab.</description></item><item><title>Lab VMware Grátis - VMware HOL - Hands On Lab</title><link>https://homelaber.com.br/lab-vmware-gratis-vmware-hol-hands-on-lab/</link><pubDate>Mon, 23 Mar 2015 12:00:25 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/lab-vmware-gratis-vmware-hol-hands-on-lab/</guid><description>[caption id=&amp;quot;attachment_154&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;300&amp;rdquo;]VMware Hands-On Lab[/caption]
 Olá HomeLabers!
 (Leia com voz de locutor do comercial da TekPix)
 Brincadeiras a parte, o VMware HOL é uma EXCELENTE ferramenta para você tomar conhecimento dos produtos da VMware e sem custo.
 O catálogo de cursos é bastante extenso e constantemente atualizado. O único inconveniente é que todo o material está em Inglês. Existem cursos do nível básico ao avançado.
-Costumo utilizar o HOL para olhar alguma ferramenta que não tenho como instalar em meu HomeLab, como o VMware NSX por exemplo.</description>
-    </item>
-    
-    <item>
-      <title>Ferramenta RVTools</title>
-      <link>https://homelaber.com.br/ferramenta-rvtools/</link>
-      <pubDate>Thu, 19 Mar 2015 23:17:39 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/ferramenta-rvtools/</guid>
-      <description>Olá HomeLabers!
+Costumo utilizar o HOL para olhar alguma ferramenta que não tenho como instalar em meu HomeLab, como o VMware NSX por exemplo.</description></item><item><title>Ferramenta RVTools</title><link>https://homelaber.com.br/ferramenta-rvtools/</link><pubDate>Thu, 19 Mar 2015 23:17:39 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/ferramenta-rvtools/</guid><description>Olá HomeLabers!
 Post rapidinho para falar sobre uma ferramenta bastante útil no dia a dia de quem trabalha com VMware, o RVTools.
-O RVTools é capaz de listar informações sobre VMs, CPU, memória, discos, partições de rede, unidades de disquete, unidades de CD, Snapshots, VMware Tools, Resource Pools, Clusters, Hosts ESX, HBAs, Nics, Switches, enfim, todas as informações sobre o seu ambiente VMware e foi criada por um Holandês chamado Rob de Veij e está em sua versão 3.</description>
-    </item>
-    
-    <item>
-      <title>Como montar um HomeLab – Hardware</title>
-      <link>https://homelaber.com.br/como-montar-um-homelab-o-hardware/</link>
-      <pubDate>Mon, 16 Mar 2015 12:00:51 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/como-montar-um-homelab-o-hardware/</guid>
-      <description>Olá HomeLabers!
+O RVTools é capaz de listar informações sobre VMs, CPU, memória, discos, partições de rede, unidades de disquete, unidades de CD, Snapshots, VMware Tools, Resource Pools, Clusters, Hosts ESX, HBAs, Nics, Switches, enfim, todas as informações sobre o seu ambiente VMware e foi criada por um Holandês chamado Rob de Veij e está em sua versão 3.</description></item><item><title>Como montar um HomeLab – Hardware</title><link>https://homelaber.com.br/como-montar-um-homelab-o-hardware/</link><pubDate>Mon, 16 Mar 2015 12:00:51 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-montar-um-homelab-o-hardware/</guid><description>Olá HomeLabers!
 Pronto, você já sabe Porque ter um HomeLab e se decidiu a investir tempo e dinheiro para montar o seu primeiro HomeLab. Mas e agora? Por onde começar?
 [caption id=&amp;quot;attachment_139&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;692&amp;rdquo;]Hardware é o que você chuta! Software é o que você xinga :D[/caption]
-Nesse post vamos falar sobre o hardware necessário para começar a brincadeira e embarcar nesse viciante (não diga depois que eu não avisei!) mundo do HomeLab.</description>
-    </item>
-    
-    <item>
-      <title>Top vBlog 2015</title>
-      <link>https://homelaber.com.br/top-vblog-2015/</link>
-      <pubDate>Mon, 16 Mar 2015 11:00:54 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/top-vblog-2015/</guid>
-      <description>Olá HomeLabers!
+Nesse post vamos falar sobre o hardware necessário para começar a brincadeira e embarcar nesse viciante (não diga depois que eu não avisei!) mundo do HomeLab.</description></item><item><title>Top vBlog 2015</title><link>https://homelaber.com.br/top-vblog-2015/</link><pubDate>Mon, 16 Mar 2015 11:00:54 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/top-vblog-2015/</guid><description>Olá HomeLabers!
 Notinha rápida para divulgar o Top vBlog 2015.
 O blog vSphere-Land faz todo ano uma votação para escolher os melhores vBlogs (blogs sobre virtualização). A votação desse ano termina hoje (16/03) e no dia 19/03 serão divulgados os resultados.
 O link para a votação é esse: http://info.infinio.com/topvblog2015.
 Aqui você pode ver o Top 100 vBlogs &amp;ldquo;do mundo&amp;rdquo;. http://thevpad.com/
-Eu espero que consiga participar da votação no próximo ano, mesmo esse blog sendo escrito em Português, estou trabalhando para gerar um conteúdo de qualidade digno de aparecer no meio dessas feras.</description>
-    </item>
-    
-    <item>
-      <title>Porque ter um HomeLab?</title>
-      <link>https://homelaber.com.br/porque-ter-um-homelab/</link>
-      <pubDate>Sat, 14 Mar 2015 03:47:07 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/porque-ter-um-homelab/</guid>
-      <description>Olá Homelabers!
+Eu espero que consiga participar da votação no próximo ano, mesmo esse blog sendo escrito em Português, estou trabalhando para gerar um conteúdo de qualidade digno de aparecer no meio dessas feras.</description></item><item><title>Porque ter um HomeLab?</title><link>https://homelaber.com.br/porque-ter-um-homelab/</link><pubDate>Sat, 14 Mar 2015 03:47:07 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/porque-ter-um-homelab/</guid><description>Olá Homelabers!
 Nesse primeiro post quero falar sobre os motivos para se montar um Homelab.
 1. Ganhar experiência com uma tecnologia sem pôr em risco a produção
-Provavelmente, a razão mais comum para montar um HomeLab é ter acesso ilimitado e irrestrito a tecnologia que você quer aprender ou aprimorar. É a forma mais fácil e mais segura de aprender uma nova tecnologia sem botar em risco a sua produção. No seu HomeLab, você faz a regras.</description>
-    </item>
-    
-  </channel>
-</rss>
+Provavelmente, a razão mais comum para montar um HomeLab é ter acesso ilimitado e irrestrito a tecnologia que você quer aprender ou aprimorar. É a forma mais fácil e mais segura de aprender uma nova tecnologia sem botar em risco a sua produção. No seu HomeLab, você faz a regras.</description></item></channel></rss>

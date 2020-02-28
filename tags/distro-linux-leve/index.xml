@@ -1,30 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>distro linux leve on Blog Homelaber Brasil</title>
-    <link>https://homelaber.com.br/tags/distro-linux-leve/</link>
-    <description>Recent content in distro linux leve on Blog Homelaber Brasil</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>br</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright>
-    <lastBuildDate>Wed, 04 May 2016 14:00:43 +0000</lastBuildDate>
-    
-	<atom:link href="https://homelaber.com.br/tags/distro-linux-leve/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>3 distros Linux pequenas e leves para o seu home lab</title>
-      <link>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</link>
-      <pubDate>Wed, 04 May 2016 14:00:43 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</guid>
-      <description>Olá Homelabers!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>distro linux leve on Blog Homelaber Brasil</title><link>https://homelaber.com.br/tags/distro-linux-leve/</link><description>Recent content in distro linux leve on Blog Homelaber Brasil</description><generator>Hugo -- gohugo.io</generator><language>br</language><managingEditor>youremail@domain.com (Some Person)</managingEditor><webMaster>youremail@domain.com (Some Person)</webMaster><copyright>2016-2019 - Homelaber Brasil - Valdecir Carvalho</copyright><lastBuildDate>Wed, 04 May 2016 14:00:43 +0000</lastBuildDate><atom:link href="https://homelaber.com.br/tags/distro-linux-leve/index.xml" rel="self" type="application/rss+xml"/><item><title>3 distros Linux pequenas e leves para o seu home lab</title><link>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</link><pubDate>Wed, 04 May 2016 14:00:43 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/3-distros-linux-pequenas-e-leves-para-o-seu-home-lab/</guid><description>Olá Homelabers!
 Nesse post vou falar sobre algumas distribuições (distro) Linux bem pequenas para aqueles momentos onde você precisa apenas fazer alguns testes seu lab, mas não quer (ou não pode) subir um SO (Sistema Operacional) grande e pesado.
 Eu costumo usar bastante essas distros quando preciso testar redes (interconexão de uma rede com outra) e também testes de vMotion e HA.
-Essas distros linux são simples, leves e não consomem muitos recursos de disco, memória ou processador.</description>
-    </item>
-    
-  </channel>
-</rss>
+Essas distros linux são simples, leves e não consomem muitos recursos de disco, memória ou processador.</description></item></channel></rss>
