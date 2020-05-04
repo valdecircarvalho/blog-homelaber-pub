@@ -23,30 +23,8 @@ No último dia 07/03 o Blog Homelaber completou 5 anos de existência.
 &amp;mdash; Val | Homelaber ☁️ (@homelaber) March 10, 2015 Os primeiros 5 anos? Ao longo desses 5 anos, muitas coisas mudaram por aqui e também na minha vida.</description></item><item><title>Composerize - uma maneira fácil de criar arquivos docker-compose</title><link>https://homelaber.com.br/composerize-como-criar-arquivos-docker-compose/</link><pubDate>Mon, 09 Mar 2020 07:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/composerize-como-criar-arquivos-docker-compose/</guid><description>Conheça o composerize, uma maneira fácil de criar automaticamente arquivos docker-compose.yaml partir de do comando docker run.
 Se você, assim como eu, nunca lembra a sintaxe correta do arquivo docker-compose.yaml essa é a ferramenta perfeita!
 Exemplo de docker run:
-docker run \
---name=mariadb \
--e MYSQL_ROOT_PASSWORD=ROOT_ACCESS_PASSWORD \
--e MYSQL_DATABASE=USER_DB_NAME \
--e MYSQL_PASSWORD=DATABASE_PASSWORD \
--p 3306:3306 \
--v path_to_data:/config \
---restart unless-stopped \
-mariadb
-No composerize a saída será:
-version: '3.3'
-services:
-mariadb:
-container_name: mariadb
-environment:
-- MYSQL_ROOT_PASSWORD=ROOT_ACCESS_PASSWORD
-- MYSQL_DATABASE=USER_DB_NAME
-- MYSQL_PASSWORD=DATABASE_PASSWORD
-ports:
-- '3306:3306'
-volumes:
-- 'path_to_data:/config'
-restart: unless-stopped
-image: mariadb</description></item><item><title>Como executar várias versões do Powershell</title><link>https://homelaber.com.br/como-executar-varias-versoes-do-powershell/</link><pubDate>Fri, 28 Feb 2020 07:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-executar-varias-versoes-do-powershell/</guid><description>Dica rápida para quem precisa executar uma versão antiga do Powershell.
+docker run \ --name=mariadb \ -e MYSQL_ROOT_PASSWORD=ROOT_ACCESS_PASSWORD \ -e MYSQL_DATABASE=USER_DB_NAME \ -e MYSQL_PASSWORD=DATABASE_PASSWORD \ -p 3306:3306 \ -v path_to_data:/config \ --restart unless-stopped \ mariadb No composerize a saída será:
+version: '3.3' services: mariadb: container_name: mariadb environment: - MYSQL_ROOT_PASSWORD=ROOT_ACCESS_PASSWORD - MYSQL_DATABASE=USER_DB_NAME - MYSQL_PASSWORD=DATABASE_PASSWORD ports: - '3306:3306' volumes: - 'path_to_data:/config' restart: unless-stopped image: mariadb</description></item><item><title>Como executar várias versões do Powershell</title><link>https://homelaber.com.br/como-executar-varias-versoes-do-powershell/</link><pubDate>Fri, 28 Feb 2020 07:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/como-executar-varias-versoes-do-powershell/</guid><description>Dica rápida para quem precisa executar uma versão antiga do Powershell.
 powershell.exe -version x
 Você pode também executar o script com o comando powershell.exe -version 4 .\script.ps1
 Hoje eu estava batendo a cabeça com um script em Powershell para um projetinho e descobri que um comando não existia mais na versão 6 do Powershell. Foi quando decidir tomar um rumo diferente e pesquisar se era possível executar uma versão mais antiga do Powershell e acabei encontrando esse artigo nas interwebs</description></item><item><title>VMware vExpert Classe de 2020</title><link>https://homelaber.com.br/vmware-vexpert-classe-2020/</link><pubDate>Tue, 25 Feb 2020 07:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author><guid>https://homelaber.com.br/vmware-vexpert-classe-2020/</guid><description>Olá Homelabers!
